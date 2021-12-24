@@ -17,6 +17,5 @@
     <mapping directory="$PROJECT_DIR$/oewn-outsql" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-outwndb" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-parse" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/oewntk-repo" vcs="Git" />
   </component>
 </project>
