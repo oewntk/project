@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="wndb2sql:jar">
+    <output-path>$PROJECT_DIR$/oewn-grind-wndb2sql</output-path>
+    <root id="archive" name="oewn-grind-wndb2sql.jar">
+      <element id="module-output" name="wndb2sql" />
+      <element id="module-output" name="model" />
+      <element id="module-output" name="inwndb" />
+      <element id="module-output" name="parse" />
+      <element id="module-output" name="outsql" />
+    </root>
+  </artifact>
+</component>

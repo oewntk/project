@@ -1,0 +1,18 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Grind (YAML to SQL)" type="Application" factoryName="Application" folderName="Grind">
+    <option name="MAIN_CLASS_NAME" value="org.oewntk.grind.yaml2sql.Grind" />
+    <module name="yaml2sql" />
+    <option name="PROGRAM_PARAMETERS" value="yaml yaml2 sql/data" />
+    <option name="VM_PARAMETERS" value="-ea" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oewn-grind-yaml2sql" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="org.oewntk.grind.yaml2sql.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

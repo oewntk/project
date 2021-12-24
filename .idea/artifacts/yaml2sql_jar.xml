@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="yaml2sql:jar">
+    <output-path>$PROJECT_DIR$/oewn-grind-yaml2sql</output-path>
+    <root id="archive" name="oewn-grind-yaml2sql.jar">
+      <element id="module-output" name="yaml2sql" />
+      <element id="module-output" name="inyaml" />
+      <element id="module-output" name="model" />
+      <element id="module-output" name="outsql" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.29/snakeyaml-1.29.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

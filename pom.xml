@@ -1,0 +1,57 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.github.x-englishwordnet</groupId>
+    <artifactId>all</artifactId>
+    <version>${revision}</version>
+    <packaging>pom</packaging>
+
+    <name>sqlbuilder-all</name>
+    <description>OEWNTK top project</description>
+    <url>http://io.github.x-englishwordnet</url>
+
+    <modules>
+        <module>oewn-model</module>
+        <module>oewn-parse</module>
+        
+        <module>oewn-inyaml</module>
+        <module>oewn-inwndb</module>
+        <module>oewn-inxml</module>
+        
+        <module>oewn-outsql</module>
+        <module>oewn-outwndb</module>
+        
+        <module>oewn-grind-yaml2sql</module>
+        <module>oewn-grind-yaml2wndb</module>
+        <module>oewn-grind-wndb2sql</module>
+        <module>oewn-grind-wndb2wndb</module>
+	    <module>oewn-grind-xml2wndb</module>
+    </modules>
+
+    <licenses>
+        <license>
+            <name>GPL3</name>
+            <url>http://www.gnu.org/licenses/gpl-3.0.html</url>
+            <distribution>manual</distribution>
+            <comments/>
+        </license>
+    </licenses>
+
+    <inceptionYear>2006</inceptionYear>
+
+    <developers>
+        <developer>
+            <id>bbou</id>
+            <name>Bernard Bou</name>
+            <email>1313ou@gmail.com</email>
+            <roles>
+                <role>architect</role>
+                <role>developer</role>
+                <role>maintainer</role>
+            </roles>
+        </developer>
+    </developers>
+
+</project>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/oewn-grind-wndb2sql" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/oewn-grind-wndb2wndb" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/oewn-grind-xml2wndb" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/oewn-grind-yaml2ser" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/oewn-grind-yaml2sql" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/oewn-grind-yaml2wndb" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/oewn-inser" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/oewn-inwndb" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/oewn-inxml" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/oewn-inyaml" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/oewn-model" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/oewn-outser" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/oewn-outsql" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/oewn-outwndb" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/oewn-parse" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/oewntk-repo" vcs="Git" />
+  </component>
+</project>

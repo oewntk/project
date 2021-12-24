@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Parse1 synset" type="Application" factoryName="Application" folderName="Parse">
+    <option name="MAIN_CLASS_NAME" value="org.oewntk.parse.DataParser1" />
+    <module name="parse" />
+    <option name="PROGRAM_PARAMETERS" value="wndb verb 1740" />
+    <option name="VM_PARAMETERS" value="-ea -DVERBOSE" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oewn-parse" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

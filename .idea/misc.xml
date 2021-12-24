@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0">
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.SemRelation fromSynsetId" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.yaml.Memory.Unit G" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.wndb.SenseIndexer lexicalComparatorLowerFirst" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Synset members" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.parse.TestParse31 silent" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.parse.TestParseXX silent" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.wndb.Data.Relation pos" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.grind.yaml2sql.BaseGrinder sensekeyToNID" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.sql.out.BuiltIn RELATION_TYPES" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.wndb.out.Data.Relation pos" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.model.Lex comparatorByKeyOEWN" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.grind.wndb2sql.Tracing.Memory.Unit G" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.grind.wndb2sql.Tracing psErr" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.grind.wndb2wndb.Tracing.Memory.Unit G" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.grind.wndb2wndb.Tracing psErr" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.grind.xml2wndb.Tracing.Memory.Unit G" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.grind.xml2wndb.Tracing psErr" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.grind.yaml2ser.Tracing.Memory.Unit G" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.grind.yaml2ser.Tracing psErr" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.grind.yaml2sql.Tracing.Memory.Unit G" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.grind.yaml2sql.Tracing psErr" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.grind.yaml2wndb.Tracing.Memory.Unit G" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.model.Tracing psNull" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.ser.in.Tracing psNull" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.wndb.in.Tracing psNull" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.xml.in.Tracing psNull" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.yaml.in.Tracing psNull" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.sql.out.Utils mergingKeepFunction" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.sql.out.Utils mergingReplaceFunction" />
+    </entry_points>
+    <pattern value="org.oewntk.wndb.CompatException" method="CompatException" />
+    <pattern value="org.oewntk.pojos.AdjPosition" method="find" />
+    <pattern value="org.oewntk.pojos.Pos" method="fromName" />
+    <pattern value="org.oewntk.pojos.Gloss" method="getDefinition" />
+    <pattern value="org.oewntk.pojos.AdjPosition" method="getDescription" />
+    <pattern value="org.oewntk.pojos.Pos" method="getDescription" />
+    <pattern value="org.oewntk.pojos.LexDomain" method="getId" />
+    <pattern value="org.oewntk.pojos.LexId" method="getId" />
+    <pattern value="org.oewntk.pojos.Sensekey" method="getKey" />
+    <pattern value="org.oewntk.pojos.LexDomain" method="getName" />
+    <pattern value="org.oewntk.pojos.Pos" method="getName" />
+    <pattern value="org.oewntk.pojos.NormalizedString" method="getNormalized" />
+    <pattern value="org.oewntk.pojos.LexDomain" method="getPosId" />
+    <pattern value="org.oewntk.pojos.AdjLemma" method="getPosition" />
+    <pattern value="org.oewntk.pojos.RelationType" method="getRecurses" />
+    <pattern value="org.oewntk.pojos.Synset" method="getRelations" />
+    <pattern value="org.oewntk.pojos.Gloss" method="getSamples" />
+    <pattern value="org.oewntk.model.Sense" method="getSource" />
+    <pattern value="org.oewntk.model.Synset" method="getSource" />
+    <pattern value="org.oewntk.pojos.TagCnt" method="getTagCount" />
+    <pattern value="org.oewntk.model.Pronunciation" method="getValue" />
+    <pattern value="org.oewntk.model.Pronunciation" method="getVariety" />
+    <pattern value="org.oewntk.pojos.Synset" method="getVerbFrames" />
+    <pattern value="org.oewntk.model.Synset" method="getWikidata" />
+    <pattern value="org.oewntk.pojos.Gloss" method="Gloss" />
+    <pattern value="org.oewntk.pojos.Pos" method="isAdj" />
+    <pattern value="org.oewntk.model.Formatter" method="join" />
+    <pattern value="org.oewntk.wndb.Formatter" method="join" />
+    <pattern value="org.oewntk.pojos.LemmaWithCase" method="LemmaWithCase" />
+    <pattern value="org.oewntk.pojos.Lemma" method="make" />
+    <pattern value="org.oewntk.pojos.SynsetId" method="make" />
+    <pattern value="org.oewntk.wndb.SenseIndexer" method="makeIndexLowerMultiKey" />
+    <pattern value="org.oewntk.yaml.Memory" method="memoryInfo" />
+    <pattern value="org.oewntk.pojos.Index" method="parseIndex" />
+    <pattern value="org.oewntk.pojos.MorphMapping" method="parseMorphMapping" />
+    <pattern value="org.oewntk.pojos.ParsePojoException" method="ParsePojoException" />
+    <pattern value="org.oewntk.pojos.Pos" method="parsePos" />
+    <pattern value="org.oewntk.pojos.VerbFrame" method="parseVerbFrame" />
+    <pattern value="org.oewntk.pojos.VerbTemplate" method="parseVerbTemplate" />
+    <pattern value="org.oewntk.pojos.VerbTemplateRef" method="parseVerbTemplateRef" />
+    <pattern value="org.oewntk.pojos.LexRelation" method="resolveToWord" />
+    <pattern value="org.oewntk.pojos.Sensekey" method="Sensekey" />
+    <pattern value="org.oewntk.model.Sense" method="toLongString" />
+    <pattern value="org.oewntk.pojos.SynsetId" method="toUIDString" />
+    <pattern value="org.oewntk.pojos.LexId" method="toXString" />
+    <pattern value="org.oewntk.pojos.Sensekey" method="toXString" />
+    <pattern value="org.oewntk.pojos.TagCnt" method="toXString" />
+    <pattern value="org.oewntk.pojos.LexDomain" method="values" />
+    <pattern value="org.oewntk.pojos.VerbFrame" method="VerbFrame" />
+    <pattern value="org.oewntk.pojos.VerbTemplate" method="VerbTemplate" />
+    <pattern value="org.oewntk.wndb.Formatter" method="Formatter" />
+    <pattern value="org.oewntk.yaml.Memory" method="Memory" />
+    <pattern value="org.oewntk.wndb.Data" method="Data" />
+    <pattern value="org.oewntk.model.BaseModel" method="getStreamOfLexes" />
+    <pattern value="org.oewntk.model.Finder" method="compareAsSets" />
+    <pattern value="org.oewntk.model.Lex" method="getKey1" />
+    <pattern value="org.oewntk.model.Lex" method="getKey2" />
+    <pattern value="org.oewntk.sql.Printers" method="printInsertWithComment" />
+    <pattern value="org.oewntk.model.Sense" method="getPartOfSpeech" />
+    <pattern value="org.oewntk.sql.Printers" method="Printers" />
+    <pattern value="org.oewntk.wndb.out.CompatException" method="CompatException" />
+    <pattern value="org.oewntk.xml.in.CompatException" method="CompatException" />
+    <pattern value="org.oewntk.model.CoreModel" method="xCounts" />
+    <pattern value="org.oewntk.ser.out.CoreModelConsumer" method="CoreModelConsumer" />
+    <pattern value="org.oewntk.pojos.CoreSynset" method="parseMembers" />
+    <pattern value="org.oewntk.wndb.out.Formatter" method="join" />
+    <pattern value="org.oewntk.parse.IndexParser" method="parseAllCoreIndexes" />
+    <pattern value="org.oewntk.model.Key.Base" method="Base" />
+    <pattern value="org.oewntk.model.Key.Pos" method="from" />
+    <pattern value="org.oewntk.model.Key.IC" method="from" />
+    <pattern value="org.oewntk.model.Key.Shallow" method="from" />
+    <pattern value="org.oewntk.model.Key.IC" method="getPos" />
+    <pattern value="org.oewntk.model.Key.Base" method="getPronunciationSet" />
+    <pattern value="org.oewntk.model.Key.IC" method="getType" />
+    <pattern value="org.oewntk.model.Key.Base" method="toLongString" />
+    <pattern value="org.oewntk.pojos.LemmaRef" method="getSynsetId" />
+    <pattern value="org.oewntk.pojos.LemmaRef" method="getWordNum" />
+    <pattern value="org.oewntk.pojos.Pos" method="fromIndex" />
+    <pattern value="org.oewntk.model.Model" method="getVerbFramesById" />
+    <pattern value="org.oewntk.pojos.LexId" method="make" />
+    <pattern value="org.oewntk.model.LexGroupings" method="cSLemmasForLCLemma" />
+    <pattern value="org.oewntk.pojos.LexRelation" method="getFromWord" />
+    <pattern value="org.oewntk.model.MapFactory.ReplaceMergingSupplier" />
+    <pattern value="org.oewntk.model.LibTestModelQueries" method="testWordByPos" />
+    <pattern value="org.oewntk.model.LibTestModelQueries" method="testWordByPosAndPronunciation" />
+    <pattern value="org.oewntk.model.LibTestModelLexGroups" method="testCILexes" />
+    <pattern value="org.oewntk.model.LibTestModelLexGroups" method="testCISensesGroupingByLCLemma" />
+    <pattern value="org.oewntk.model.LibTestModelLexGroups" method="testCISensesGroupingByLCLemmaAndPos" />
+    <pattern value="org.oewntk.utils.SynsetUId" method="make" />
+    <pattern value="org.oewntk.utils.SynsetUId" method="toUIDString" />
+    <pattern value="org.oewntk.model.Synset" method="getDomain" />
+    <pattern value="org.oewntk.model.Serialize" method="serializeModel" />
+    <pattern value="org.oewntk.pojos.Sensekey" method="toParsedString" />
+    <pattern value="org.oewntk.model.SenseGroupings" method="dumpSensesByDecreasingTagCount" />
+    <pattern value="org.oewntk.model.SenseGroupings" method="sensesByLCLemma" />
+    <pattern value="org.oewntk.pojos.Relation" method="getFromSynsetId" />
+    <pattern value="org.oewntk.pojos.Relation" method="getType" />
+    <pattern value="org.oewntk.sql.out.Printers" method="printInsertWithComment" />
+    <pattern value="org.oewntk.model.TagCount" method="getSenseNum" />
+    <pattern value="org.oewntk.pojos.Type" method="fromName" />
+    <pattern value="org.oewntk.pojos.Type" method="getDescription" />
+    <pattern value="org.oewntk.pojos.Type" method="getName" />
+    <pattern value="org.oewntk.pojos.Type" method="isAdj" />
+    <pattern value="org.oewntk.xml.in.XmlExtractor" method="getAdjPosition" />
+    <pattern value="org.oewntk.xml.in.XmlExtractor" method="getLexid" />
+    <pattern value="org.oewntk.wndb.out.Data" method="Data" />
+    <pattern value="org.oewntk.model.Key.IC" method="toLongString" />
+    <pattern value="org.oewntk.wndb.out.OffsetSerializer" method="deSerializedOffsets" />
+    <pattern value="org.oewntk.wndb.out.Formatter" method="Formatter" />
+    <pattern value="org.oewntk.grind.xml2wndb.Tracing.Memory" method="Memory" />
+    <pattern value="org.oewntk.grind.wndb2sql.Tracing.Memory" method="Memory" />
+    <pattern value="org.oewntk.grind.wndb2wndb.Tracing.Memory" method="Memory" />
+    <pattern value="org.oewntk.grind.yaml2sql.Tracing.Memory" method="Memory" />
+    <pattern value="org.oewntk.grind.yaml2wndb.Tracing.Memory" method="Memory" />
+    <pattern value="org.oewntk.grind.yaml2ser.Tracing.Memory" method="Memory" />
+    <pattern value="org.oewntk.sql.out.Printers" method="Printers" />
+    <pattern value="org.oewntk.wndb.out.OffsetMapper" method="readOffsets" />
+    <pattern value="org.oewntk.xml.in.XmlExtractor" method="getOrder" />
+    <pattern value="org.oewntk.xml.in.XmlExtractor" method="getTagCount" />
+    <pattern value="org.oewntk.xml.in.XmlExtractor" method="getVerbFrames" />
+    <pattern value="org.oewntk.xml.in.XmlExtractor" method="getVerbTemplates" />
+    <pattern value="org.oewntk.xml.in.XmlExtractor" method="XmlExtractor" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/oewn-model/pom.xml" />
+        <option value="$PROJECT_DIR$/oewn-parse/pom.xml" />
+        <option value="$PROJECT_DIR$/oewn-inyaml/pom.xml" />
+        <option value="$PROJECT_DIR$/oewn-inwndb/pom.xml" />
+        <option value="$PROJECT_DIR$/oewn-outsql/pom.xml" />
+        <option value="$PROJECT_DIR$/oewn-outwndb/pom.xml" />
+        <option value="$PROJECT_DIR$/oewn-grind-yaml2wndb/pom.xml" />
+        <option value="$PROJECT_DIR$/oewn-grind-yaml2sql/pom.xml" />
+        <option value="$PROJECT_DIR$/oewn-inxml/pom.xml" />
+        <option value="$PROJECT_DIR$/oewn-grind-wndb2wndb/pom.xml" />
+        <option value="$PROJECT_DIR$/oewn-grind-wndb2sql/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/oewn-inser/pom.xml" />
+        <option value="$PROJECT_DIR$/oewn-outser/pom.xml" />
+        <option value="$PROJECT_DIR$/oewn-grind-yaml2ser/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

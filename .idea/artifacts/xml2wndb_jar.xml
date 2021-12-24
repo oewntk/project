@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="xml2wndb:jar">
+    <output-path>$PROJECT_DIR$/oewn-grind-xml2wndb</output-path>
+    <root id="archive" name="oewn-grind-xml2wndb.jar">
+      <element id="module-output" name="xml2wndb" />
+      <element id="module-output" name="model" />
+      <element id="module-output" name="inxml" />
+      <element id="module-output" name="outwndb" />
+    </root>
+  </artifact>
+</component>

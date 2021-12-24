@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/oewn-grind-wndb2sql/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oewn-grind-wndb2sql/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oewn-grind-wndb2wndb/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oewn-grind-wndb2wndb/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oewn-grind-xml2wndb/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oewn-grind-xml2wndb/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oewn-grind-yaml2ser/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oewn-grind-yaml2ser/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oewn-grind-yaml2sql/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oewn-grind-yaml2sql/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oewn-grind-yaml2wndb/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oewn-grind-yaml2wndb/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oewn-inser/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oewn-inser/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oewn-inwndb/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oewn-inwndb/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oewn-inxml/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oewn-inxml/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oewn-inyaml/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oewn-inyaml/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oewn-model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oewn-model/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oewn-outser/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oewn-outser/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oewn-outsql/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oewn-outsql/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oewn-outwndb/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oewn-outwndb/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oewn-parse/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oewn-parse/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
