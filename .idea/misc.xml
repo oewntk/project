@@ -154,6 +154,16 @@
     <pattern value="org.oewntk.xml.in.XmlExtractor" method="getVerbFrames" />
     <pattern value="org.oewntk.xml.in.XmlExtractor" method="getVerbTemplates" />
     <pattern value="org.oewntk.xml.in.XmlExtractor" method="XmlExtractor" />
+    <pattern value="org.oewntk.model.Key.W_P_A" method="from" />
+    <pattern value="org.oewntk.model.Key.W_P_D" method="from" />
+    <pattern value="org.oewntk.model.Key.W_P_A" method="getPronunciationSet" />
+    <pattern value="org.oewntk.model.KeyF.F_W_P.Mono" method="of" />
+    <pattern value="org.oewntk.model.KeyF.F_W_P" method="of" />
+    <pattern value="org.oewntk.model.KeyF.F_W_P_A" method="of" />
+    <pattern value="org.oewntk.model.KeyF.F_W_P_D" method="of" />
+    <pattern value="org.oewntk.model.Key.W_P_A" method="of_lc_p" />
+    <pattern value="org.oewntk.model.Key.W_P_D" method="of_lc_p" />
+    <pattern value="org.oewntk.model.Key.W_P_D" method="of_p" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
