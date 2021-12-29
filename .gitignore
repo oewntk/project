@@ -1,6 +1,8 @@
 /target/
 
 /oewn-*/
+/cases*
 /output*
+/stats*
 **/_*/
 **/_*
