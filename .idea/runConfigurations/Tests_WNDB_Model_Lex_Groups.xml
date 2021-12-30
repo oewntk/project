@@ -3,7 +3,7 @@
     <module name="inwndb" />
     <extension name="coverage">
       <pattern>
-        <option name="PATTERN" value="org.oewntk.grind.yaml2sql.*" />
+        <option name="PATTERN" value="org.oewntk.sql.out.*" />
         <option name="ENABLED" value="true" />
       </pattern>
     </extension>

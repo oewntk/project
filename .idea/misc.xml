@@ -31,6 +31,7 @@
       <entry_point TYPE="field" FQNAME="org.oewntk.yaml.in.Tracing psNull" />
       <entry_point TYPE="field" FQNAME="org.oewntk.sql.out.Utils mergingKeepFunction" />
       <entry_point TYPE="field" FQNAME="org.oewntk.sql.out.Utils mergingReplaceFunction" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.wndb.in.Parser pse" />
     </entry_points>
     <pattern value="org.oewntk.wndb.CompatException" method="CompatException" />
     <pattern value="org.oewntk.pojos.AdjPosition" method="find" />
@@ -164,6 +165,19 @@
     <pattern value="org.oewntk.model.Key.W_P_A" method="of_lc_p" />
     <pattern value="org.oewntk.model.Key.W_P_D" method="of_lc_p" />
     <pattern value="org.oewntk.model.Key.W_P_D" method="of_p" />
+    <pattern value="org.oewntk.model.CoreModel" method="reportRelations" />
+    <pattern value="org.oewntk.model.Finder" method="getLcLexesHavingPos" />
+    <pattern value="org.oewntk.model.Finder" method="getLcLexesHavingType" />
+    <pattern value="org.oewntk.model.Finder" method="getLexesHavingType" />
+    <pattern value="org.oewntk.model.Key.W_P" method="toLongString" />
+    <pattern value="org.oewntk.model.KeyF.F_W_P_D.Mono" method="from" />
+    <pattern value="org.oewntk.model.LibTestModelKeys" method="testWordMono" />
+    <pattern value="org.oewntk.model.Sense" method="getSenseId" />
+    <pattern value="org.oewntk.model.Key.W_P_A" method="toLongString" />
+    <pattern value="org.oewntk.model.Key.W_P_D" method="toLongString" />
+    <pattern value="org.oewntk.model.KeyF.F_W_P" method="toLongString" />
+    <pattern value="org.oewntk.model.KeyF.F_W_P_A" method="toLongString" />
+    <pattern value="org.oewntk.model.KeyF.F_W_P_D" method="toLongString" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

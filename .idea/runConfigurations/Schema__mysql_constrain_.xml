@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Schema (mysql.constrain)" type="Application" factoryName="Application" folderName="Utils">
-    <option name="MAIN_CLASS_NAME" value="org.oewntk.grind.yaml2sql.SchemaGenerator" />
+    <option name="MAIN_CLASS_NAME" value="org.oewntk.sql.out.SchemaGenerator" />
     <module name="yaml2sql" />
     <option name="PROGRAM_PARAMETERS" value="- casedwords-index.sql samples-index.sql lexes-index.sql senses-index.sql senses_senses-index.sql synsets-index.sql casedwords-reference.sql samples-reference.sql lexes-reference.sql senses-reference.sql senses_senses-reference.sql synsets-reference.sql" />
     <option name="VM_PARAMETERS" value="-ea" />
