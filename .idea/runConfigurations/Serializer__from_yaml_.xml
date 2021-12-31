@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Serializer" type="Application" factoryName="Application" folderName="Utils">
+  <configuration default="false" name="Serializer (from yaml)" type="Application" factoryName="Application" folderName="Utils">
     <option name="MAIN_CLASS_NAME" value="org.oewntk.grind.yaml2sql.Serializer" />
     <module name="yaml2sql" />
     <option name="PROGRAM_PARAMETERS" value="yaml yaml2 sers" />
