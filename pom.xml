@@ -3,14 +3,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.x-englishwordnet</groupId>
+    <groupId>io.github.oewntk</groupId>
     <artifactId>all</artifactId>
     <version>${revision}</version>
     <packaging>pom</packaging>
 
     <name>sqlbuilder-all</name>
     <description>OEWNTK top project</description>
-    <url>http://io.github.x-englishwordnet</url>
+    <url>http://io.github.oewntk</url>
 
     <modules>
         <module>oewn-model</module>
