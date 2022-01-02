@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="jar" build-on-make="true" name="generate-schema:jar">
-    <output-path>$PROJECT_DIR$/oewn-outsql</output-path>
+    <output-path>$PROJECT_DIR$/oewn-tosql</output-path>
     <root id="archive" name="generate-schema.jar">
       <element id="directory" name="org">
         <element id="directory" name="oewntk">

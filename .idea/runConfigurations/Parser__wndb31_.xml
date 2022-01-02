@@ -4,7 +4,7 @@
     <module name="parse_wndb" />
     <option name="PROGRAM_PARAMETERS" value="wndb31" />
     <option name="VM_PARAMETERS" value="-ea -DVERBOSE" />
-    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oewn-parse" />
+    <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
     <extension name="coverage">
       <pattern>
         <option name="PATTERN" value="io.github.xenglishwordnet.parse.*" />

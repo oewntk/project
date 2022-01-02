@@ -6,7 +6,7 @@
     <module name="grind_yaml2wndb" />
     <option name="PROGRAM_PARAMETERS" value="yaml wndb_offsets" />
     <option name="VM_PARAMETERS" value="-ea" />
-    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oewn-grind-yaml2wndb" />
+    <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>

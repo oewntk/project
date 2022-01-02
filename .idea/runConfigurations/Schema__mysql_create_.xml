@@ -4,7 +4,7 @@
     <module name="grind_yaml2sql" />
     <option name="PROGRAM_PARAMETERS" value="sql/mysql/create mysql/create" />
     <option name="VM_PARAMETERS" value="-ea" />
-    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oewn-outsql" />
+    <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
     <extension name="coverage">
       <pattern>
         <option name="PATTERN" value="org.oewntk.sql.out.*" />

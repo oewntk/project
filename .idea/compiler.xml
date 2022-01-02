@@ -13,8 +13,8 @@
         <module name="fromser" />
         <module name="sql" />
         <module name="parse_wndb" />
-        <module name="grind_wndb2wndb" />
         <module name="grind_yaml2sql" />
+        <module name="grind_wndb2wndb" />
         <module name="fromyaml" />
         <module name="toser" />
         <module name="towndb" />
@@ -22,8 +22,8 @@
         <module name="grind_wndb2sql" />
         <module name="fromxml" />
         <module name="yaml" />
-        <module name="grind_xml2wndb" />
         <module name="grind_yaml2wndb" />
+        <module name="grind_xml2wndb" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -39,6 +39,7 @@
       <module name="grind_yaml2sql" target="11" />
       <module name="grind_yaml2wndb" target="11" />
       <module name="model" target="11" />
+      <module name="parse" target="11" />
       <module name="parse_wndb" target="11" />
       <module name="sql" target="11" />
       <module name="toser" target="11" />

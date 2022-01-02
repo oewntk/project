@@ -4,7 +4,7 @@
     <module name="fromwndb" />
     <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/../../data/nlp/wordnet/WordNet-XX/git_upstream/wndb/dict-2021 wndb2" />
     <option name="VM_PARAMETERS" value="-ea" />
-    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oewn-inwndb" />
+    <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
     <extension name="coverage">
       <pattern>
         <option name="PATTERN" value="org.oewntk.wndb.in.*" />

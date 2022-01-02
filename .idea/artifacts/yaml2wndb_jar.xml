@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="jar" build-on-make="true" name="yaml2wndb:jar">
-    <output-path>$PROJECT_DIR$/oewn-grind-yaml2wndb</output-path>
+    <output-path>$PROJECT_DIR$/oewn-grind_yaml2wndb</output-path>
     <root id="archive" name="oewn-grind-yaml2wndb.jar">
       <element id="module-output" name="grind_yaml2wndb" />
       <element id="module-output" name="fromyaml" />
