@@ -1,7 +1,7 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Counter (all)" type="Application" factoryName="Application" folderName="Parse">
     <option name="MAIN_CLASS_NAME" value="org.oewntk.parse.Counter" />
-    <module name="parse" />
+    <module name="parse_wndb" />
     <option name="PROGRAM_PARAMETERS" value="wndb31 wndb wndb_compat wndbxx wndbxx_compat wndb_re wndb_re_re " />
     <option name="VM_PARAMETERS" value="-ea -DVERBOSE" />
     <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oewn-parse" />

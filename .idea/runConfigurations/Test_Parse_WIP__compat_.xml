@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Test Parse WIP (compat)" type="JUnit" factoryName="JUnit" folderName="Parse">
-    <module name="parse" />
+    <module name="parse_wndb" />
     <useClassPathOnly />
     <extension name="coverage">
       <pattern>

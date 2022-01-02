@@ -6,14 +6,14 @@
     <mapping directory="$PROJECT_DIR$/oewn-fromwndb" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-fromxml" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-fromyaml" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/oewn-grind-wndb2sql" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/oewn-grind-wndb2wndb" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/oewn-grind-xml2wndb" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/oewn-grind-yaml2ser" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/oewn-grind-yaml2sql" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/oewn-grind-yaml2wndb" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/oewn-grind_wndb2sql" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/oewn-grind_wndb2wndb" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/oewn-grind_xml2wndb" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/oewn-grind_yaml2ser" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/oewn-grind_yaml2sql" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/oewn-grind_yaml2wndb" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-model" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/oewn-parse" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/oewn-parse_wndb" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-toser" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-tosql" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-towndb" vcs="Git" />

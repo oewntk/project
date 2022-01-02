@@ -3,7 +3,7 @@
     <option name="ALTERNATIVE_JRE_PATH" value="11" />
     <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
     <option name="MAIN_CLASS_NAME" value="org.oewntk.grind.yaml2wndb.GrindOffsets" />
-    <module name="yaml2wndb" />
+    <module name="grind_yaml2wndb" />
     <option name="PROGRAM_PARAMETERS" value="yaml wndb_offsets" />
     <option name="VM_PARAMETERS" value="-ea" />
     <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oewn-grind-yaml2wndb" />

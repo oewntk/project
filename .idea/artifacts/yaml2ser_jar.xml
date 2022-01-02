@@ -2,7 +2,7 @@
   <artifact type="jar" build-on-make="true" name="yaml2ser:jar">
     <output-path>$PROJECT_DIR$/oewn-grind-yaml2ser</output-path>
     <root id="archive" name="oewn-grind-yaml2ser.jar">
-      <element id="module-output" name="yaml2ser" />
+      <element id="module-output" name="grind_yaml2ser" />
       <element id="module-output" name="model" />
       <element id="module-output" name="fromyaml" />
       <element id="module-output" name="toser" />

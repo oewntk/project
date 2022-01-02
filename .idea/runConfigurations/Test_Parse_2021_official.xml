@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Test Parse 2021 official" type="JUnit" factoryName="JUnit" folderName="Parse">
-    <module name="parse" />
+    <module name="parse_wndb" />
     <useClassPathOnly />
     <extension name="coverage">
       <pattern>

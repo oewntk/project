@@ -14,7 +14,7 @@
 
     <modules>
         <module>oewn-model</module>
-        <module>oewn-parse</module>
+        <module>oewn-parse_wndb</module>
         
         <module>oewn-fromyaml</module>
         <module>oewn-fromwndb</module>
@@ -25,12 +25,12 @@
         <module>oewn-towndb</module>
         <module>oewn-toser</module>
 
-        <module>oewn-grind-yaml2sql</module>
-        <module>oewn-grind-yaml2wndb</module>
-        <module>oewn-grind-yaml2ser</module>
-        <module>oewn-grind-wndb2sql</module>
-        <module>oewn-grind-wndb2wndb</module>
-	    <module>oewn-grind-xml2wndb</module>
+        <module>oewn-grind_yaml2sql</module>
+        <module>oewn-grind_yaml2wndb</module>
+        <module>oewn-grind_yaml2ser</module>
+        <module>oewn-grind_wndb2sql</module>
+        <module>oewn-grind_wndb2wndb</module>
+	    <module>oewn-grind_xml2wndb</module>
     </modules>
 
     <licenses>

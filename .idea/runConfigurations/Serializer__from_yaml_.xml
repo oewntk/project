@@ -1,7 +1,7 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Serializer (from yaml)" type="Application" factoryName="Application" folderName="Utils">
     <option name="MAIN_CLASS_NAME" value="org.oewntk.grind.yaml2sql.Serializer" />
-    <module name="yaml2sql" />
+    <module name="grind_yaml2sql" />
     <option name="PROGRAM_PARAMETERS" value="yaml yaml2 sers" />
     <option name="VM_PARAMETERS" value="-ea" />
     <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oewn-grind-yaml2sql" />

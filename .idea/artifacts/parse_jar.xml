@@ -2,7 +2,7 @@
   <artifact type="jar" build-on-make="true" name="parse:jar">
     <output-path>$PROJECT_DIR$/oewn-parse</output-path>
     <root id="archive" name="oewn-parse.jar">
-      <element id="module-output" name="parse" />
+      <element id="module-output" name="parse_wndb" />
     </root>
   </artifact>
 </component>
