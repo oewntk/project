@@ -12,3 +12,7 @@ for d in ${modules}; do
 	eval $l
 	popd > /dev/null
 done
+
+# ${m} is instantiated as module name
+# ${m} must be protected by single quotes on the command line
+#./git_all.sh remote set-url origin 'https://oewntk@github.com/oewntk/${m}.git'
