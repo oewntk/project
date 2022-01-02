@@ -2,12 +2,13 @@
 
 source define_colors.sh
 
-modules=$(find . -maxdepth 1 -type d -name 'oewn*' -printf '%P\n')
+modules=$(find . -maxdepth 1 -type d -name 'oewn-*' -printf '%P\n')
 
-for m in ${modules}; do 
+for d in ${modules}; do 
+	m=${d#oewn-}
 	echo -e "${Y}${m}${Z}"
-	pushd "${m}" > /dev/null
-	git $*
-	echo
+	pushd "${d}" > /dev/null
+	l="git $*"
+	eval $l
 	popd > /dev/null
 done
