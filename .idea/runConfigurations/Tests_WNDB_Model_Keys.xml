@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Tests WNDB Model Keys" type="JUnit" factoryName="JUnit" folderName="WNDB">
-    <module name="inwndb" />
+    <module name="fromwndb" />
     <extension name="coverage">
       <pattern>
         <option name="PATTERN" value="org.oewntk.sql.out.*" />

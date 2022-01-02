@@ -3,9 +3,9 @@
     <output-path>$PROJECT_DIR$/oewn-grind-yaml2wndb</output-path>
     <root id="archive" name="oewn-grind-yaml2wndb.jar">
       <element id="module-output" name="yaml2wndb" />
-      <element id="module-output" name="inyaml" />
+      <element id="module-output" name="fromyaml" />
       <element id="module-output" name="model" />
-      <element id="module-output" name="outwndb" />
+      <element id="module-output" name="towndb" />
       <element id="module-output" name="parse" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.29/snakeyaml-1.29.jar" path-in-jar="/" />
     </root>

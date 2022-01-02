@@ -1,7 +1,7 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="CoreFactory (wndb_re wndb_re_re)" type="Application" factoryName="Application" folderName="Factories">
     <option name="MAIN_CLASS_NAME" value="org.oewntk.wndb.in.CoreFactory" />
-    <module name="inwndb" />
+    <module name="fromwndb" />
     <option name="PROGRAM_PARAMETERS" value="wndb_re wndb_re_re" />
     <option name="VM_PARAMETERS" value="-ea" />
     <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oewn-inwndb" />

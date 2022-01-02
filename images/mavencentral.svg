@@ -7,8 +7,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:export-ydpi="5.5879998"
-   inkscape:export-xdpi="5.5879998"
+   inkscape:export-ydpi="4.2333336"
+   inkscape:export-xdpi="4.2333336"
    inkscape:export-filename="mavencentral.png"
    sodipodi:docname="mavencentral.svg"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
@@ -27,11 +27,11 @@
      inkscape:window-width="1864"
      showgrid="false"
      inkscape:document-rotation="0"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="svg8"
      inkscape:document-units="mm"
-     inkscape:cy="609.41456"
-     inkscape:cx="1288.2677"
-     inkscape:zoom="0.32834792"
+     inkscape:cy="166.52655"
+     inkscape:cx="3318.9386"
+     inkscape:zoom="0.16417396"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -46,41 +46,62 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="background"
+     sodipodi:insensitive="true">
+    <rect
+       style="opacity:0.98000004;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect824"
+       width="900.17413"
+       height="199.95685"
+       x="0"
+       y="0.16116227" />
+  </g>
+  <g
      id="layer1"
      inkscape:groupmode="layer"
-     inkscape:label="Layer 1">
+     inkscape:label="foreground"
+     style="display:inline"
+     sodipodi:insensitive="true">
     <g
        transform="matrix(1.0392567,0,0,0.99806338,-1.2535664,1.5321902)"
        id="g917">
       <path
          style="fill:#000000;fill-opacity:0;stroke:#346898;stroke-width:16;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="m 16.470621,22.436199 161.916419,0.58316"
-         id="path10" />
+         id="path10"
+         inkscape:connector-curvature="0" />
       <path
          id="path835"
          d="m 16.470614,52.808637 161.916436,0.58316"
-         style="fill:#000000;fill-opacity:0;stroke:#346898;stroke-width:16;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="fill:#000000;fill-opacity:0;stroke:#346898;stroke-width:16;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
       <path
          style="fill:#000000;fill-opacity:0;stroke:#346898;stroke-width:16;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="m 16.470621,83.181076 161.916419,0.58316"
-         id="path837" />
+         id="path837"
+         inkscape:connector-curvature="0" />
       <path
          id="path839"
          d="m 16.47062,113.55352 161.91642,0.58316"
-         style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
       <path
          style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="m 16.470621,143.92595 161.916419,0.58316"
-         id="path841" />
+         id="path841"
+         inkscape:connector-curvature="0" />
       <path
          id="path843"
          d="m 16.470614,174.29839 161.916436,0.58316"
-         style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
     </g>
     <text
        inkscape:export-ydpi="12.7"
@@ -90,9 +111,9 @@
        id="text913"
        y="124.96709"
        x="322.6586"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:155.564px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.88909"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:155.56399536px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.88909006"
        xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:155.564px;font-family:Lato;-inkscape-font-specification:'Lato, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:3.88909"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:155.56399536px;font-family:Lato;-inkscape-font-specification:'Lato, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;stroke-width:3.88909006"
          y="124.96709"
          x="322.6586"
          id="tspan911"

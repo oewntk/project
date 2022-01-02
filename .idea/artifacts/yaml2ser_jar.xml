@@ -4,8 +4,8 @@
     <root id="archive" name="oewn-grind-yaml2ser.jar">
       <element id="module-output" name="yaml2ser" />
       <element id="module-output" name="model" />
-      <element id="module-output" name="inyaml" />
-      <element id="module-output" name="outser" />
+      <element id="module-output" name="fromyaml" />
+      <element id="module-output" name="toser" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.29/snakeyaml-1.29.jar" path-in-jar="/" />
     </root>
   </artifact>

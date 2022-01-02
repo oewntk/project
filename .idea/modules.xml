@@ -3,15 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/all.iml" filepath="$PROJECT_DIR$/all.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oewn-inser/inser.iml" filepath="$PROJECT_DIR$/oewn-inser/inser.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oewn-inwndb/inwndb.iml" filepath="$PROJECT_DIR$/oewn-inwndb/inwndb.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oewn-inxml/inxml.iml" filepath="$PROJECT_DIR$/oewn-inxml/inxml.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oewn-inyaml/inyaml.iml" filepath="$PROJECT_DIR$/oewn-inyaml/inyaml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oewn-inser/fromser.iml" filepath="$PROJECT_DIR$/oewn-inser/fromser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oewn-inwndb/fromwndb.iml" filepath="$PROJECT_DIR$/oewn-inwndb/fromwndb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oewn-inxml/fromxml.iml" filepath="$PROJECT_DIR$/oewn-inxml/fromxml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oewn-inyaml/fromyaml.iml" filepath="$PROJECT_DIR$/oewn-inyaml/fromyaml.iml" />
       <module fileurl="file://$PROJECT_DIR$/oewn-model/model.iml" filepath="$PROJECT_DIR$/oewn-model/model.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oewn-outser/outser.iml" filepath="$PROJECT_DIR$/oewn-outser/outser.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oewn-outsql/outsql.iml" filepath="$PROJECT_DIR$/oewn-outsql/outsql.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oewn-outwndb/outwndb.iml" filepath="$PROJECT_DIR$/oewn-outwndb/outwndb.iml" />
       <module fileurl="file://$PROJECT_DIR$/oewn-parse/parse.iml" filepath="$PROJECT_DIR$/oewn-parse/parse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oewn-outser/toser.iml" filepath="$PROJECT_DIR$/oewn-outser/toser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oewn-outsql/tosql.iml" filepath="$PROJECT_DIR$/oewn-outsql/tosql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oewn-outwndb/towndb.iml" filepath="$PROJECT_DIR$/oewn-outwndb/towndb.iml" />
       <module fileurl="file://$PROJECT_DIR$/oewn-grind-wndb2sql/wndb2sql.iml" filepath="$PROJECT_DIR$/oewn-grind-wndb2sql/wndb2sql.iml" />
       <module fileurl="file://$PROJECT_DIR$/oewn-grind-wndb2wndb/wndb2wndb.iml" filepath="$PROJECT_DIR$/oewn-grind-wndb2wndb/wndb2wndb.iml" />
       <module fileurl="file://$PROJECT_DIR$/oewn-grind-xml2wndb/xml2wndb.iml" filepath="$PROJECT_DIR$/oewn-grind-xml2wndb/xml2wndb.iml" />

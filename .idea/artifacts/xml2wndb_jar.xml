@@ -4,8 +4,8 @@
     <root id="archive" name="oewn-grind-xml2wndb.jar">
       <element id="module-output" name="xml2wndb" />
       <element id="module-output" name="model" />
-      <element id="module-output" name="inxml" />
-      <element id="module-output" name="outwndb" />
+      <element id="module-output" name="fromxml" />
+      <element id="module-output" name="towndb" />
     </root>
   </artifact>
 </component>

@@ -4,8 +4,8 @@
     <root id="archive" name="oewn-grind-wndb2wndb.jar">
       <element id="module-output" name="wndb2wndb" />
       <element id="module-output" name="model" />
-      <element id="module-output" name="inwndb" />
-      <element id="module-output" name="outwndb" />
+      <element id="module-output" name="fromwndb" />
+      <element id="module-output" name="towndb" />
       <element id="module-output" name="parse" />
     </root>
   </artifact>

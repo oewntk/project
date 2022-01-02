@@ -197,6 +197,7 @@
         <option value="$PROJECT_DIR$/oewn-inser/pom.xml" />
         <option value="$PROJECT_DIR$/oewn-outser/pom.xml" />
         <option value="$PROJECT_DIR$/oewn-grind-yaml2ser/pom.xml" />
+        <option value="$PROJECT_DIR$/oewn-toser/pom.xml" />
       </list>
     </option>
   </component>
