@@ -5,10 +5,10 @@
 
     <groupId>io.github.oewntk</groupId>
     <artifactId>all</artifactId>
-    <version>${revision}</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>sqlbuilder-all</name>
+    <name>OEWNTK-all</name>
     <description>OEWNTK top project</description>
     <url>http://io.github.oewntk</url>
 
@@ -16,15 +16,18 @@
         <module>oewn-model</module>
         <module>oewn-parse</module>
         
-        <module>oewn-inyaml</module>
-        <module>oewn-inwndb</module>
-        <module>oewn-inxml</module>
-        
-        <module>oewn-outsql</module>
-        <module>oewn-outwndb</module>
-        
+        <module>oewn-fromyaml</module>
+        <module>oewn-fromwndb</module>
+        <module>oewn-fromxml</module>
+        <module>oewn-fromser</module>
+
+        <module>oewn-tosql</module>
+        <module>oewn-towndb</module>
+        <module>oewn-toser</module>
+
         <module>oewn-grind-yaml2sql</module>
         <module>oewn-grind-yaml2wndb</module>
+        <module>oewn-grind-yaml2ser</module>
         <module>oewn-grind-wndb2sql</module>
         <module>oewn-grind-wndb2wndb</module>
 	    <module>oewn-grind-xml2wndb</module>

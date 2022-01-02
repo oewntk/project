@@ -10,8 +10,8 @@
         <module name="fromwndb" />
         <module name="wndb2wndb" />
         <module name="wndb" />
-        <module name="fromser" />
         <module name="tosql" />
+        <module name="fromser" />
         <module name="xml2wndb" />
         <module name="wndb2sql" />
         <module name="parse" />
