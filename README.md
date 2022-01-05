@@ -12,6 +12,9 @@ This project will group all toolkit repos that will provide suppliers and consum
 
 ## Modules
 
+**Model**
+- [model](http://github.com/oewntk/model) : Model
+
 **Suppliers**: YAML,XML,WNDB,serialized
 - [fromyaml](http://github.com/oewntk/fromyaml) : Supply model from YAML
 - [fromxml](http://github.com/oewntk/fromxml) : Supply model from XML
