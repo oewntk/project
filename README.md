@@ -10,7 +10,7 @@ Suppliers: YAML,XML,WNDB,serialized
 
 Consumers: WNDB,SQL,serialized
 
-Supplier-consumer chains; YAML2SQL, YAML2WNDB, YAML2SER, XML2WNDB,WNDB2SER
+Supplier-consumer chains: YAML2SQL, YAML2WNDB, YAML2SER, XML2WNDB, WNDB2SER
 ## Dataflow
 
 ![Dataflow](images/dataflow.png  "Dataflow")
