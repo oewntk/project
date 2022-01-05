@@ -15,7 +15,7 @@ This project will group all toolkit repos that will provide suppliers and consum
 
 ## Modules
 
-Design is modular: modules do not depend on each other except chains. Each model is an independent archive on published Maven Central.
+Design is modular: modules do not depend on each other except chains. Each model is an independent archive published on Maven Central.
 
 **Model**
 - [model](http://github.com/oewntk/model) : Model
