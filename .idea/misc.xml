@@ -32,6 +32,8 @@
       <entry_point TYPE="field" FQNAME="org.oewntk.sql.out.Utils mergingKeepFunction" />
       <entry_point TYPE="field" FQNAME="org.oewntk.sql.out.Utils mergingReplaceFunction" />
       <entry_point TYPE="field" FQNAME="org.oewntk.wndb.in.Parser pse" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.wndb.out.WN31Index WN31_SENSE_ORDER" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.parse.RelationParser relationConsumer" />
     </entry_points>
     <pattern value="org.oewntk.wndb.CompatException" method="CompatException" />
     <pattern value="org.oewntk.pojos.AdjPosition" method="find" />
@@ -178,6 +180,8 @@
     <pattern value="org.oewntk.model.KeyF.F_W_P" method="toLongString" />
     <pattern value="org.oewntk.model.KeyF.F_W_P_A" method="toLongString" />
     <pattern value="org.oewntk.model.KeyF.F_W_P_D" method="toLongString" />
+    <pattern value="org.oewntk.model.LibDumpSenses" method="dumpSensesByDecreasingTagCount" />
+    <pattern value="org.oewntk.sql.out.Variables" method="varSubstitutionInFile" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
