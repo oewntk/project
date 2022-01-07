@@ -182,6 +182,7 @@
     <pattern value="org.oewntk.model.KeyF.F_W_P_D" method="toLongString" />
     <pattern value="org.oewntk.model.LibDumpSenses" method="dumpSensesByDecreasingTagCount" />
     <pattern value="org.oewntk.sql.out.Variables" method="varSubstitutionInFile" />
+    <pattern value="org.oewntk.xml.in.XmlExtractor" method="getRank" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
