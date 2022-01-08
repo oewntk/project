@@ -4,7 +4,7 @@
     <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
     <option name="MAIN_CLASS_NAME" value="org.oewntk.grind.wndb2sql.Grind" />
     <module name="grind_wndb2sql" />
-    <option name="PROGRAM_PARAMETERS" value="wndb31 wndb2 sql/data" />
+    <option name="PROGRAM_PARAMETERS" value="wndb31 wndb2 sql31/data" />
     <option name="VM_PARAMETERS" value="-ea" />
     <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     <method v="2">
