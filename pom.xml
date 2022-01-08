@@ -33,6 +33,25 @@
 		<module>oewn-grind_xml2wndb</module>
 	</modules>
 
+	<distributionManagement>
+		<repository>
+			<id>ossrh</id>
+			<name>Maven Central Staging Repository</name>
+			<url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2</url>
+		</repository>
+		<snapshotRepository>
+			<id>ossrh</id>
+			<name>Maven Central Snapshot Repository</name>
+			<url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
+
+	<scm>
+		<url>https://github.com/oewntk/fromser</url>
+		<connection>scm:git:git://github.com/oewntk/fromser.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com:oewntk/fromser.git</developerConnection>
+	</scm>
+
 	<licenses>
 		<license>
 			<name>GPL3</name>
@@ -43,6 +62,11 @@
 	</licenses>
 
 	<inceptionYear>2006</inceptionYear>
+
+	<organization>
+		<name>com.github.oewntk</name>
+		<url>https://github.com/oewntk</url>
+	</organization>
 
 	<developers>
 		<developer>
