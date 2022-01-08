@@ -6,7 +6,7 @@
     <module name="grind_xml2wndb" />
     <option name="PROGRAM_PARAMETERS" value="xml/oewn.xml xml2 wndb" />
     <option name="VM_PARAMETERS" value="-ea" />
-    <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>

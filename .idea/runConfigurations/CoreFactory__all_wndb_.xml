@@ -4,7 +4,7 @@
     <module name="fromwndb" />
     <option name="PROGRAM_PARAMETERS" value="wndb31 wndb wndb_compat wndbxx wndbxx_compat wndb_re wndb_re_re" />
     <option name="VM_PARAMETERS" value="-ea" />
-    <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
+    <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     <extension name="coverage">
       <pattern>
         <option name="PATTERN" value="org.oewntk.wndb.in.*" />
