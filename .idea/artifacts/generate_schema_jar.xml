@@ -30,6 +30,7 @@
               <element id="file-copy" path="$PROJECT_DIR$/oewn-tosql/target/classes/org/oewntk/sql/out/Names$VTEMPLATES.class" />
               <element id="file-copy" path="$PROJECT_DIR$/oewn-tosql/target/classes/org/oewntk/sql/out/Names$WORDS.class" />
               <element id="file-copy" path="$PROJECT_DIR$/oewn-tosql/target/classes/org/oewntk/sql/out/Names.class" />
+              <element id="file-copy" path="$PROJECT_DIR$/oewn-tosql/target/classes/org/oewntk/sql/out/SourcesGenerator.class" />
             </element>
           </element>
         </element>
