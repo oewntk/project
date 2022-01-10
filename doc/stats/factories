@@ -1,0 +1,502 @@
+yaml
+----
+[Model] [yaml, yaml2]
+lexes: 163161, senses: 211865, synsets: 120039, verb frames: 39, verb templates: 170
+lexes                                             : 163161
+lemmas (distinct CS)                              : 153202
+lemmas (distinct LC)                              : 151770
+lemmas (cased)                                    :  42724
+discriminant types                                :      2
+lexes with discriminant                           :    108
+lexes with pronunciation                          :  34621
+lexes with multi senses                           :  25841
+distinct lexes by key W_P_A_type (deep)           : 163161
+distinct lexes by key W_P_D_type (shallow)        : 163161
+distinct lexes by key W_P_A_pos (pos)             : 161167
+distinct lexes by key W_P_A_lc_type (ic)          : 161893
+distinct lexes by key W_P_lc_pos (pwn)            : 159797
+senses                                            : 211865
+distinct sense sets in lexes                      : 163161
+senses in sense sets                              : 211865
+senses with relations                             :  60121
+sense relations                                   :  93139
+synsets                                           : 120039
+synsets with relations                            : 112094
+synset relations                                  : 291370
+
+xml
+---
+[Model] [xml, xml2]
+lexes: 163161, senses: 211865, synsets: 120039, verb frames: 39, verb templates: 170
+lexes                                             : 163161
+lemmas (distinct CS)                              : 153202
+lemmas (distinct LC)                              : 151770
+lemmas (cased)                                    :  42724
+discriminant types                                :      0
+lexes with discriminant                           :      0
+lexes with pronunciation                          :  34621
+lexes with multi senses                           :  25841
+distinct lexes by key W_P_A_type (deep)           : 163161
+distinct lexes by key W_P_D_type (shallow)        : 163107
+distinct lexes by key W_P_A_pos (pos)             : 161167
+distinct lexes by key W_P_A_lc_type (ic)          : 161893
+distinct lexes by key W_P_lc_pos (pwn)            : 159797
+senses                                            : 211865
+distinct sense sets in lexes                      : 163161
+senses in sense sets                              : 211865
+senses with relations                             :  60121
+sense relations                                   :  93139
+synsets                                           : 120039
+synsets with relations                            : 112094
+synset relations                                  : 291370
+
+wndb
+----
+[CoreModel] wndb31
+lexes: 158754, senses: 207272, synsets: 117791
+lexes                                             : 158754
+lemmas (distinct CS)                              : 148897
+lemmas (distinct LC)                              : 147478
+lemmas (cased)                                    :  40850
+discriminant types                                :      0
+lexes with discriminant                           :      0
+lexes with pronunciation                          :      0
+lexes with multi senses                           :  25693
+distinct lexes by key W_P_A_type (deep)           : 158754
+distinct lexes by key W_P_D_type (shallow)        : 158754
+distinct lexes by key W_P_A_pos (pos)             : 156762
+distinct lexes by key W_P_A_lc_type (ic)          : 157488
+distinct lexes by key W_P_lc_pos (pwn)            : 155467
+senses                                            : 207272
+distinct sense sets in lexes                      : 158749
+senses in sense sets                              : 207266
+senses with relations                             :  59619
+sense relations                                   :  92527
+synsets                                           : 117791
+synsets with relations                            : 109862
+synset relations                                  : 286297
+
+[CoreModel] wndb
+lexes: 163107, senses: 211865, synsets: 120039
+lexes                                             : 163107
+lemmas (distinct CS)                              : 153202
+lemmas (distinct LC)                              : 151770
+lemmas (cased)                                    :  42724
+discriminant types                                :      0
+lexes with discriminant                           :      0
+lexes with pronunciation                          :      0
+lexes with multi senses                           :  25855
+distinct lexes by key W_P_A_type (deep)           : 163107
+distinct lexes by key W_P_D_type (shallow)        : 163107
+distinct lexes by key W_P_A_pos (pos)             : 161105
+distinct lexes by key W_P_A_lc_type (ic)          : 161828
+distinct lexes by key W_P_lc_pos (pwn)            : 159797
+senses                                            : 211865
+distinct sense sets in lexes                      : 163101
+senses in sense sets                              : 211858
+senses with relations                             :  60118
+sense relations                                   :  93136
+synsets                                           : 120039
+synsets with relations                            : 112094
+synset relations                                  : 291370
+
+[CoreModel] wndb_compat
+lexes: 163107, senses: 211865, synsets: 120039
+lexes                                             : 163107
+lemmas (distinct CS)                              : 153202
+lemmas (distinct LC)                              : 151770
+lemmas (cased)                                    :  42724
+discriminant types                                :      0
+lexes with discriminant                           :      0
+lexes with pronunciation                          :      0
+lexes with multi senses                           :  25855
+distinct lexes by key W_P_A_type (deep)           : 163107
+distinct lexes by key W_P_D_type (shallow)        : 163107
+distinct lexes by key W_P_A_pos (pos)             : 161105
+distinct lexes by key W_P_A_lc_type (ic)          : 161828
+distinct lexes by key W_P_lc_pos (pwn)            : 159797
+senses                                            : 211865
+distinct sense sets in lexes                      : 163101
+senses in sense sets                              : 211858
+senses with relations                             :  60118
+sense relations                                   :  93136
+synsets                                           : 120039
+synsets with relations                            : 112094
+synset relations                                  : 291370
+
+[CoreModel] wndbxx
+lexes: 163107, senses: 211865, synsets: 120039
+lexes                                             : 163107
+lemmas (distinct CS)                              : 153202
+lemmas (distinct LC)                              : 151770
+lemmas (cased)                                    :  42724
+discriminant types                                :      0
+lexes with discriminant                           :      0
+lexes with pronunciation                          :      0
+lexes with multi senses                           :  25855
+distinct lexes by key W_P_A_type (deep)           : 163107
+distinct lexes by key W_P_D_type (shallow)        : 163107
+distinct lexes by key W_P_A_pos (pos)             : 161105
+distinct lexes by key W_P_A_lc_type (ic)          : 161828
+distinct lexes by key W_P_lc_pos (pwn)            : 159797
+senses                                            : 211865
+distinct sense sets in lexes                      : 163101
+senses in sense sets                              : 211858
+senses with relations                             :  60118
+sense relations                                   :  93136
+synsets                                           : 120039
+synsets with relations                            : 112094
+synset relations                                  : 291370
+
+[CoreModel] wndbxx_compat
+lexes: 163107, senses: 211865, synsets: 120039
+lexes                                             : 163107
+lemmas (distinct CS)                              : 153202
+lemmas (distinct LC)                              : 151770
+lemmas (cased)                                    :  42724
+discriminant types                                :      0
+lexes with discriminant                           :      0
+lexes with pronunciation                          :      0
+lexes with multi senses                           :  25855
+distinct lexes by key W_P_A_type (deep)           : 163107
+distinct lexes by key W_P_D_type (shallow)        : 163107
+distinct lexes by key W_P_A_pos (pos)             : 161105
+distinct lexes by key W_P_A_lc_type (ic)          : 161828
+distinct lexes by key W_P_lc_pos (pwn)            : 159797
+senses                                            : 211865
+distinct sense sets in lexes                      : 163101
+senses in sense sets                              : 211858
+senses with relations                             :  60118
+sense relations                                   :  93136
+synsets                                           : 120039
+synsets with relations                            : 112094
+synset relations                                  : 291370
+
+[CoreModel] wndb_re
+lexes: 163107, senses: 211865, synsets: 120039
+lexes                                             : 163107
+lemmas (distinct CS)                              : 153202
+lemmas (distinct LC)                              : 151770
+lemmas (cased)                                    :  42724
+discriminant types                                :      0
+lexes with discriminant                           :      0
+lexes with pronunciation                          :      0
+lexes with multi senses                           :  25855
+distinct lexes by key W_P_A_type (deep)           : 163107
+distinct lexes by key W_P_D_type (shallow)        : 163107
+distinct lexes by key W_P_A_pos (pos)             : 161105
+distinct lexes by key W_P_A_lc_type (ic)          : 161828
+distinct lexes by key W_P_lc_pos (pwn)            : 159797
+senses                                            : 211865
+distinct sense sets in lexes                      : 163101
+senses in sense sets                              : 211858
+senses with relations                             :  60118
+sense relations                                   :  93136
+synsets                                           : 120039
+synsets with relations                            : 112094
+synset relations                                  : 291370
+
+[CoreModel] wndb_re_re
+lexes: 163107, senses: 211865, synsets: 120039
+lexes                                             : 163107
+lemmas (distinct CS)                              : 153202
+lemmas (distinct LC)                              : 151770
+lemmas (cased)                                    :  42724
+discriminant types                                :      0
+lexes with discriminant                           :      0
+lexes with pronunciation                          :      0
+lexes with multi senses                           :  25855
+distinct lexes by key W_P_A_type (deep)           : 163107
+distinct lexes by key W_P_D_type (shallow)        : 163107
+distinct lexes by key W_P_A_pos (pos)             : 161105
+distinct lexes by key W_P_A_lc_type (ic)          : 161828
+distinct lexes by key W_P_lc_pos (pwn)            : 159797
+senses                                            : 211865
+distinct sense sets in lexes                      : 163101
+senses in sense sets                              : 211858
+senses with relations                             :  60118
+sense relations                                   :  93136
+synsets                                           : 120039
+synsets with relations                            : 112094
+synset relations                                  : 291370
+
+-----
+wndb31 			synsets:117791 senses:207235 indexes:155467 relations:378203 synset_relations:285668 sense_relations:92535
+wndb 			synsets:120039 senses:211865 indexes:159797 relations:384505 synset_relations:291370 sense_relations:93135
+wndb_compat 	synsets:120039 senses:211865 indexes:159797 relations:383876 synset_relations:290741 sense_relations:93135
+wndbxx 			synsets:120039 senses:211865 indexes:159797 relations:384505 synset_relations:291370 sense_relations:93135
+wndbxx_compat 	synsets:120039 senses:211865 indexes:159797 relations:383876 synset_relations:290741 sense_relations:93135
+wndb_re 		synsets:120039 senses:211865 indexes:159797 relations:384506 synset_relations:291370 sense_relations:93136
+wndb_re_re 		synsets:120039 senses:211865 indexes:159797 relations:384506 synset_relations:291370 sense_relations:93136
+
+wndb31 synsets:117791 senses:207235 indexes:155467 relations:378203 synset_relations:285668 sense_relations:92535
+synset relations: 285668
+	also: 2697
+	attribute: 1278
+	causes: 221
+	domain_region: 1341
+	domain_topic: 6676
+	entails: 408
+	exemplifies: 970
+	has_domain_region: 1341
+	has_domain_topic: 6676
+	holo_member: 12288
+	holo_part: 9111
+	holo_substance: 797
+	hypernym: 89172
+	hyponym: 89172
+	instance_hypernym: 8589
+	instance_hyponym: 8589
+	is_exemplified_by: 970
+	mero_member: 12288
+	mero_part: 9111
+	mero_substance: 797
+	similar: 21434
+	verb_group: 1742
+sense relations: 92535
+	also: 579
+	antonym: 7983
+	derivation: 74680
+	domain_region: 158
+	domain_topic: 14
+	exemplifies: 400
+	has_domain_region: 158
+	has_domain_topic: 14
+	is_exemplified_by: 400
+	participle: 73
+	pertainym: 8074
+	verb_group: 2
+wndb synsets:120039 senses:211865 indexes:159797 relations:384505 synset_relations:291370 sense_relations:93135
+synset relations: 291370
+	also: 2730
+	attribute: 1278
+	causes: 221
+	domain_region: 1353
+	domain_topic: 6716
+	entails: 408
+	exemplifies: 975
+	has_domain_region: 1353
+	has_domain_topic: 6716
+	holo_member: 12291
+	holo_part: 9199
+	holo_substance: 830
+	hypernym: 91503
+	hyponym: 91503
+	instance_hypernym: 8589
+	instance_hyponym: 8589
+	is_caused_by: 221
+	is_entailed_by: 408
+	is_exemplified_by: 975
+	mero_member: 12291
+	mero_part: 9199
+	mero_substance: 830
+	similar: 21458
+	verb_group: 1734
+sense relations: 93135
+	also: 1148
+	antonym: 8000
+	derivation: 74687
+	domain_region: 158
+	domain_topic: 14
+	exemplifies: 404
+	has_domain_region: 158
+	has_domain_topic: 14
+	is_exemplified_by: 404
+	participle: 73
+	pertainym: 8073
+	verb_group: 2
+wndb_compat synsets:120039 senses:211865 indexes:159797 relations:383876 synset_relations:290741 sense_relations:93135
+synset relations: 290741
+	also: 2730
+	attribute: 1278
+	causes: 221
+	domain_region: 1353
+	domain_topic: 6716
+	entails: 408
+	exemplifies: 975
+	has_domain_region: 1353
+	has_domain_topic: 6716
+	holo_member: 12291
+	holo_part: 9199
+	holo_substance: 830
+	hypernym: 91503
+	hyponym: 91503
+	instance_hypernym: 8589
+	instance_hyponym: 8589
+	is_exemplified_by: 975
+	mero_member: 12291
+	mero_part: 9199
+	mero_substance: 830
+	similar: 21458
+	verb_group: 1734
+sense relations: 93135
+	also: 1148
+	antonym: 8000
+	derivation: 74687
+	domain_region: 158
+	domain_topic: 14
+	exemplifies: 404
+	has_domain_region: 158
+	has_domain_topic: 14
+	is_exemplified_by: 404
+	participle: 73
+	pertainym: 8073
+	verb_group: 2
+wndbxx synsets:120039 senses:211865 indexes:159797 relations:384505 synset_relations:291370 sense_relations:93135
+synset relations: 291370
+	also: 2730
+	attribute: 1278
+	causes: 221
+	domain_region: 1353
+	domain_topic: 6716
+	entails: 408
+	exemplifies: 975
+	has_domain_region: 1353
+	has_domain_topic: 6716
+	holo_member: 12291
+	holo_part: 9199
+	holo_substance: 830
+	hypernym: 91503
+	hyponym: 91503
+	instance_hypernym: 8589
+	instance_hyponym: 8589
+	is_caused_by: 221
+	is_entailed_by: 408
+	is_exemplified_by: 975
+	mero_member: 12291
+	mero_part: 9199
+	mero_substance: 830
+	similar: 21458
+	verb_group: 1734
+sense relations: 93135
+	also: 1148
+	antonym: 8000
+	derivation: 74687
+	domain_region: 158
+	domain_topic: 14
+	exemplifies: 404
+	has_domain_region: 158
+	has_domain_topic: 14
+	is_exemplified_by: 404
+	participle: 73
+	pertainym: 8073
+	verb_group: 2
+wndbxx_compat synsets:120039 senses:211865 indexes:159797 relations:383876 synset_relations:290741 sense_relations:93135
+synset relations: 290741
+	also: 2730
+	attribute: 1278
+	causes: 221
+	domain_region: 1353
+	domain_topic: 6716
+	entails: 408
+	exemplifies: 975
+	has_domain_region: 1353
+	has_domain_topic: 6716
+	holo_member: 12291
+	holo_part: 9199
+	holo_substance: 830
+	hypernym: 91503
+	hyponym: 91503
+	instance_hypernym: 8589
+	instance_hyponym: 8589
+	is_exemplified_by: 975
+	mero_member: 12291
+	mero_part: 9199
+	mero_substance: 830
+	similar: 21458
+	verb_group: 1734
+sense relations: 93135
+	also: 1148
+	antonym: 8000
+	derivation: 74687
+	domain_region: 158
+	domain_topic: 14
+	exemplifies: 404
+	has_domain_region: 158
+	has_domain_topic: 14
+	is_exemplified_by: 404
+	participle: 73
+	pertainym: 8073
+	verb_group: 2
+wndb_re synsets:120039 senses:211865 indexes:159797 relations:384506 synset_relations:291370 sense_relations:93136
+synset relations: 291370
+	also: 2730
+	attribute: 1278
+	causes: 221
+	domain_region: 1353
+	domain_topic: 6716
+	entails: 408
+	exemplifies: 975
+	has_domain_region: 1353
+	has_domain_topic: 6716
+	holo_member: 12291
+	holo_part: 9199
+	holo_substance: 830
+	hypernym: 91503
+	hyponym: 91503
+	instance_hypernym: 8589
+	instance_hyponym: 8589
+	is_caused_by: 221
+	is_entailed_by: 408
+	is_exemplified_by: 975
+	mero_member: 12291
+	mero_part: 9199
+	mero_substance: 830
+	similar: 21458
+	verb_group: 1734
+sense relations: 93136
+	also: 1148
+	antonym: 8000
+	derivation: 74686
+	domain_region: 158
+	domain_topic: 14
+	exemplifies: 404
+	has_domain_region: 158
+	has_domain_topic: 14
+	is_exemplified_by: 404
+	participle: 73
+	pertainym: 8075
+	verb_group: 2
+wndb_re_re synsets:120039 senses:211865 indexes:159797 relations:384506 synset_relations:291370 sense_relations:93136
+synset relations: 291370
+	also: 2730
+	attribute: 1278
+	causes: 221
+	domain_region: 1353
+	domain_topic: 6716
+	entails: 408
+	exemplifies: 975
+	has_domain_region: 1353
+	has_domain_topic: 6716
+	holo_member: 12291
+	holo_part: 9199
+	holo_substance: 830
+	hypernym: 91503
+	hyponym: 91503
+	instance_hypernym: 8589
+	instance_hyponym: 8589
+	is_caused_by: 221
+	is_entailed_by: 408
+	is_exemplified_by: 975
+	mero_member: 12291
+	mero_part: 9199
+	mero_substance: 830
+	similar: 21458
+	verb_group: 1734
+sense relations: 93136
+	also: 1148
+	antonym: 8000
+	derivation: 74686
+	domain_region: 158
+	domain_topic: 14
+	exemplifies: 404
+	has_domain_region: 158
+	has_domain_topic: 14
+	is_exemplified_by: 404
+	participle: 73
+	pertainym: 8075
+	verb_group: 2
+Total execution time: 126s
+
+Process finished with exit code 0
+

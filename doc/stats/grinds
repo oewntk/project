@@ -1,0 +1,147 @@
+yaml2wndb
+---------
+Synsets: 120039 [n:84349 v:13846 a:18221 r:3623]
+Indexes: 159797 [n:122167 v:11594 a:21555 r:4481]
+Senses: 211865
+Morphs: 4670 [n:1391 v:1884 a:1388 r:7]
+Verb templates: 170
+Verb template references: 3413 senses
+Verb frames: 39
+Tag counts: 35270
+Tag counts reverse: 35270
+Lexfiles: 45
+
+yaml2wndb_compat
+----------------
+[W] Incompatibilities 'is_caused_by': 221
+[W] Incompatibilities 'via-at': 1
+[W] Incompatibilities 'via-out-of': 1
+[W] Incompatibilities 'via-for': 1
+[W] Incompatibilities 'is_entailed_by': 408
+[W] Incompatibilities 'via-on-anim': 1
+[W] Incompatibilities 'is_caused_by': 477
+[W] Incompatibilities 'is_entailed_by': 757
+Synsets: 120039 [n:84349 v:13846 a:18221 r:3623]
+Indexes: 159797 [n:122167 v:11594 a:21555 r:4481]
+Senses: 211865
+Morphs: 4670 [n:1391 v:1884 a:1388 r:7]
+Verb templates: 170
+Verb template references: 3413 senses
+Verb frames: 39
+Tag counts: 35270
+Tag counts reverse: 35270
+Lexfiles: 45
+
+yaml2sql
+--------
+synsets 120039
+words 151770
+casedwords 42724
+pronunciations 36480
+morphs 4411
+poses 5
+relations 31
+domains 45
+samples 49648
+vframes 39
+vtemplates 170
+adjpositions 3
+lexes 163161
+senses 211865
+lexes_morphs 4670
+lexes_pronunciations 46458
+senses_adjpositions 1052
+senses_senses 93139
+senses_vframes 28402
+senses_vtemplates 3440
+synsets_synsets 291370
+
+yaml2ser
+--------
+
+xml2wndb
+--------
+Synsets: 120039 [n:84349 v:13846 a:18221 r:3623]
+Indexes: 159797 [n:122167 v:11594 a:21555 r:4481]
+Senses: 211865
+Morphs: 4670 [n:1391 v:1884 a:1388 r:7]
+Verb templates: 170
+Verb template references: 3413 senses
+Verb frames: 39
+Tag counts: 35270
+Tag counts reverse: 35270
+Lexfiles: 45
+
+wndb2sql
+--------
+synsets 120039
+words 151770
+casedwords 42724
+pronunciations 0
+morphs 4411
+poses 5
+relations 31
+domains 45
+samples 49779
+vframes 39
+vtemplates 170
+adjpositions 3
+lexes 163107
+senses 211865
+lexes_morphs 4663
+lexes_pronunciations 0
+senses_adjpositions 1052
+senses_senses 93136
+senses_vframes 28497
+senses_vtemplates 3440
+synsets_synsets 291370
+
+wndb2sql (31)
+-------------
+synsets 117791
+words 147478
+casedwords 40850
+pronunciations 0
+morphs 4478
+poses 5
+relations 31
+domains 45
+samples 48571
+vframes 39
+vtemplates 170
+adjpositions 3
+lexes 158754
+senses 207272
+lexes_morphs 4731
+lexes_pronunciations 0
+senses_adjpositions 1054
+senses_senses 92527
+senses_vframes 28306
+senses_vtemplates 3443
+synsets_synsets 286297
+
+wndb2wndb
+---------
+Synsets: 120039 [n:84349 v:13846 a:18221 r:3623]
+Indexes: 159797 [n:122167 v:11594 a:21555 r:4481]
+Senses: 211865
+Morphs: 4663 [n:1387 v:1881 a:1388 r:7]
+Verb templates: 170
+Verb template references: 3413 senses
+Verb frames: 39
+Tag counts: 35303
+Tag counts reverse: 35303
+Lexfiles: 45
+
+wndb2wndb (again)
+-----------------
+Synsets: 120039 [n:84349 v:13846 a:18221 r:3623]
+Indexes: 159797 [n:122167 v:11594 a:21555 r:4481]
+Senses: 211865
+Morphs: 4663 [n:1387 v:1881 a:1388 r:7]
+Verb templates: 170
+Verb template references: 3413 senses
+Verb frames: 39
+Tag counts: 35303
+Tag counts reverse: 35303
+Lexfiles: 45

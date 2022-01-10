@@ -1,0 +1,87 @@
+SQLUNET
+
+casedwords 40850
+domains 45
+lexes_morphs 4966
+lexes_pronunciations 0
+morphs 4905
+relations 30
+samples 48571
+senses 207235
+senses_adjpositions 1054
+senses_adjpositions 3
+senses_senses 92521
+senses_vframes 41637
+senses_vtemplates 3989
+synsets 117791
+synsets_synsets 285668
+vframes 35
+vtemplates 170
+words 147478
+
+XEWN
+
+casedwords 42724
+domains 45
+lexes_morphs 4466
+lexes_pronunciations 0
+morphs 4411
+relations 30
+samples 49779
+senses 211827
+senses_adjpositions 1052
+senses_senses 93130
+senses_vframes 41686
+senses_vtemplates 3985
+synsets 120039
+synsets_synsets 291370
+vframes 39
+vtemplates 170
+words 151770
+
+OEWN
+
+casedwords 42724
+domains 45
+lexes 163161
+lexes_morphs 4670
+lexes_pronunciations 46458
+morphs 4411
+pronunciations 36480
+relations 31
+samples 49648
+senses 211865
+senses_adjpositions 1052
+senses_senses 93139
+senses_vframes 28402
+senses_vtemplates 3440
+synsets 120039
+synsets_synsets 291370
+vframes 39
+vtemplates 170
+words 151770
+
+
+OEWN FROM WNDB 31
+
+casedwords 40850
+domains 45
+lexes 158754
+lexes_morphs 4731
+lexes_pronunciations 0
+morphs 4478
+poses 5
+pronunciations 0
+relations 31
+samples 48571
+senses 207272
+senses_adjpositions 1054
+senses_senses 92527
+senses_vframes 28306
+senses_vtemplates 3443
+synsets 117791
+synsets_synsets 286297
+vframes 39
+vtemplates 170
+words 147478
+
