@@ -35,14 +35,16 @@
           </element>
         </element>
       </element>
-      <element id="directory" name="sqltemplates">
-        <element id="dir-copy" path="$PROJECT_DIR$/oewn-tosql/src/main/resources/sqltemplates" />
-      </element>
       <element id="directory" name="META-INF">
         <element id="dir-copy" path="$PROJECT_DIR$/oewn-tosql/target/classes/META-INF" />
       </element>
-      <element id="file-copy" path="$PROJECT_DIR$/oewn-tosql/target/classes/NamesCompat.properties" />
-      <element id="file-copy" path="$PROJECT_DIR$/oewn-tosql/target/classes/Names.properties" />
+      <element id="directory" name="wn">
+        <element id="directory" name="sqltemplates">
+          <element id="dir-copy" path="$PROJECT_DIR$/oewn-tosql/src/main/resources/wn/sqltemplates" />
+        </element>
+        <element id="file-copy" path="$PROJECT_DIR$/oewn-tosql/src/main/resources/wn/Names.properties" />
+        <element id="file-copy" path="$PROJECT_DIR$/oewn-tosql/src/main/resources/wn/NamesCompat.properties" />
+      </element>
     </root>
   </artifact>
 </component>

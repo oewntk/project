@@ -2,7 +2,7 @@
   <configuration default="false" name="Schema (mysql/create)" type="Application" factoryName="Application" folderName="Utils">
     <option name="MAIN_CLASS_NAME" value="org.oewntk.sql.out.SchemaGenerator" />
     <module name="grind_yaml2sql" />
-    <option name="PROGRAM_PARAMETERS" value="sql/mysql/create mysql/create" />
+    <option name="PROGRAM_PARAMETERS" value="wn sql/mysql/create mysql/create" />
     <option name="VM_PARAMETERS" value="-ea" />
     <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     <extension name="coverage">
