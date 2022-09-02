@@ -1,7 +1,9 @@
 /target/
 
 /oewn-*/
-/output*
 /semantikos/
+/output*
+
+build
 **/_*/
 **/_*
