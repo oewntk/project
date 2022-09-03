@@ -5,7 +5,7 @@
 
 	<groupId>io.github.oewntk</groupId>
 	<artifactId>all</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<packaging>pom</packaging>
 
 	<name>OEWNTK-all</name>
@@ -47,9 +47,9 @@
 	</distributionManagement>
 
 	<scm>
-		<url>https://github.com/oewntk/fromser</url>
-		<connection>scm:git:git://github.com/oewntk/fromser.git</connection>
-		<developerConnection>scm:git:ssh://git@github.com:oewntk/fromser.git</developerConnection>
+		<url>https://github.com/oewntk/project</url>
+		<connection>scm:git:git://github.com/oewntk/project.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com:oewntk/project.git</developerConnection>
 	</scm>
 
 	<licenses>
