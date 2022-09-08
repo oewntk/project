@@ -1,7 +1,7 @@
 /target/
 
 /oewn-*/
-/semantikos/
+/dist*
 /output*
 
 build
