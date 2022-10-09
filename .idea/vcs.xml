@@ -2,6 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dist/repos/github/mysql" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dist/repos/github/sqlite" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dist/repos/github/wndb" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-fromser" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-fromwndb" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-fromxml" vcs="Git" />
