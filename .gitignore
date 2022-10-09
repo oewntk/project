@@ -3,6 +3,7 @@
 /oewn-*/
 /dist*
 /output*
+/relaxmapper/
 
 build
 **/_*/
