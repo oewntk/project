@@ -6,7 +6,7 @@
       <element id="module-output" name="fromyaml" />
       <element id="module-output" name="model" />
       <element id="module-output" name="tosql" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.29/snakeyaml-1.29.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>
