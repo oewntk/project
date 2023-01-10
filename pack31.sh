@@ -21,9 +21,9 @@ echo -e "${Y}pack${Z}"
 
 pushd oewn-grind_wndb2sql >/dev/null
 echo -e "${M}wndb2sql${Z}"
-./pack.sh "${TAG31}" "${BUILD}"
-target1="sql31/oewn-${TAG31}-mysql-${BUILD}.zip"
-target2="sql31/oewn-${TAG31}-sqlite-${BUILD}.zip"
+./pack.sh wn "${TAG31}" "${BUILD}"
+target1="sql31/wn-${TAG31}-mysql-${BUILD}.zip"
+target2="sql31/wn-${TAG31}-sqlite-${BUILD}.zip"
 for t in "${target1}" "${target2}"; do
   t2=$(readlink -m "${t}")
   ln -sf "${t2}" "${distdir}/"
