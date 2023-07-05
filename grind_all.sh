@@ -49,22 +49,29 @@ echo -e "${M}yaml2ser${Z}"
 ./grind.sh yaml yaml2 ser oewn.ser
 popd >/dev/null
 
-pushd oewn-grind_xml2wndb >/dev/null
-echo -e "${M}xml2wndb${Z}"
-./grind.sh xml/oewn.xml xml2 wndb
-popd >/dev/null
+if [ ! -z "$fromxml" ]; then
+	pushd oewn-grind_xml2wndb >/dev/null
+	echo -e "${M}xml2wndb${Z}"
+	./grind.sh xml/oewn.xml xml2 wndb
+	popd >/dev/null
+fi
 
-pushd oewn-grind_wndb2wndb >/dev/null
-echo -e "${M}wndb2wndb (re)${Z}"
-./grind.sh wndb wndb2 wndb_out
-echo -e "${M}wndb2wndb (re_re)${Z}"
-./grind.sh wndb_out wndb2 wndb_out_out
-popd >/dev/null
+if [ ! -z "$reapply" ]; then
+	pushd oewn-grind_wndb2wndb >/dev/null
+	echo -e "${M}wndb2wndb (re)${Z}"
+	./grind.sh wndb wndb2 wndb_out
+	echo -e "${M}wndb2wndb (re_re)${Z}"
+	./grind.sh wndb_out wndb2 wndb_out_out
+	popd >/dev/null
+fi
 
-pushd oewn-grind_wndb2sql >/dev/null
-echo -e "${M}wndb2sql${Z}"
-./grind.sh wndb wndb2 sql/data
-./grind.sh wndb31 wndb2 sql31/data
-./generate-nidmaps.sh wndb31 wndb2 nidmaps31
-./generate-sers.sh wndb31 wndb2 sers31
-popd >/dev/null
+if [ ! -z "$fromwndb" ]; then
+	pushd oewn-grind_wndb2sql >/dev/null
+	echo -e "${M}wndb2sql${Z}"
+	./grind.sh wndb wndb2 sql/data
+	./grind.sh wndb31 wndb2 sql31/data
+	./generate-nidmaps.sh wndb31 wndb2 nidmaps31
+	./generate-sers.sh wndb31 wndb2 sers31
+	popd >/dev/null
+fi
+
