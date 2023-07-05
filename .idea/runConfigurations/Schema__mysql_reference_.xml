@@ -3,7 +3,7 @@
     <option name="ALTERNATIVE_JRE_PATH" value="11 (2)" />
     <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
     <option name="MAIN_CLASS_NAME" value="org.oewntk.sql.out.SchemaGenerator" />
-    <module name="grind_yaml2sql" />
+    <module name="tosql" />
     <option name="PROGRAM_PARAMETERS" value="wn sql/mysql/reference mysql/reference" />
     <option name="VM_PARAMETERS" value="-ea" />
     <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
