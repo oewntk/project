@@ -7,44 +7,34 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="fromwndb" />
-        <module name="grind_yaml2ser" />
+        <module name="yaml2ser" />
+        <module name="wndb2wndb" />
         <module name="wndb" />
         <module name="tosql" />
         <module name="fromser" />
+        <module name="xml2wndb" />
+        <module name="wndb2sql" />
         <module name="sql" />
         <module name="parse_wndb" />
-        <module name="grind_yaml2sql" />
-        <module name="grind_wndb2wndb" />
         <module name="fromyaml" />
         <module name="toser" />
+        <module name="yaml2wndb" />
         <module name="towndb" />
+        <module name="yaml2sql" />
         <module name="model" />
-        <module name="grind_wndb2sql" />
         <module name="fromxml" />
         <module name="yaml" />
-        <module name="grind_yaml2wndb" />
-        <module name="grind_xml2wndb" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="all" target="1.5" />
-      <module name="fromser" target="11" />
-      <module name="fromwndb" target="11" />
-      <module name="fromxml" target="11" />
-      <module name="fromyaml" target="11" />
       <module name="grind_wndb2sql" target="11" />
       <module name="grind_wndb2wndb" target="11" />
       <module name="grind_xml2wndb" target="11" />
       <module name="grind_yaml2ser" target="11" />
       <module name="grind_yaml2sql" target="11" />
       <module name="grind_yaml2wndb" target="11" />
-      <module name="model" target="11" />
       <module name="parse" target="11" />
-      <module name="parse_wndb" target="11" />
       <module name="sql" target="11" />
-      <module name="toser" target="11" />
-      <module name="tosql" target="11" />
-      <module name="towndb" target="11" />
       <module name="wndb" target="8" />
       <module name="yaml" target="10" />
     </bytecodeTargetLevel>

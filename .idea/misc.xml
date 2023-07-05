@@ -184,6 +184,7 @@
     <pattern value="org.oewntk.sql.out.Variables" method="varSubstitutionInFile" />
     <pattern value="org.oewntk.xml.in.XmlExtractor" method="getRank" />
   </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>

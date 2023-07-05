@@ -3,7 +3,7 @@
     <option name="ALTERNATIVE_JRE_PATH" value="11" />
     <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
     <option name="MAIN_CLASS_NAME" value="org.oewntk.grind.wndb2wndb.Grind" />
-    <module name="grind_wndb2wndb" />
+    <module name="wndb2wndb" />
     <option name="PROGRAM_PARAMETERS" value="wndb_out wndb2 wndb_out_out" />
     <option name="VM_PARAMETERS" value="-ea" />
     <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
