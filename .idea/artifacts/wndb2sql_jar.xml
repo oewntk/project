@@ -2,7 +2,7 @@
   <artifact type="jar" build-on-make="true" name="wndb2sql:jar">
     <output-path>$PROJECT_DIR$/oewn-grind_wndb2sql</output-path>
     <root id="archive" name="oewn-grind-wndb2sql.jar">
-      <element id="module-output" name="grind_wndb2sql" />
+      <element id="module-output" name="wndb2sql" />
       <element id="module-output" name="model" />
       <element id="module-output" name="fromwndb" />
       <element id="module-output" name="parse_wndb" />
