@@ -8,8 +8,9 @@ export M='\u001b[35m'
 export C='\u001b[36m'
 export Z='\u001b[0m'
 
-echo -e "${Y}schema${Z}"
+logdir=..
 
+echo -e "${Y}schema${Z}"
 pushd oewn-tosql >/dev/null
 echo -e "${M}schema (tosql)${Z}"
 ./generate-schema.sh
@@ -28,18 +29,18 @@ echo -e "${Y}grind${Z}"
 
 pushd oewn-grind_yaml2wndb >/dev/null
 echo -e "${M}yaml2wndb${Z}"
-./grind.sh yaml yaml2 wndb
+./grind.sh yaml yaml2 wndb 2> ${logdir}/errors_wndb.log
 echo -e "${M}yaml2wndb (offsets)${Z}"
-./grind_offsets.sh yaml wndb_offsets/wndb
+./grind_offsets.sh yaml wndb_offsets/wndb 2>> ${logdir}/errors_wndb.log
 echo -e "${M}yaml2wndb (compat)${Z}"
-./grind_compat.sh yaml yaml2 wndb_compat
+./grind_compat.sh yaml yaml2 wndb_compat 2>> ${logdir}/errors_wndb.log
 echo -e "${M}yaml2wndb (compat, offsets)${Z}"
-./grind_offsets_compat.sh yaml wndb_offsets/wndb_compat
+./grind_offsets_compat.sh yaml wndb_offsets/wndb_compat 2>> ${logdir}/errors_wndb.log
 popd >/dev/null
 
 pushd oewn-grind_yaml2sql >/dev/null
 echo -e "${M}yaml2sql${Z}"
-./grind.sh yaml yaml2 sql/data
+./grind.sh yaml yaml2 sql/data 2> ${logdir}/errors_sql.log
 ./generate-nidmaps.sh yaml yaml2 nidmaps
 ./generate-sers.sh yaml yaml2 sers
 popd >/dev/null
