@@ -1,27 +1,30 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
+  <modelVersion>4.0.0</modelVersion>
 
-	<groupId>io.github.oewntk</groupId>
-	<artifactId>all</artifactId>
-	<version>1.0.4</version>
-	<packaging>pom</packaging>
+  <groupId>io.github.oewntk</groupId>
+  <artifactId>all</artifactId>
+  <version>1.0.4</version>
+  <packaging>pom</packaging>
 
-	<name>OEWNTK-all</name>
-	<description>OEWNTK top project</description>
-	<url>http://io.github.oewntk</url>
+  <name>OEWNTK-all</name>
+  <description>OEWNTK top project</description>
+  <url>http://io.github.oewntk</url>
 
-	<modules>
-		<module>oewn-model</module>
-		<module>oewn-parse_wndb</module>
+  <modules>
+    <module>oewn-model</module>
+    <!--    <module>oewn-parse_wndb</module>-->
 
-		<module>oewn-fromyaml</module>
+    <module>oewn-fromyaml</module>
+
+    <module>oewn-tosql</module>
+    <module>oewn-toser</module>
+
+    <!--
 		<module>oewn-fromwndb</module>
 		<module>oewn-fromxml</module>
 		<module>oewn-fromser</module>
 
-		<module>oewn-tosql</module>
 		<module>oewn-towndb</module>
-		<module>oewn-toser</module>
 
 		<module>oewn-grind_yaml2sql</module>
 		<module>oewn-grind_yaml2wndb</module>
@@ -29,20 +32,21 @@
 		<module>oewn-grind_wndb2sql</module>
 		<module>oewn-grind_wndb2wndb</module>
 		<module>oewn-grind_xml2wndb</module>
-	</modules>
+-->
+  </modules>
 
-	<distributionManagement>
-		<repository>
-			<id>ossrh</id>
-			<name>Maven Central Staging Repository</name>
-			<url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2</url>
-		</repository>
-		<snapshotRepository>
-			<id>ossrh</id>
-			<name>Maven Central Snapshot Repository</name>
-			<url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
-		</snapshotRepository>
-	</distributionManagement>
+  <distributionManagement>
+    <repository>
+      <id>ossrh</id>
+      <name>Maven Central Staging Repository</name>
+      <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2</url>
+    </repository>
+    <snapshotRepository>
+      <id>ossrh</id>
+      <name>Maven Central Snapshot Repository</name>
+      <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
 
   <properties>
     <kotlin.version>1.9.23</kotlin.version>
@@ -92,38 +96,38 @@
   </build>
 
   <scm>
-		<url>https://github.com/oewntk/project</url>
-		<connection>scm:git:git://github.com/oewntk/project.git</connection>
-		<developerConnection>scm:git:ssh://git@github.com:oewntk/project.git</developerConnection>
-	</scm>
+    <url>https://github.com/oewntk/project</url>
+    <connection>scm:git:git://github.com/oewntk/project.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:oewntk/project.git</developerConnection>
+  </scm>
 
-	<licenses>
-		<license>
-			<name>GPL3</name>
-			<url>http://www.gnu.org/licenses/gpl-3.0.html</url>
-			<distribution>manual</distribution>
-			<comments/>
-		</license>
-	</licenses>
+  <licenses>
+    <license>
+      <name>GPL3</name>
+      <url>http://www.gnu.org/licenses/gpl-3.0.html</url>
+      <distribution>manual</distribution>
+      <comments/>
+    </license>
+  </licenses>
 
-	<inceptionYear>2006</inceptionYear>
+  <inceptionYear>2006</inceptionYear>
 
-	<organization>
-		<name>com.github.oewntk</name>
-		<url>https://github.com/oewntk</url>
-	</organization>
+  <organization>
+    <name>com.github.oewntk</name>
+    <url>https://github.com/oewntk</url>
+  </organization>
 
-	<developers>
-		<developer>
-			<id>bbou</id>
-			<name>Bernard Bou</name>
-			<email>1313ou@gmail.com</email>
-			<roles>
-				<role>architect</role>
-				<role>developer</role>
-				<role>maintainer</role>
-			</roles>
-		</developer>
-	</developers>
+  <developers>
+    <developer>
+      <id>bbou</id>
+      <name>Bernard Bou</name>
+      <email>1313ou@gmail.com</email>
+      <roles>
+        <role>architect</role>
+        <role>developer</role>
+        <role>maintainer</role>
+      </roles>
+    </developer>
+  </developers>
 
 </project>
