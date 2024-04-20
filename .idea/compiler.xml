@@ -6,17 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="fromyaml" />
         <module name="wndb" />
-        <module name="toser" />
         <module name="tosql" />
-        <module name="model" />
+        <module name="fromser" />
         <module name="sql" />
+        <module name="fromyaml" />
+        <module name="toser" />
+        <module name="yaml2wndb" />
+        <module name="towndb" />
+        <module name="model" />
         <module name="yaml" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="fromser" target="11" />
       <module name="fromwndb" target="11" />
       <module name="fromxml" target="11" />
       <module name="grind_wndb2sql" target="11" />
@@ -28,7 +30,6 @@
       <module name="parse" target="11" />
       <module name="parse_wndb" target="11" />
       <module name="sql" target="11" />
-      <module name="towndb" target="11" />
       <module name="wndb" target="8" />
       <module name="wndb2sql" target="11" />
       <module name="wndb2wndb" target="11" />
@@ -36,7 +37,6 @@
       <module name="yaml" target="10" />
       <module name="yaml2ser" target="11" />
       <module name="yaml2sql" target="11" />
-      <module name="yaml2wndb" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
