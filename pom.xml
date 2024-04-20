@@ -15,20 +15,20 @@
     <!--    <module>oewn-parse_wndb</module>-->
 
     <module>oewn-fromyaml</module>
+    <module>oewn-fromser</module>
 
     <module>oewn-tosql</module>
     <module>oewn-toser</module>
+    <module>oewn-towndb</module>
+
+    <module>oewn-grind_yaml2sql</module>
+    <module>oewn-grind_yaml2wndb</module>
+    <module>oewn-grind_yaml2ser</module>
 
     <!--
 		<module>oewn-fromwndb</module>
 		<module>oewn-fromxml</module>
-		<module>oewn-fromser</module>
 
-		<module>oewn-towndb</module>
-
-		<module>oewn-grind_yaml2sql</module>
-		<module>oewn-grind_yaml2wndb</module>
-		<module>oewn-grind_yaml2ser</module>
 		<module>oewn-grind_wndb2sql</module>
 		<module>oewn-grind_wndb2wndb</module>
 		<module>oewn-grind_xml2wndb</module>
