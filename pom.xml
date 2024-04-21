@@ -3,7 +3,7 @@
 
   <groupId>io.github.oewntk</groupId>
   <artifactId>all</artifactId>
-  <version>1.0.4</version>
+  <version>1.0.5</version>
   <packaging>pom</packaging>
 
   <name>OEWNTK-all</name>
@@ -12,10 +12,12 @@
 
   <modules>
     <module>oewn-model</module>
-    <!--    <module>oewn-parse_wndb</module>-->
+    <module>oewn-parse_wndb</module>
 
     <module>oewn-fromyaml</module>
     <module>oewn-fromser</module>
+    <module>oewn-fromwndb</module>
+    <module>oewn-fromxml</module>
 
     <module>oewn-tosql</module>
     <module>oewn-toser</module>
@@ -24,15 +26,10 @@
     <module>oewn-grind_yaml2sql</module>
     <module>oewn-grind_yaml2wndb</module>
     <module>oewn-grind_yaml2ser</module>
+    <module>oewn-grind_wndb2sql</module>
+    <module>oewn-grind_wndb2wndb</module>
+    <module>oewn-grind_xml2wndb</module>
 
-    <!--
-		<module>oewn-fromwndb</module>
-		<module>oewn-fromxml</module>
-
-		<module>oewn-grind_wndb2sql</module>
-		<module>oewn-grind_wndb2wndb</module>
-		<module>oewn-grind_xml2wndb</module>
--->
   </modules>
 
   <distributionManagement>
