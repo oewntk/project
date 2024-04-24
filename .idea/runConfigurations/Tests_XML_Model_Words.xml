@@ -1,0 +1,19 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Tests XML Model Words" type="JUnit" factoryName="JUnit" folderName="XML">
+    <module name="fromxml" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="org.oewntk.sql.out.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="PACKAGE_NAME" value="org.oewntk.xml.in" />
+    <option name="MAIN_CLASS_NAME" value="org.oewntk.xml.in.TestsXmlModelWords" />
+    <option name="METHOD_NAME" value="" />
+    <option name="TEST_OBJECT" value="class" />
+    <option name="VM_PARAMETERS" value="-ea -DSOURCE=xml/oewn.xml -DSOURCE2=xml2" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

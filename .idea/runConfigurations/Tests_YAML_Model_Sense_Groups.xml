@@ -1,0 +1,19 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Tests YAML Model Sense Groups" type="JUnit" factoryName="JUnit" folderName="YAML" singleton="false">
+    <module name="fromyaml" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="org.oewntk.sql.out.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="PACKAGE_NAME" value="org.oewntk.yaml.in" />
+    <option name="MAIN_CLASS_NAME" value="org.oewntk.yaml.in.TestsYamlModelSenseGroups" />
+    <option name="METHOD_NAME" value="" />
+    <option name="TEST_OBJECT" value="class" />
+    <option name="VM_PARAMETERS" value="-ea -DSOURCE=yaml -DSOURCE2=yaml2" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

@@ -1,0 +1,18 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="TestSqlBundle" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+    <module name="tosql" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="org.oewntk.sql.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="PACKAGE_NAME" value="org.oewntk.sql" />
+    <option name="MAIN_CLASS_NAME" value="org.oewntk.sql.TestSqlBundle" />
+    <option name="METHOD_NAME" value="" />
+    <option name="TEST_OBJECT" value="class" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
