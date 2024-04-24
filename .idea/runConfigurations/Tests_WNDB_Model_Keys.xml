@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Tests WNDB Model Keys" type="JUnit" factoryName="JUnit" folderName="WNDB">
+  <configuration default="false" name="Tests WNDB Model Keys" type="JUnit" factoryName="JUnit" folderName="from WNDB">
     <module name="fromwndb" />
     <extension name="coverage">
       <pattern>

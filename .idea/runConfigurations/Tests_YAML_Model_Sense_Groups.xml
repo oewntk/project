@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Tests YAML Model Sense Groups" type="JUnit" factoryName="JUnit" folderName="YAML" singleton="false">
+  <configuration default="false" name="Tests YAML Model Sense Groups" type="JUnit" factoryName="JUnit" folderName="from YAML" singleton="false">
     <module name="fromyaml" />
     <extension name="coverage">
       <pattern>

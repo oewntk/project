@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Tests WNDB Model Lex Groups" type="JUnit" factoryName="JUnit" folderName="WNDB" singleton="false">
+  <configuration default="false" name="Tests WNDB Model Lex Groups" type="JUnit" factoryName="JUnit" folderName="from WNDB" singleton="false">
     <module name="fromwndb" />
     <extension name="coverage">
       <pattern>

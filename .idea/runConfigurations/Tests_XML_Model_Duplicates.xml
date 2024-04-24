@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Tests XML Model Duplicates" type="JUnit" factoryName="JUnit" folderName="XML">
+  <configuration default="false" name="Tests XML Model Duplicates" type="JUnit" factoryName="JUnit" folderName="from XML">
     <module name="fromxml" />
     <extension name="coverage">
       <pattern>

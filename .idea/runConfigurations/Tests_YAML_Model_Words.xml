@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Tests YAML Model Words" type="JUnit" factoryName="JUnit" folderName="YAML">
+  <configuration default="false" name="Tests YAML Model Words" type="JUnit" factoryName="JUnit" folderName="from YAML">
     <module name="fromyaml" />
     <extension name="coverage">
       <pattern>

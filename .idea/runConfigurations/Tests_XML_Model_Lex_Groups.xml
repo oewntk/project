@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Tests XML Model Lex Groups" type="JUnit" factoryName="JUnit" folderName="XML" singleton="false">
+  <configuration default="false" name="Tests XML Model Lex Groups" type="JUnit" factoryName="JUnit" folderName="from XML" singleton="false">
     <module name="fromxml" />
     <extension name="coverage">
       <pattern>
