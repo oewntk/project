@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="parse_wndb:jar">
-    <output-path>$PROJECT_DIR$/oewn-parse_wndb</output-path>
-    <root id="archive" name="oewn-parse_wndb.jar">
-      <element id="module-output" name="parse_wndb" />
-    </root>
-  </artifact>
-</component>
