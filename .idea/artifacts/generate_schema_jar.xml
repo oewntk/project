@@ -7,6 +7,7 @@
           <element id="directory" name="sql">
             <element id="directory" name="out">
               <element id="file-copy" path="$PROJECT_DIR$/oewn-tosql/target/classes/org/oewntk/sql/out/SchemaGenerator.class" />
+              <element id="file-copy" path="$PROJECT_DIR$/oewn-tosql/target/classes/org/oewntk/sql/out/SchemaGenerator$Companion.class" />
               <element id="file-copy" path="$PROJECT_DIR$/oewn-tosql/target/classes/org/oewntk/sql/out/Variables.class" />
               <element id="file-copy" path="$PROJECT_DIR$/oewn-tosql/target/classes/org/oewntk/sql/out/Names$ADJPOSITIONS.class" />
               <element id="file-copy" path="$PROJECT_DIR$/oewn-tosql/target/classes/org/oewntk/sql/out/Names$CASEDWORDS.class" />
@@ -31,6 +32,7 @@
               <element id="file-copy" path="$PROJECT_DIR$/oewn-tosql/target/classes/org/oewntk/sql/out/Names$WORDS.class" />
               <element id="file-copy" path="$PROJECT_DIR$/oewn-tosql/target/classes/org/oewntk/sql/out/Names.class" />
               <element id="file-copy" path="$PROJECT_DIR$/oewn-tosql/target/classes/org/oewntk/sql/out/SourcesGenerator.class" />
+              <element id="file-copy" path="$PROJECT_DIR$/oewn-tosql/target/classes/org/oewntk/sql/out/SourcesGenerator$Companion.class" />
             </element>
           </element>
         </element>
