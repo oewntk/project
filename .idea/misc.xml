@@ -183,6 +183,10 @@
     <pattern value="org.oewntk.model.LibDumpSenses" method="dumpSensesByDecreasingTagCount" />
     <pattern value="org.oewntk.sql.out.Variables" method="varSubstitutionInFile" />
     <pattern value="org.oewntk.xml.in.XmlExtractor" method="getRank" />
+    <pattern value="org.oewntk.pojos.Pos" method="Pos" />
+    <pattern value="org.oewntk.yaml.in.SenseToVerbTemplatesProcessor" method="processEntry" />
+    <pattern value="org.oewntk.yaml.in.VerbFrameProcessor" method="processEntry" />
+    <pattern value="org.oewntk.yaml.in.VerbTemplateProcessor" method="processEntry" />
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
