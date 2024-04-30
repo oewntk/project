@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Tests YAML Model Lex Groups" type="JUnit" factoryName="JUnit" folderName="from YAML" singleton="false">
+  <configuration default="false" name="Tests YAML Model Lex Groups" type="JUnit" factoryName="JUnit" folderName="from YAML" focusToolWindowBeforeRun="true" singleton="false">
     <module name="fromyaml" />
     <extension name="coverage">
       <pattern>
