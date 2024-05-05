@@ -13,6 +13,9 @@
     <file url="file://$PROJECT_DIR$/oewn-fromyaml/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/oewn-fromyaml/src/main/kotlin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/oewn-fromyaml/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oewn-grind_wndb2json/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oewn-grind_wndb2json/src/main/kotlin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oewn-grind_wndb2json/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/oewn-grind_wndb2sql/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/oewn-grind_wndb2sql/src/main/kotlin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/oewn-grind_wndb2sql/src/main/resources" charset="UTF-8" />
@@ -37,6 +40,9 @@
     <file url="file://$PROJECT_DIR$/oewn-parse_wndb/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/oewn-parse_wndb/src/main/kotlin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/oewn-parse_wndb/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oewn-tojson/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oewn-tojson/src/main/kotlin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oewn-tojson/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/oewn-toser/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/oewn-toser/src/main/kotlin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/oewn-toser/src/main/resources" charset="UTF-8" />

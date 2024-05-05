@@ -10,9 +10,11 @@
         <module name="yaml2ser" />
         <module name="wndb2wndb" />
         <module name="wndb" />
+        <module name="tojson" />
         <module name="tosql" />
         <module name="fromser" />
         <module name="xml2wndb" />
+        <module name="wndb2json" />
         <module name="wndb2sql" />
         <module name="sql" />
         <module name="parse_wndb" />
