@@ -210,9 +210,6 @@
         <option value="$PROJECT_DIR$/oewn-toser/pom.xml" />
         <option value="$PROJECT_DIR$/oewn-grind_wndb2sql/pom.xml" />
         <option value="$PROJECT_DIR$/oewn-parse_wndb/pom.xml" />
-        <option value="$PROJECT_DIR$/oewn-grind_yaml2ser/pom.xml" />
-        <option value="$PROJECT_DIR$/oewn-fromwndb/pom.xml" />
-        <option value="$PROJECT_DIR$/oewn-grind_yaml2sql/pom.xml" />
       </list>
     </option>
   </component>
