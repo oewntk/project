@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Grind (YAML_freeze to WNDB)" type="Application" factoryName="Application" folderName="Grind">
+  <configuration default="false" name="Grind (YAML_freeze to WNDB)" type="Application" factoryName="Application" folderName="Grind from freeze">
     <option name="MAIN_CLASS_NAME" value="org.oewntk.grind.yaml2wndb.Grind" />
     <module name="yaml2wndb" />
     <option name="PROGRAM_PARAMETERS" value="yaml_freeze yaml2 wndb" />
