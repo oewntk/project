@@ -12,7 +12,7 @@ export M='\u001b[35m'
 export C='\u001b[36m'
 export Z='\u001b[0m'
 
-modules=$(find . -maxdepth 1 -type d -name 'oewn-*' -printf '%P\n')
+source define_gits.sh
 
 for d in ${modules}; do 
 	m=${d#oewn-}
