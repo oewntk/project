@@ -1,0 +1,14 @@
+<!--
+  - Copyright (c) 2024. Bernard Bou.
+  -->
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs id="defs3051">
+    <style id="current-color-scheme" type="text/css">.ColorScheme-Text{color:#31363b}</style>
+  </defs>
+  <path d="M2 3v7H1v19h30V8h-1V5H16l-2-2H2z" style="fill:currentColor;fill-opacity:1;stroke:none;color:#3daee9"/>
+  <path d="M2 3v7h9l2-2h17V5H16l-2-2H2Z" style="fill-opacity:.33;fill-rule:evenodd"/>
+  <path d="m14 3 1 3h15V5H16l-2-2zm-1 5-2 2H1v1h11l1-3z" style="fill:#fff;fill-opacity:.2;fill-rule:evenodd"/>
+  <path d="m13 8-2 1H2v1h9l2-2zM1 28v1h30v-1H1z" class="ColorScheme-Text" style="fill-opacity:.2;fill-rule:evenodd"/>
+  <path d="M16.001 12a6 2 0 0 0-6 2v8a6 2 0 0 0 6 2 6 2 0 0 0 6-2v-8a6 2 0 0 0-6-2m0 1a5 1 0 0 1 5 1 5 1 0 0 1-5 1 5 1 0 0 1-5-1 5 1 0 0 1 5-1m-5 2.102a6 2 0 0 0 5 .898 6 2 0 0 0 5-.896V18a5 1 0 0 1-5 1 5 1 0 0 1-5-1zm0 4a6 2 0 0 0 5 .898 6 2 0 0 0 5-.896V22a5 1 0 0 1-5 1 5 1 0 0 1-5-1z" class="ColorScheme-Text" style="fill:currentColor;fill-opacity:.6;stroke:none"/>
+</svg>

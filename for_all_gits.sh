@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#
+# Copyright (c) 2024. Bernard Bou.
+#
+
 export R='\u001b[31m'
 export G='\u001b[32m'
 export B='\u001b[34m'
@@ -8,7 +12,7 @@ export M='\u001b[35m'
 export C='\u001b[36m'
 export Z='\u001b[0m'
 
-modules=$(find . -maxdepth 1 -type d -name 'oewn-*' -printf '%P\n')
+source define_gits.sh
 
 for d in ${modules}; do 
 	m=${d#oewn-}

@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#
+# Copyright (c) 2024. Bernard Bou.
+#
+
 export R='\u001b[31m'
 export G='\u001b[32m'
 export B='\u001b[34m'

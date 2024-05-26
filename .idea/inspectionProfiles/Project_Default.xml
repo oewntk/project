@@ -1,12 +1,25 @@
 <component name="InspectionProjectProfileManager">
   <profile version="1.0">
     <option name="myName" value="Project Default" />
+    <inspection_tool class="AddConversionCallMigration" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="AmbiguousExpressionInWhenBranchMigration" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="AssertMessageNotString" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CastDueToProgressionResolutionChangeMigration" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="CollectionsFieldAccessReplaceableByMethodCall" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="DeclaringClassMigration" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="InlineClassDeprecatedMigration" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="NoConstructorMigration" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="NonExhaustiveWhenStatementMigration" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="ObsoleteCollection" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="ignoreRequiredObsoleteCollectionTypes" value="true" />
     </inspection_tool>
+    <inspection_tool class="ObsoleteKotlinJsPackages" enabled="true" level="ERROR" enabled_by_default="true" />
     <inspection_tool class="ProblematicWhitespace" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="ProhibitRepeatedUseSiteTargetAnnotationsMigration" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="ProhibitTypeParametersForLocalVariablesMigration" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="ProhibitUseSiteTargetAnnotationsOnSuperTypesMigration" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="RedundantLabelMigration" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="RestrictReturnStatementTargetMigration" enabled="true" level="ERROR" enabled_by_default="true" />
     <inspection_tool class="SqlAddNotNullColumnInspection" enabled="true" level="WARNING" enabled_by_default="true">
       <scope name="sqltemplates" level="WARNING" enabled="false" />
     </inspection_tool>

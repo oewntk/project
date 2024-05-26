@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#
+# Copyright (c) 2024. Bernard Bou.
+#
+
 source define_build.sh
 
 # C O L O R S
@@ -20,11 +24,12 @@ pushd oewn-grind_wndb2sql/sql31 >/dev/null
 echo -e "${M}wndb2sql/sql31${Z}"
 
 rm -fR temp-mysql/*
-unzip oewn-${TAG31}-mysql-${BUILD}.zip -d temp-mysql
-  pushd temp-mysql >/dev/null
+unzip wn-${TAG31}-mysql-${BUILD}.zip -d temp-mysql
+
+pushd temp-mysql >/dev/null
   chmod +x restore-mysql.sh
   echo -e "${Y}mysql ${TAG31}${Z}"
-  ./restore-mysql.sh -d oewn31
+  ./restore-mysql.sh -d wn31
 popd >/dev/null
 
 popd >/dev/null

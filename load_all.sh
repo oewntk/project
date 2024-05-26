@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#
+# Copyright (c) 2024. Bernard Bou.
+#
+
 source define_build.sh
 
 # S Q L I T E
