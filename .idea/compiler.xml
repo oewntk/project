@@ -37,9 +37,7 @@
       <module name="grind_yaml2wndb" target="11" />
       <module name="parse" target="11" />
       <module name="sql" target="11" />
-      <module name="tojson" target="11" />
       <module name="wndb" target="8" />
-      <module name="wndb2json" target="11" />
       <module name="yaml" target="10" />
     </bytecodeTargetLevel>
   </component>
