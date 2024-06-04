@@ -4,6 +4,11 @@
 /dist*
 /output*
 /relaxmapper/
+/spellcheckers/
+/add-synsetids/.venv
+/add-synsetids/.idea
+/add-synsetids/oewn-*
+/add-synsetids/synsets
 
 build
 **/_*/
