@@ -5,12 +5,9 @@
 /output*
 /relaxmapper/
 /spellcheckers/
-/add-synsetids/.venv
-/add-synsetids/.idea
-/add-synsetids/oewn-*
-/add-synsetids/synsets
 
 build
 **/_*/
 **/_*
 **/dependency-reduced-pom.xml
+**/*.log

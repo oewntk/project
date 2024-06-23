@@ -63,7 +63,6 @@
       <excludeFolder url="file://$MODULE_DIR$/oewn-parse_wndb/wndbxx" />
       <excludeFolder url="file://$MODULE_DIR$/oewn-parse_wndb/wndbxx_compat" />
       <excludeFolder url="file://$MODULE_DIR$/relaxmapper" />
-      <excludeFolder url="file://$MODULE_DIR$/add-synsetids" />
       <excludeFolder url="file://$MODULE_DIR$/add-synsetids/.venv/bin" />
       <excludeFolder url="file://$MODULE_DIR$/add-synsetids/.venv/lib" />
       <excludeFolder url="file://$MODULE_DIR$/spellcheckers/.idea" />
