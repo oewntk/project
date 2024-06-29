@@ -10,9 +10,9 @@ Z='\u001b[0m'
 
 DIRSRC="../oewn-grind_yaml2sql/sql"
 DB="oewn-2024-sqlite-2.1.1.sqlite"
-DBFULL="oewn-2024-sqlite-2.1.1-full.sqlite"
+DBX="oewn-2024-sqlite-2.1.1-x.sqlite"
 
-cp ${DIRSRC}/${DB} ${DBFULL}
-python3 add_synsetids.py ${DBFULL} synsets.map
+cp ${DIRSRC}/${DB} ${DIRSRC}/${DBX}
+python3 add_synsetids.py ${DIRSRC}/${DBX} synsets.map
 
-echo -e "${G}${DBFULL}${Z}"
+echo -e "${G}${DBX}${Z}"
