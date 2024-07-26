@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/oewn-grind_wndb2sql/wndb2sql.iml" filepath="$PROJECT_DIR$/oewn-grind_wndb2sql/wndb2sql.iml" />
       <module fileurl="file://$PROJECT_DIR$/oewn-grind_wndb2wndb/wndb2wndb.iml" filepath="$PROJECT_DIR$/oewn-grind_wndb2wndb/wndb2wndb.iml" />
       <module fileurl="file://$PROJECT_DIR$/oewn-grind_xml2wndb/xml2wndb.iml" filepath="$PROJECT_DIR$/oewn-grind_xml2wndb/xml2wndb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oewn-grind_yaml2json/yaml2json.iml" filepath="$PROJECT_DIR$/oewn-grind_yaml2json/yaml2json.iml" />
       <module fileurl="file://$PROJECT_DIR$/oewn-grind_yaml2ser/yaml2ser.iml" filepath="$PROJECT_DIR$/oewn-grind_yaml2ser/yaml2ser.iml" />
       <module fileurl="file://$PROJECT_DIR$/oewn-grind_yaml2sql/yaml2sql.iml" filepath="$PROJECT_DIR$/oewn-grind_yaml2sql/yaml2sql.iml" />
       <module fileurl="file://$PROJECT_DIR$/oewn-grind_yaml2wndb/yaml2wndb.iml" filepath="$PROJECT_DIR$/oewn-grind_yaml2wndb/yaml2wndb.iml" />

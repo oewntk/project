@@ -69,6 +69,8 @@
       <excludeFolder url="file://$MODULE_DIR$/spellcheckers/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/spellcheckers/.venv/bin" />
       <excludeFolder url="file://$MODULE_DIR$/spellcheckers/.venv/lib" />
+      <excludeFolder url="file://$MODULE_DIR$/add-synsetids/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/add-synsetids/.venv" />
     </content>
   </component>
 </module>

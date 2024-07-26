@@ -13,6 +13,7 @@
     <mapping directory="$PROJECT_DIR$/oewn-grind_wndb2sql" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-grind_wndb2wndb" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-grind_xml2wndb" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/oewn-grind_yaml2json" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-grind_yaml2ser" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-grind_yaml2sql" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-grind_yaml2wndb" vcs="Git" />
