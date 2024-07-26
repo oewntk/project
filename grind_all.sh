@@ -51,7 +51,7 @@ popd >/dev/null
 
 pushd oewn-grind_yaml2ser >/dev/null
 echo -e "${M}yaml2ser${Z}"
-./grind.sh yaml yaml2 ser oewn.ser
+./grind.sh yaml yaml2 ser oewn.ser oewn.ser.info
 popd >/dev/null
 
 if [ ! -z "$fromxml" ]; then
