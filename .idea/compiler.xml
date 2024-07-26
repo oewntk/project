@@ -24,6 +24,7 @@
         <module name="towndb" />
         <module name="yaml2sql" />
         <module name="model" />
+        <module name="yaml2json" />
         <module name="fromxml" />
         <module name="yaml" />
       </profile>
