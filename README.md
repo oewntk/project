@@ -34,15 +34,18 @@ published on Maven Central.
 - [towndb](http://github.com/oewntk/towndb)  : Consume model to WNDB
 - [tosql](http://github.com/oewntk/tosql) : Consume model to to SQL
 - [toser](http://github.com/oewntk/toser) : Consume model to serialized model
+- [tojson](http://github.com/oewntk/tojson) : Consume model to JSON
 
 **Supplier-consumer chains**: YAML2SQL, YAML2WNDB, YAML2SER, XML2WNDB, WNDB2SER
 
 - [grind_wndb2sql](http://github.com/oewntk/grind_wndb2sql) : Chain from WNDB supplier to SQL consumer
+- [grind_wndb2json](http://github.com/oewntk/grind_wndb2json)  : Chain from WNDB supplier to JSON consumer
 - [grind_wndb2wndb](http://github.com/oewntk/grind_wndb2wndb)  : Chain from WNDB supplier to WNDB consumer
 - [grind_xml2wndb](http://github.com/oewntk/grind_xml2wndb)  : Chain from XML supplier to WNDB consumer
 - [grind_yaml2ser](http://github.com/oewntk/grind_yaml2ser)  : Chain from YAML supplier to SER consumer
 - [grind_yaml2sql](http://github.com/oewntk/grind_yaml2sql)  : Chain from YAML supplier to SQL consumer
 - [grind_yaml2wndb](http://github.com/oewntk/grind_yaml2wndb)  : Chain from YAML supplier to WNDB consumer
+- [grind_yaml2json](http://github.com/oewntk/grind_yaml2json)  : Chain from YAML supplier to JSON consumer
 
 **Utils**
 
