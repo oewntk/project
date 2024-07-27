@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d165567d-bb88-44e9-a29f-c6b56f0f606a" name="Changes" comment="fixes package">
+      <change beforePath="$PROJECT_DIR$/oewn-fromser/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-fromser/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-fromwndb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-fromwndb/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-fromxml/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-fromxml/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-fromyaml/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-fromyaml/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2json/images/grind-wndb2json.dot" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2json/images/grind-wndb2json.dot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2json/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2json/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2sql/images/grind-wndb2sql.dot" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2sql/images/grind-wndb2sql.dot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2sql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2sql/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2wndb/images/grind-yaml2wndb.dot" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2wndb/images/grind-yaml2wndb.dot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2wndb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2wndb/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_xml2wndb/images/grind-xml2wndb.dot" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_xml2wndb/images/grind-xml2wndb.dot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_xml2wndb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_xml2wndb/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2json/images/grind-yaml2json.dot" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2json/images/grind-yaml2json.dot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2json/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2json/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2ser/images/grind-yaml2ser.dot" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2ser/images/grind-yaml2ser.dot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2ser/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2ser/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2sql/images/grind-yaml2sql.dot" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2sql/images/grind-yaml2sql.dot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2sql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2sql/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2wndb/images/grind-yaml2wndb.dot" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2wndb/images/grind-yaml2wndb.dot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2wndb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2wndb/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-model/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-tojson/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tojson/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-toser/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-toser/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-tosql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-towndb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-towndb/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/oewn-grind_yaml2json" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2jp7xECLPqGIguTfbzrVl8C1g93" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.all [deploy].executor": "Run",
+    "Maven.all [install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "configurable.group.appearance"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="oewn" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="oewn" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d165567d-bb88-44e9-a29f-c6b56f0f606a" name="Changes" comment="" />
+      <created>1722072410220</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722072410220</updated>
+    </task>
+    <task id="LOCAL-00001" summary="fixes package">
+      <option name="closed" value="true" />
+      <created>1722072606866</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722072606866</updated>
+    </task>
+    <task id="LOCAL-00002" summary="clean up">
+      <option name="closed" value="true" />
+      <created>1722072638396</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722072638396</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fixes package">
+      <option name="closed" value="true" />
+      <created>1722072764271</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722072764271</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="clean up" />
+    <MESSAGE value="fixes package" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes package" />
+  </component>
+</project>

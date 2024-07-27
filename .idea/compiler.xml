@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="fromwndb" />
+        <module name="yaml2ser" />
+        <module name="wndb2wndb" />
+        <module name="tojson" />
+        <module name="fromser" />
+        <module name="tosql" />
+        <module name="xml2wndb" />
+        <module name="wndb2json" />
+        <module name="wndb2sql" />
+        <module name="parse_wndb" />
+        <module name="fromyaml" />
+        <module name="toser" />
+        <module name="yaml2wndb" />
+        <module name="yaml2sql" />
+        <module name="towndb" />
+        <module name="model" />
+        <module name="yaml2json" />
+        <module name="fromxml" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
