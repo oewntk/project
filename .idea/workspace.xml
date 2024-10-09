@@ -4,22 +4,60 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d165567d-bb88-44e9-a29f-c6b56f0f606a" name="Changes" comment="update ossrh id">
+    <list default="true" id="d165567d-bb88-44e9-a29f-c6b56f0f606a" name="Changes" comment="optimize svg">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2json/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2json/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2json/images/dataflow_yaml2json.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2json/images/dataflow_yaml2json.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2json/images/grind-yaml2json.dot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2json/images/grind-yaml2json.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/define_build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/define_build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-fromser/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-fromser/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-fromser/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-fromser/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-fromwndb/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-fromwndb/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-fromwndb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-fromwndb/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-fromxml/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-fromxml/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-fromxml/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-fromxml/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-fromyaml/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-fromyaml/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-fromyaml/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-fromyaml/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2json/images/grind-wndb2json.dot" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2json/images/grind-wndb2json.dot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2json/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2json/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2json/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2json/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2json/grind.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2json/grind.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2json/images/dataflow_wndb2json.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2json/images/dataflow_wndb2json.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2json/images/grind-wndb2json.dot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2json/images/grind-wndb2json.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2json/src/main/java/org/oewntk/grind/wndb2json/Grind.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2json/src/main/java/org/oewntk/grind/yaml2json/Grind.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2json/src/main/java/org/oewntk/grind/wndb2json/Tracing.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2json/src/main/java/org/oewntk/grind/yaml2json/Tracing.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2sql/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2sql/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2sql/generate-nidmaps.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2sql/generate-nidmaps.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2sql/generate-schema.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2sql/generate-schema.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2sql/generate-sers.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2sql/generate-sers.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2sql/grind.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2sql/grind.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2sql/images/grind-wndb2sql.dot" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2sql/images/grind-wndb2sql.dot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2sql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2sql/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2wndb/images/grind-yaml2wndb.dot" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2wndb/images/grind-yaml2wndb.dot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2wndb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2wndb/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_xml2wndb/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_xml2wndb/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_xml2wndb/grind.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_xml2wndb/grind.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_xml2wndb/images/grind-xml2wndb.dot" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_xml2wndb/images/grind-xml2wndb.dot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_xml2wndb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_xml2wndb/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2json/images/grind-yaml2json.dot" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2json/images/grind-yaml2json.dot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2json/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2json/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2ser/images/grind-yaml2ser.dot" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2ser/images/grind-yaml2ser.dot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2ser/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2ser/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2sql/images/grind-yaml2sql.dot" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2sql/images/grind-yaml2sql.dot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2sql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2sql/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2wndb/images/grind-yaml2wndb.dot" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2wndb/images/grind-yaml2wndb.dot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2wndb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2wndb/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-model/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-model/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-model/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/check.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/check.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/parse.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/parse.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/parse1.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/parse1.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/parseData.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/parseData.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/parseIndex.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/parseIndex.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/parseIndex1.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/parseIndex1.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/parseSense1.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/parseSense1.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/parseSenses.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/parseSenses.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-tojson/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tojson/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-tojson/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tojson/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-toser/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-toser/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-toser/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-toser/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-tosql/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-tosql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-towndb/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-towndb/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-towndb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-towndb/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +65,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/oewn-grind_yaml2json" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/oewn-fromser" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GithubDefaultAccount">
@@ -45,16 +83,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven.all [deploy].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.all [install].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.all [clean].executor": "Run",
+    "Maven.all [deploy].executor": "Run",
+    "Maven.all [install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "project.scopes"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="oewn" />
@@ -141,7 +180,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728477848008</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fixes swapping">
+      <option name="closed" value="true" />
+      <created>1728492247014</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728492247014</updated>
+    </task>
+    <task id="LOCAL-00007" summary="optimize svg">
+      <option name="closed" value="true" />
+      <created>1728492600205</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728492600205</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -149,6 +204,8 @@
     <MESSAGE value="fixes package" />
     <MESSAGE value="upgrade" />
     <MESSAGE value="update ossrh id" />
-    <option name="LAST_COMMIT_MESSAGE" value="update ossrh id" />
+    <MESSAGE value="fixes swapping" />
+    <MESSAGE value="optimize svg" />
+    <option name="LAST_COMMIT_MESSAGE" value="optimize svg" />
   </component>
 </project>
