@@ -2,6 +2,10 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dist/repos/github/json" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dist/repos/github/mysql" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dist/repos/github/sqlite" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dist/repos/github/wndb" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-fromser" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-fromwndb" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-fromxml" vcs="Git" />
@@ -14,6 +18,7 @@
     <mapping directory="$PROJECT_DIR$/oewn-grind_yaml2ser" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-grind_yaml2sql" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-grind_yaml2wndb" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/oewn-grind_yaml2wndb/dist_repo" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-model" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-parse_wndb" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-tojson" vcs="Git" />
