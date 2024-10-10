@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d165567d-bb88-44e9-a29f-c6b56f0f606a" name="Changes" comment="space">
+    <list default="true" id="d165567d-bb88-44e9-a29f-c6b56f0f606a" name="Changes" comment="newly generated">
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2json/images/grind-wndb2json.dot" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2json/images/grind-wndb2json.dot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2sql/images/grind-wndb2sql.dot" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2sql/images/grind-wndb2sql.dot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2wndb/images/grind-yaml2wndb.dot" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2wndb/images/grind-yaml2wndb.dot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_xml2wndb/images/grind-xml2wndb.dot" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_xml2wndb/images/grind-xml2wndb.dot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2json/images/grind-yaml2json.dot" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2json/images/grind-yaml2json.dot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2ser/images/grind-yaml2ser.dot" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2ser/images/grind-yaml2ser.dot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2sql/images/grind-yaml2sql.dot" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2sql/images/grind-yaml2sql.dot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2wndb/images/grind-yaml2wndb.dot" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2wndb/images/grind-yaml2wndb.dot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-model/src/test/java/org/oewntk/model/LibTestModelLexGroups.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-model/src/test/java/org/oewntk/model/LibTestModelLexGroups.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/repos/github/oewnk-entry/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/dist/repos/github/oewnk-entry/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/oewn-grind_wndb2sql" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/dist/repos/github/oewnk-entry" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GithubDefaultAccount">
@@ -39,6 +34,7 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2jp7xECLPqGIguTfbzrVl8C1g93" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -49,14 +45,27 @@
     "Maven.all [deploy].executor": "Run",
     "Maven.all [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/opt/devel/oewn/dist/repos/github/wndb/images",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.scopes"
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist/repos/github/wndb/images" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/dist/repos/github/web" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist/repos/github/web" />
+      <recent name="$PROJECT_DIR$/dist/repos/github" />
+      <recent name="$PROJECT_DIR$/dist/repos" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="oewn" />
@@ -183,7 +192,31 @@
       <option name="project" value="LOCAL" />
       <updated>1728496809419</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fi">
+      <option name="closed" value="true" />
+      <created>1728497943064</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1728497943064</updated>
+    </task>
+    <task id="LOCAL-00012" summary="newly generated">
+      <option name="closed" value="true" />
+      <created>1728497963540</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1728497963540</updated>
+    </task>
+    <task id="LOCAL-00013" summary="newly generated">
+      <option name="closed" value="true" />
+      <created>1728497977936</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1728497977936</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -196,6 +229,8 @@
     <MESSAGE value="new version 2.1.3" />
     <MESSAGE value="kotlin 2.0.20" />
     <MESSAGE value="space" />
-    <option name="LAST_COMMIT_MESSAGE" value="space" />
+    <MESSAGE value="fi" />
+    <MESSAGE value="newly generated" />
+    <option name="LAST_COMMIT_MESSAGE" value="newly generated" />
   </component>
 </project>
