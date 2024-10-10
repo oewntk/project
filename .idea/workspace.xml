@@ -4,17 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d165567d-bb88-44e9-a29f-c6b56f0f606a" name="Changes" comment="newly generated">
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="d165567d-bb88-44e9-a29f-c6b56f0f606a" name="Changes" comment="house keeping">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/repos/github/oewnk-entry/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/dist/repos/github/oewnk-entry/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/dist/repos/github/oewnk-entry" />
@@ -216,7 +217,47 @@
       <option name="project" value="LOCAL" />
       <updated>1728497977936</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="new entry point">
+      <option name="closed" value="true" />
+      <created>1728536275332</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1728536275332</updated>
+    </task>
+    <task id="LOCAL-00015" summary="image">
+      <option name="closed" value="true" />
+      <created>1728536288184</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1728536288184</updated>
+    </task>
+    <task id="LOCAL-00016" summary="image">
+      <option name="closed" value="true" />
+      <created>1728536296801</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1728536296801</updated>
+    </task>
+    <task id="LOCAL-00017" summary="revised data links">
+      <option name="closed" value="true" />
+      <created>1728536353226</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1728536353226</updated>
+    </task>
+    <task id="LOCAL-00018" summary="house keeping">
+      <option name="closed" value="true" />
+      <created>1728536376202</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1728536376202</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -231,6 +272,10 @@
     <MESSAGE value="space" />
     <MESSAGE value="fi" />
     <MESSAGE value="newly generated" />
-    <option name="LAST_COMMIT_MESSAGE" value="newly generated" />
+    <MESSAGE value="new entry point" />
+    <MESSAGE value="image" />
+    <MESSAGE value="revised data links" />
+    <MESSAGE value="house keeping" />
+    <option name="LAST_COMMIT_MESSAGE" value="house keeping" />
   </component>
 </project>
