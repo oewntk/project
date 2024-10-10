@@ -1,8 +1,8 @@
 <p align="center">
-<img width="256" src="images/oewntk.png" alt="OEWNTK">
+<img width="256" src="../../../../images/oewntk.png" alt="OEWNTK">
 </p>
 <p align="center">
-<img width="150" src="images/mavencentral.png" alt="Maven Central">
+<img width="150" src="../../../../images/mavencentral.png" alt="Maven Central">
 </p>
 
 # Open English Wordnet toolkit
@@ -11,7 +11,7 @@ This project will group all toolkit repos that will provide suppliers and consum
 
 ## Dataflow
 
-![Dataflow](images/dataflow.png  "Dataflow")
+![Dataflow](../../../../images/dataflow.png  "Dataflow")
 
 ## Modules
 
@@ -57,4 +57,7 @@ published on Maven Central.
 
 ## Data
 
-[Data](http://github.com/oewntk/) data produced by chains (WNDB, SQL)
+* OEWN data in [WNDB](http://github.com/x-englishwordnet/wndb/) format
+* OEWN data in [JSON](http://github.com/x-englishwordnet/json) format
+* OEWN data in [Sqlite3](http://github.com/x-englishwordnet/sqlite) format
+* OEWN data in [MySQL](http://github.com/x-englishwordnet/mysql) format
