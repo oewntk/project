@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d165567d-bb88-44e9-a29f-c6b56f0f606a" name="Changes" comment="script revision">
+    <list default="true" id="d165567d-bb88-44e9-a29f-c6b56f0f606a" name="Changes" comment="house keeping">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add-synsetids/.run/add_synsetids.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/add-synsetids/.run/add_synsetids.run.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add-synsetids/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/add-synsetids/run.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2json/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2json/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2json/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2json/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2sql/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2sql/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/oewn-grind_yaml2sql" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/oewn-grind_yaml2wndb" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GithubDefaultAccount">
@@ -58,7 +53,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/opt/devel/oewn/dist/repos/github/wndb/images",
+    "last_opened_file_path": "/opt/devel/oewn/dist/uber",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -77,7 +72,7 @@
       <recent name="$PROJECT_DIR$/dist/repos" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Grind">
+  <component name="RunManager" selected="Python.add_synsetids">
     <configuration name="Grind" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.oewntk.grind.yaml2json.Grind" />
       <module name="yaml2json" />
@@ -334,7 +329,39 @@
       <option name="project" value="LOCAL" />
       <updated>1728721989725</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="house keeping">
+      <option name="closed" value="true" />
+      <created>1728722249039</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1728722249039</updated>
+    </task>
+    <task id="LOCAL-00026" summary="house keeping">
+      <option name="closed" value="true" />
+      <created>1728722261464</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1728722261464</updated>
+    </task>
+    <task id="LOCAL-00027" summary="house keeping">
+      <option name="closed" value="true" />
+      <created>1728722276950</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1728722276950</updated>
+    </task>
+    <task id="LOCAL-00028" summary="house keeping">
+      <option name="closed" value="true" />
+      <created>1728722280289</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1728722280289</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -352,12 +379,12 @@
     <MESSAGE value="new entry point" />
     <MESSAGE value="image" />
     <MESSAGE value="revised data links" />
-    <MESSAGE value="house keeping" />
     <MESSAGE value="fix image path" />
     <MESSAGE value="fix version" />
     <MESSAGE value="unnecessary stdout output" />
     <MESSAGE value="script revision" />
-    <option name="LAST_COMMIT_MESSAGE" value="script revision" />
+    <MESSAGE value="house keeping" />
+    <option name="LAST_COMMIT_MESSAGE" value="house keeping" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -7,6 +7,7 @@
     <mapping directory="$PROJECT_DIR$/dist/repos/github/oewnk-entry" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/dist/repos/github/sqlite" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/dist/repos/github/wndb" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dist/uber" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-fromser" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-fromwndb" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-fromxml" vcs="Git" />
