@@ -54,6 +54,11 @@ echo -e "${M}yaml2ser${Z}"
 ./grind.sh yaml yaml2 ser oewn.ser oewn.ser.info
 popd >/dev/null
 
+pushd oewn-grind_yaml2json >/dev/null
+echo -e "${M}yaml2json${Z}"
+./grind.sh yaml yaml2 json oewn.json
+popd >/dev/null
+
 if [ ! -z "$fromxml" ]; then
 	pushd oewn-grind_xml2wndb >/dev/null
 	echo -e "${M}xml2wndb${Z}"
@@ -77,6 +82,11 @@ if [ ! -z "$fromwndb" ]; then
 	./grind.sh wndb31 wndb2 sql31/data
 	./generate-nidmaps.sh wndb31 wndb2 nidmaps31
 	./generate-sers.sh wndb31 wndb2 sers31
+	popd >/dev/null
+	
+	pushd oewn-grind_wndb2json >/dev/null
+	echo -e "${M}wndb2json${Z}"
+	./grind.sh wndb wndb2 json/wn31.json
 	popd >/dev/null
 fi
 
