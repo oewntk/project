@@ -4,22 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d165567d-bb88-44e9-a29f-c6b56f0f606a" name="Changes" comment="fix version">
+    <list default="true" id="d165567d-bb88-44e9-a29f-c6b56f0f606a" name="Changes" comment="script revision">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2json/grind.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2json/grind.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2wndb/grind.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2wndb/grind.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2json/grind.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2json/grind.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2ser/grind.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2ser/grind.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2sql/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2sql/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2sql/generate-nidmaps.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2sql/generate-nidmaps.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2sql/generate-schema.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2sql/generate-schema.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2sql/generate-sers.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2sql/generate-sers.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2sql/grind.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2sql/grind.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2wndb/grind.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2wndb/grind.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2wndb/grind1.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2wndb/grind1.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2wndb/grind_compat.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2wndb/grind_compat.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2wndb/grind_offsets.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2wndb/grind_offsets.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2wndb/grind_offsets_compat.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2wndb/grind_offsets_compat.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/add-synsetids/.run/add_synsetids.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/add-synsetids/.run/add_synsetids.run.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/add-synsetids/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/add-synsetids/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2json/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2json/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2json/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2json/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2sql/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2sql/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,21 +45,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven.all [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.all [deploy].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.all [install].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/opt/devel/oewn/dist/repos/github/wndb/images&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Kotlin.Grind.executor": "Run",
+    "Maven.all [clean].executor": "Run",
+    "Maven.all [deploy].executor": "Run",
+    "Maven.all [install].executor": "Run",
+    "Maven.tojson [install].executor": "Run",
+    "Maven.tojson [package].executor": "Run",
+    "Maven.wndb2json [install].executor": "Run",
+    "Maven.yaml2json [install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/opt/devel/oewn/dist/repos/github/wndb/images",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/dist/repos/github/wndb/images" />
@@ -81,7 +77,17 @@
       <recent name="$PROJECT_DIR$/dist/repos" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.Grind">
+    <configuration name="Grind" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.oewntk.grind.yaml2json.Grind" />
+      <module name="yaml2json" />
+      <option name="PROGRAM_PARAMETERS" value="-pretty yaml yaml2 json/oewn.json" />
+      <shortenClasspath name="NONE" />
+      <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="oewn" />
       <method v="2">
@@ -117,6 +123,15 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Kotlin.Grind" />
+      <item itemvalue="Python.add_synsetids" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.Grind" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -295,7 +310,31 @@
       <option name="project" value="LOCAL" />
       <updated>1728672005979</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="fix version">
+      <option name="closed" value="true" />
+      <created>1728672855839</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1728672855839</updated>
+    </task>
+    <task id="LOCAL-00023" summary="unnecessary stdout output">
+      <option name="closed" value="true" />
+      <created>1728714652210</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1728714652210</updated>
+    </task>
+    <task id="LOCAL-00024" summary="script revision">
+      <option name="closed" value="true" />
+      <created>1728721989725</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1728721989725</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -316,6 +355,23 @@
     <MESSAGE value="house keeping" />
     <MESSAGE value="fix image path" />
     <MESSAGE value="fix version" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix version" />
+    <MESSAGE value="unnecessary stdout output" />
+    <MESSAGE value="script revision" />
+    <option name="LAST_COMMIT_MESSAGE" value="script revision" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/oewn-fromyaml/src/main/java/org/oewntk/yaml/in/LexParser.kt</url>
+          <line>24</line>
+          <properties class="org.oewntk.yaml.in.LexParser" method="getFiles">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
