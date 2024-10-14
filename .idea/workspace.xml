@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d165567d-bb88-44e9-a29f-c6b56f0f606a" name="Changes" comment="house keeping">
+    <list default="true" id="d165567d-bb88-44e9-a29f-c6b56f0f606a" name="Changes" comment="extra ref to ubers">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/repos/github/oewnk-entry/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/dist/repos/github/oewnk-entry/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,26 +40,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Kotlin.Grind.executor": "Run",
-    "Maven.all [clean].executor": "Run",
-    "Maven.all [deploy].executor": "Run",
-    "Maven.all [install].executor": "Run",
-    "Maven.tojson [install].executor": "Run",
-    "Maven.tojson [package].executor": "Run",
-    "Maven.wndb2json [install].executor": "Run",
-    "Maven.yaml2json [install].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/opt/devel/oewn/dist/uber",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Kotlin.Grind.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.all [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.all [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.all [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.tojson [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.tojson [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.wndb2json [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.yaml2json [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/opt/devel/oewn/dist/uber&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/dist/repos/github/wndb/images" />
@@ -370,7 +369,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728743193866</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="house keeping">
+      <option name="closed" value="true" />
+      <created>1728743541926</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1728743541926</updated>
+    </task>
+    <task id="LOCAL-00031" summary="extra ref to ubers">
+      <option name="closed" value="true" />
+      <created>1728743572163</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1728743572164</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -393,7 +408,8 @@
     <MESSAGE value="unnecessary stdout output" />
     <MESSAGE value="script revision" />
     <MESSAGE value="house keeping" />
-    <option name="LAST_COMMIT_MESSAGE" value="house keeping" />
+    <MESSAGE value="extra ref to ubers" />
+    <option name="LAST_COMMIT_MESSAGE" value="extra ref to ubers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

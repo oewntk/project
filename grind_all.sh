@@ -56,7 +56,7 @@ popd >/dev/null
 
 pushd oewn-grind_yaml2json >/dev/null
 echo -e "${M}yaml2json${Z}"
-./grind.sh yaml yaml2 json oewn.json
+./grind.sh yaml yaml2 json/oewn.json
 popd >/dev/null
 
 if [ ! -z "$fromxml" ]; then
