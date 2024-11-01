@@ -24,6 +24,86 @@
       <entry_point TYPE="field" FQNAME="org.oewntk.wndb.out.WN31Index SENSE_ORDER1" />
       <entry_point TYPE="field" FQNAME="org.oewntk.wndb.out.WN31Index WN31_SENSE_ORDER" />
       <entry_point TYPE="field" FQNAME="org.oewntk.wndb.out.SenseComparator WNDB_SENSE_ORDER_TAIL1" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain ADJ_ALL" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain ADJ_PERT" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain ADJ_PPL" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Type ADV" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain ADV_ALL" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.RelationType ALSO" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.RelationType ANTONYM" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.RelationType ATTRIBUTE" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.AdjPosition ATTRIBUTIVE" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.RelationType CAUSE" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.RelationType DERIVATION" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.RelationType DOMAIN" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.RelationType DOMAIN_REGION" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.RelationType DOMAIN_TOPIC" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.RelationType DOMAIN_USAGE" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.RelationType ENTAIL" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.RelationType HAS_DOMAIN_REGION" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.RelationType HAS_DOMAIN_TOPIC" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.RelationType HAS_DOMAIN_USAGE" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.RelationType HYPERNYM" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.RelationType HYPONYM" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.RelationType INSTANCE_HYPERNYM" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.RelationType INSTANCE_HYPONYM" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.RelationType IS_CAUSED" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.RelationType IS_ENTAILED" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.RelationType MEMBER" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.RelationType MEMBER_HOLONYM" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.RelationType MEMBER_MERONYM" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Type NOUN" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain NOUN_ACT" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain NOUN_ANIMAL" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain NOUN_ARTIFACT" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain NOUN_ATTRIBUTE" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain NOUN_BODY" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain NOUN_COGNITION" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain NOUN_COMMUNICATION" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain NOUN_EVENT" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain NOUN_FEELING" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain NOUN_FOOD" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain NOUN_GROUP" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain NOUN_LOCATION" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain NOUN_MOTIVE" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain NOUN_OBJECT" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain NOUN_PERSON" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain NOUN_PHENOMENON" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain NOUN_PLANT" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain NOUN_POSSESSION" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain NOUN_PROCESS" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain NOUN_QUANTITY" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain NOUN_RELATION" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain NOUN_SHAPE" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain NOUN_STATE" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain NOUN_SUBSTANCE" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain NOUN_TIME" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain NOUN_TOPS" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.RelationType PART_HOLONYM" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.RelationType PART_MERONYM" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.RelationType PARTICIPLE" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.RelationType PERTAINYM" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.AdjPosition POSTNOMINAL" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.AdjPosition PREDICATIVE" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.RelationType SIMILAR" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.RelationType SUBSTANCE_HOLONYM" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.RelationType SUBSTANCE_MERONYM" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain VERB_BODY" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain VERB_CHANGE" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain VERB_COGNITION" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain VERB_COMMUNICATION" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain VERB_COMPETITION" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain VERB_CONSUMPTION" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain VERB_CONTACT" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain VERB_CREATION" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain VERB_EMOTION" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.RelationType VERB_GROUP" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain VERB_MOTION" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain VERB_PERCEPTION" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain VERB_POSSESSION" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain VERB_SOCIAL" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain VERB_STATIVE" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Domain VERB_WEATHER" />
     </entry_points>
     <pattern value="org.oewntk.ser.in.CoreFactory" method="CoreFactory" />
     <pattern value="org.oewntk.ser.in.Factory" method="Factory" />
@@ -745,6 +825,51 @@
     <pattern value="org.oewntk.wndb.out.WN31Index" />
     <pattern value="org.oewntk.wndb.out.WordIndexer" />
     <pattern value="org.oewntk.grind.yaml2wndb.Grind1" method="Grind1" />
+    <pattern value="org.oewntk.model.Key.BaseKey" />
+    <pattern value="org.oewntk.model.BaseModel" />
+    <pattern value="org.oewntk.grind.yaml2wndb.Grind1.Companion" />
+    <pattern value="org.oewntk.model.Key.KeyLCD.Companion" />
+    <pattern value="org.oewntk.model.Key.KeyLCP.Companion" />
+    <pattern value="org.oewntk.model.KeyF.FuncKeyLC.Companion" />
+    <pattern value="org.oewntk.model.KeyF.FuncKeyLC.Mono.Companion" />
+    <pattern value="org.oewntk.model.KeyF.FuncKeyLCD.Companion" />
+    <pattern value="org.oewntk.model.KeyF.FuncKeyLCP.Companion" />
+    <pattern value="org.oewntk.ser.in.CoreFactory.Companion" />
+    <pattern value="org.oewntk.ser.in.Factory.Companion" />
+    <pattern value="org.oewntk.wndb.in.CoreFactory.Companion" />
+    <pattern value="org.oewntk.wndb.in.Factory.Companion" />
+    <pattern value="org.oewntk.yaml.in.CoreFactory.Companion" />
+    <pattern value="org.oewntk.yaml.in.Factory.Companion" />
+    <pattern value="org.oewntk.ser.in.CoreFactory" />
+    <pattern value="org.oewntk.wndb.in.CoreFactory" />
+    <pattern value="org.oewntk.yaml.in.CoreFactory" />
+    <pattern value="org.oewntk.model.CoreModel" />
+    <pattern value="org.oewntk.ser.in.Factory" />
+    <pattern value="org.oewntk.wndb.in.Factory" />
+    <pattern value="org.oewntk.yaml.in.Factory" />
+    <pattern value="org.oewntk.model.Finder" />
+    <pattern value="org.oewntk.model.KeyF.FuncKeyLC" />
+    <pattern value="org.oewntk.model.KeyF.FuncKeyLCD" />
+    <pattern value="org.oewntk.model.KeyF.FuncKeyLCP" />
+    <pattern value="org.oewntk.grind.yaml2wndb.Grind1" />
+    <pattern value="org.oewntk.model.Groupings" />
+    <pattern value="org.oewntk.model.Key" />
+    <pattern value="org.oewntk.model.KeyF" />
+    <pattern value="org.oewntk.model.Key.KeyLCD" />
+    <pattern value="org.oewntk.model.Key.KeyLCP" />
+    <pattern value="org.oewntk.model.LexGroupings" />
+    <pattern value="org.oewntk.model.LibTestModelKeys" />
+    <pattern value="org.oewntk.model.LibTestModelLexGroups" />
+    <pattern value="org.oewntk.model.LibTestModelQueries" />
+    <pattern value="org.oewntk.grind.yaml2wndb.Grind1.Companion" method="main" />
+    <pattern value="org.oewntk.model.KeyF.FuncKeyLC.Mono" />
+    <pattern value="org.oewntk.wndb.in.Parser" />
+    <pattern value="org.oewntk.model.Sense" />
+    <pattern value="org.oewntk.model.SenseGroupings" />
+    <pattern value="org.oewntk.wndb.in.SenseToTagCountsParser" />
+    <pattern value="org.oewntk.wndb.in.SenseToVerbTemplatesParser" />
+    <pattern value="org.oewntk.model.Serialize" />
+    <pattern value="org.oewntk.wndb.in.VerbTemplateParser" />
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
