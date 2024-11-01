@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d165567d-bb88-44e9-a29f-c6b56f0f606a" name="Changes" comment="revised scripts" />
+    <list default="true" id="d165567d-bb88-44e9-a29f-c6b56f0f606a" name="Changes" comment="dummy function">
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-model/src/main/java/org/oewntk/model/Sense.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-model/src/main/java/org/oewntk/model/Sense.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +20,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/oewn-model" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GithubDefaultAccount">
@@ -42,10 +46,12 @@
   "keyToString": {
     "Kotlin.Grind.executor": "Run",
     "Maven.all [clean].executor": "Run",
+    "Maven.all [compile].executor": "Run",
     "Maven.all [deploy].executor": "Run",
     "Maven.all [install].executor": "Run",
     "Maven.tojson [install].executor": "Run",
     "Maven.tojson [package].executor": "Run",
+    "Maven.tosql [install].executor": "Run",
     "Maven.wndb2json [install].executor": "Run",
     "Maven.yaml2json [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -391,13 +397,77 @@
       <option name="project" value="LOCAL" />
       <updated>1728931250427</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="version update to 2.2.0">
+      <option name="closed" value="true" />
+      <created>1730442364621</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1730442364621</updated>
+    </task>
+    <task id="LOCAL-00034" summary="add default to null">
+      <option name="closed" value="true" />
+      <created>1730442415143</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1730442415143</updated>
+    </task>
+    <task id="LOCAL-00035" summary="add default to null">
+      <option name="closed" value="true" />
+      <created>1730442427645</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1730442427645</updated>
+    </task>
+    <task id="LOCAL-00036" summary="add sample reference to word and soruce">
+      <option name="closed" value="true" />
+      <created>1730442828050</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1730442828050</updated>
+    </task>
+    <task id="LOCAL-00037" summary="add names">
+      <option name="closed" value="true" />
+      <created>1730443350801</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1730443350802</updated>
+    </task>
+    <task id="LOCAL-00038" summary="generate samples to file (append for senses)">
+      <option name="closed" value="true" />
+      <created>1730444434362</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1730444434362</updated>
+    </task>
+    <task id="LOCAL-00039" summary="dummy function">
+      <option name="closed" value="true" />
+      <created>1730444464439</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1730444464439</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="clean up" />
-    <MESSAGE value="fixes package" />
-    <MESSAGE value="upgrade" />
     <MESSAGE value="update ossrh id" />
     <MESSAGE value="fixes swapping" />
     <MESSAGE value="optimize svg" />
@@ -416,7 +486,14 @@
     <MESSAGE value="house keeping" />
     <MESSAGE value="extra ref to ubers" />
     <MESSAGE value="revised scripts" />
-    <option name="LAST_COMMIT_MESSAGE" value="revised scripts" />
+    <MESSAGE value="version update to 2.2.0" />
+    <MESSAGE value="add default to null" />
+    <MESSAGE value="add sample reference to word and source" />
+    <MESSAGE value="add sample reference to word and source" />
+    <MESSAGE value="add names" />
+    <MESSAGE value="generate samples to file (append for senses)" />
+    <MESSAGE value="dummy function" />
+    <option name="LAST_COMMIT_MESSAGE" value="dummy function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
