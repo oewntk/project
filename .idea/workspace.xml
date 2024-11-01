@@ -1,19 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+    <option name="SHOW_STRUCTURE" value="true" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d165567d-bb88-44e9-a29f-c6b56f0f606a" name="Changes" comment="type of examples to allow for source">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Grind__JSON_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Grind__SQL_.xml" afterDir="false" />
+    <list default="true" id="d165567d-bb88-44e9-a29f-c6b56f0f606a" name="Changes" comment="house keeping">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-fromyaml/src/main/java/org/oewntk/yaml/in/LexParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-fromyaml/src/main/java/org/oewntk/yaml/in/LexParser.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-fromyaml/src/main/java/org/oewntk/yaml/in/SynsetParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-fromyaml/src/main/java/org/oewntk/yaml/in/SynsetParser.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all.iml" beforeDir="false" afterPath="$PROJECT_DIR$/all.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-fromxml/src/main/java/org/oewntk/xml/in/XmlNames.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-fromxml/src/main/java/org/oewntk/xml/in/XmlNames.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oewn-fromyaml/src/main/java/org/oewntk/yaml/in/YamlUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-fromyaml/src/main/java/org/oewntk/yaml/in/YamlUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-fromyaml/src/test/java/org/oewntk/yaml/in/TestsExamples.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-fromyaml/src/test/java/org/oewntk/yaml/in/TestsExamples.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2json/src/main/java/org/oewntk/grind/wndb2json/Tracing.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2json/src/main/java/org/oewntk/grind/wndb2json/Tracing.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2sql/src/main/java/org/oewntk/grind/wndb2sql/Tracing.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2sql/src/main/java/org/oewntk/grind/wndb2sql/Tracing.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2wndb/src/main/java/org/oewntk/grind/wndb2wndb/Tracing.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2wndb/src/main/java/org/oewntk/grind/wndb2wndb/Tracing.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_xml2wndb/src/main/java/org/oewntk/grind/xml2wndb/Tracing.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_xml2wndb/src/main/java/org/oewntk/grind/xml2wndb/Tracing.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2json/src/main/java/org/oewntk/grind/yaml2json/Tracing.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2json/src/main/java/org/oewntk/grind/yaml2json/Tracing.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2ser/src/main/java/org/oewntk/grind/yaml2ser/Tracing.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2ser/src/main/java/org/oewntk/grind/yaml2ser/Tracing.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2sql/src/main/java/org/oewntk/grind/yaml2sql/Tracing.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2sql/src/main/java/org/oewntk/grind/yaml2sql/Tracing.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2wndb/src/main/java/org/oewntk/grind/yaml2wndb/Tracing.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2wndb/src/main/java/org/oewntk/grind/yaml2wndb/Tracing.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-model/src/main/java/org/oewntk/model/Key.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-model/src/main/java/org/oewntk/model/Key.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-model/src/main/java/org/oewntk/model/KeyF.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-model/src/main/java/org/oewntk/model/KeyF.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-model/src/main/java/org/oewntk/model/Model.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-model/src/main/java/org/oewntk/model/Model.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-model/src/main/java/org/oewntk/model/Pronunciation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-model/src/main/java/org/oewntk/model/Pronunciation.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-model/src/test/java/org/oewntk/model/LibDumpSenses.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-model/src/test/java/org/oewntk/model/LibDumpSenses.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-model/src/test/java/org/oewntk/model/LibNanoModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-model/src/test/java/org/oewntk/model/LibNanoModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-model/src/test/java/org/oewntk/model/LibTestModelKeys.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-model/src/test/java/org/oewntk/model/LibTestModelKeys.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-model/src/test/java/org/oewntk/model/LibTestModelQueries.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-model/src/test/java/org/oewntk/model/LibTestModelQueries.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-model/src/test/java/org/oewntk/model/TestAddInverse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-model/src/test/java/org/oewntk/model/TestAddInverse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-model/src/test/java/org/oewntk/model/TestFindSenses.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-model/src/test/java/org/oewntk/model/TestFindSenses.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/pojos/Gloss.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/pojos/Gloss.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/pojos/Type.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/pojos/Type.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/src/test/java/org/oewntk/parse/TestSensekey.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/src/test/java/org/oewntk/parse/TestSensekey.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-tojson/src/main/java/org/oewntk/json/out/CoreModelConsumer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tojson/src/main/java/org/oewntk/json/out/CoreModelConsumer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-tojson/src/test/java/org/oewntk/json/out/TestJsonObjects.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tojson/src/test/java/org/oewntk/json/out/TestJsonObjects.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-tosql/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-tosql/filter-mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/filter-mysql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-tosql/queries/html/oewn-2022-stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/queries/html/oewn-2022-stats.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-tosql/queries/html/sql-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/queries/html/sql-all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-tosql/queries/html/sql-wn-basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/queries/html/sql-wn-basic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-tosql/queries/html/sql-wn-cardinality.html" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/queries/html/sql-wn-cardinality.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-tosql/queries/html/sql-wn-cased.html" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/queries/html/sql-wn-cased.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-tosql/queries/html/sql-wn-dict.html" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/queries/html/sql-wn-dict.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-tosql/queries/html/sql-wn-legacy.html" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/queries/html/sql-wn-legacy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-tosql/queries/html/sql-wn-misc.html" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/queries/html/sql-wn-misc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-tosql/queries/html/sql-wn-morph.html" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/queries/html/sql-wn-morph.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-tosql/queries/html/sql-wn-pronunciation.html" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/queries/html/sql-wn-pronunciation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-tosql/queries/html/sql-wn-relations.html" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/queries/html/sql-wn-relations.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-tosql/queries/html/sql-wn-vframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/queries/html/sql-wn-vframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-tosql/queries/oewn-2022-stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/queries/oewn-2022-stats.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-tosql/renames/rename.py" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/renames/rename.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-tosql/src/main/java/org/oewntk/sql/out/Lexes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/src/main/java/org/oewntk/sql/out/Lexes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-tosql/src/main/java/org/oewntk/sql/out/Names.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/src/main/java/org/oewntk/sql/out/Names.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-tosql/src/main/java/org/oewntk/sql/out/SchemaGenerator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/src/main/java/org/oewntk/sql/out/SchemaGenerator.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oewn-tosql/src/main/java/org/oewntk/sql/out/Senses.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/src/main/java/org/oewntk/sql/out/Senses.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oewn-tosql/src/main/java/org/oewntk/sql/out/Synsets.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/src/main/java/org/oewntk/sql/out/Synsets.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-tosql/src/test/java/org/oewntk/sql/Tracing.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/src/test/java/org/oewntk/sql/Tracing.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-towndb/src/main/java/org/oewntk/wndb/out/CompatException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-towndb/src/main/java/org/oewntk/wndb/out/CompatException.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-towndb/src/main/java/org/oewntk/wndb/out/SenseComparator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-towndb/src/main/java/org/oewntk/wndb/out/SenseComparator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-towndb/src/main/java/org/oewntk/wndb/out/SynsetProcessor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-towndb/src/main/java/org/oewntk/wndb/out/SynsetProcessor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-towndb/src/main/java/org/oewntk/wndb/out/WN31Index.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-towndb/src/main/java/org/oewntk/wndb/out/WN31Index.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-towndb/src/test/java/org/oewntk/wndb/out/TestCoder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-towndb/src/test/java/org/oewntk/wndb/out/TestCoder.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +78,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/oewn-tosql" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/oewn-model" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GithubDefaultAccount">
@@ -69,7 +121,8 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -128,11 +181,6 @@
       <item itemvalue="Kotlin.Grind (JSON)" />
       <item itemvalue="Python.add_synsetids" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Kotlin.Grind (JSON)" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -479,7 +527,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730445006066</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="process samples for senses and synsets">
+      <option name="closed" value="true" />
+      <created>1730456776485</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1730456776485</updated>
+    </task>
+    <task id="LOCAL-00044" summary="house keeping">
+      <option name="closed" value="true" />
+      <created>1730456799668</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1730456799668</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,7 +558,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="optimize svg" />
     <MESSAGE value="new version 2.1.3" />
     <MESSAGE value="kotlin 2.0.20" />
     <MESSAGE value="space" />
@@ -517,8 +580,9 @@
     <MESSAGE value="generate samples to file (append for senses)" />
     <MESSAGE value="dummy function" />
     <MESSAGE value="reorder" />
-    <MESSAGE value="house keeping" />
     <MESSAGE value="type of examples to allow for source" />
-    <option name="LAST_COMMIT_MESSAGE" value="type of examples to allow for source" />
+    <MESSAGE value="process samples for senses and synsets" />
+    <MESSAGE value="house keeping" />
+    <option name="LAST_COMMIT_MESSAGE" value="house keeping" />
   </component>
 </project>

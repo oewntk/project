@@ -1,5 +1,751 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0">
+      <entry_point TYPE="field" FQNAME="org.oewntk.ser.in.TestsSerModelLexGroups lexHyperMap$delegate" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.grind.yaml2sql.Tracing.Memory.Unit G" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.grind.yaml2ser.Tracing psErr" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.wndb.in.TestsWndbModelLexGroups lexHyperMap$delegate" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.xml.in.TestsXmlModelLexGroups lexHyperMap$delegate" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.xml.in.XmlNames NS_DC" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.model.Pronunciation comparatorNull" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.grind.yaml2json.Tracing psErr" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.yaml.in.TestsYamlModelLexGroups lexHyperMap$delegate" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.json.out.TestJsonObjects ps" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.json.out.TestJsonObjects sense2" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Type description" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.sql.out.Names.DOMAINS FILE" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.pojos.Type name2" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.grind.wndb2json.Tracing psErr" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.sql.Tracing psErr" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.grind.wndb2sql.Tracing psErr" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.grind.xml2wndb.Tracing psErr" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.grind.wndb2wndb.Tracing psErr" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.wndb.out.WN31Index SENSE_ORDER1" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.wndb.out.WN31Index WN31_SENSE_ORDER" />
+      <entry_point TYPE="field" FQNAME="org.oewntk.wndb.out.SenseComparator WNDB_SENSE_ORDER_TAIL1" />
+    </entry_points>
+    <pattern value="org.oewntk.ser.in.CoreFactory" method="CoreFactory" />
+    <pattern value="org.oewntk.ser.in.Factory" method="Factory" />
+    <pattern value="org.oewntk.grind.yaml2sql.Checker" />
+    <pattern value="org.oewntk.grind.yaml2sql.Tracing.Memory.Unit" method="Unit" />
+    <pattern value="org.oewntk.grind.yaml2ser.Tracing.Memory.Unit" method="Unit" />
+    <pattern value="org.oewntk.ser.in.CoreFactory.Companion" method="main" />
+    <pattern value="org.oewntk.ser.in.Factory.Companion" method="main" />
+    <pattern value="org.oewntk.wndb.in.Parser.Companion" />
+    <pattern value="org.oewntk.wndb.in.SenseToTagCountsParser.Companion" />
+    <pattern value="org.oewntk.wndb.in.SenseToVerbTemplatesParser.Companion" />
+    <pattern value="org.oewntk.wndb.in.VerbTemplateParser.Companion" />
+    <pattern value="org.oewntk.wndb.in.CoreFactory.Companion" method="main" />
+    <pattern value="org.oewntk.wndb.in.Factory.Companion" method="main" />
+    <pattern value="org.oewntk.xml.in.CoreFactory.Companion" />
+    <pattern value="org.oewntk.xml.in.Factory.Companion" />
+    <pattern value="org.oewntk.xml.in.Parser.Companion" />
+    <pattern value="org.oewntk.xml.in.SenseToTagCountsParser.Companion" />
+    <pattern value="org.oewntk.xml.in.SenseToVerbTemplatesParser.Companion" />
+    <pattern value="org.oewntk.xml.in.TestSensekeyEscaping.Companion" />
+    <pattern value="org.oewntk.xml.in.VerbTemplateParser.Companion" />
+    <pattern value="org.oewntk.xml.in.CoreFactory" />
+    <pattern value="org.oewntk.xml.in.Factory" />
+    <pattern value="org.oewntk.xml.in.XmlExtractor" method="getAdjPosition" />
+    <pattern value="org.oewntk.model.BaseModel" method="getLexes" />
+    <pattern value="org.oewntk.xml.in.XmlExtractor" method="getLexid" />
+    <pattern value="org.oewntk.xml.in.XmlExtractor" method="getRank" />
+    <pattern value="org.oewntk.model.BaseModel" method="getSenses" />
+    <pattern value="org.oewntk.model.BaseModel" method="getSynsets" />
+    <pattern value="org.oewntk.xml.in.XmlExtractor" method="getTagCount" />
+    <pattern value="org.oewntk.xml.in.XmlExtractor" method="getVerbFrames" />
+    <pattern value="org.oewntk.xml.in.XmlExtractor" method="getVerbTemplates" />
+    <pattern value="org.oewntk.xml.in.CoreFactory.Companion" method="main" />
+    <pattern value="org.oewntk.xml.in.Factory.Companion" method="main" />
+    <pattern value="org.oewntk.xml.in.Parser" />
+    <pattern value="org.oewntk.xml.in.SenseToTagCountsParser" />
+    <pattern value="org.oewntk.xml.in.SenseToVerbTemplatesParser" />
+    <pattern value="org.oewntk.xml.in.TestSensekeyEscaping" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelLexGroups" />
+    <pattern value="org.oewntk.xml.in.VerbTemplateParser" />
+    <pattern value="org.oewntk.xml.in.XmlExtractor" />
+    <pattern value="org.oewntk.xml.in.XmlNames" />
+    <pattern value="org.oewntk.model.CoreModel" method="CoreModel" />
+    <pattern value="org.oewntk.model.Finder" method="compareAsSets" />
+    <pattern value="org.oewntk.model.Finder" method="getLcLexesHavingPos" />
+    <pattern value="org.oewntk.model.Finder" method="getLcLexesHavingType" />
+    <pattern value="org.oewntk.model.Finder" method="getLexesHavingType" />
+    <pattern value="org.oewntk.model.Groupings" method="countsBy" />
+    <pattern value="org.oewntk.model.Groupings" method="multipleCountsBy" />
+    <pattern value="org.oewntk.model.Key.KeyLCP.Companion" method="from" />
+    <pattern value="org.oewntk.model.Key.KeyLCD.Companion" method="from" />
+    <pattern value="org.oewntk.model.Key.BaseKey" method="getCategory" />
+    <pattern value="org.oewntk.model.Key.BaseKey" method="getLemma" />
+    <pattern value="org.oewntk.model.Key.KeyLCP.Companion" method="of_lc_p" />
+    <pattern value="org.oewntk.model.Key.KeyLCD.Companion" method="of_lc_p" />
+    <pattern value="org.oewntk.model.Key.KeyLCD.Companion" method="of_p" />
+    <pattern value="org.oewntk.model.Key.BaseKey" method="toLongString" />
+    <pattern value="org.oewntk.model.KeyF.Companion" />
+    <pattern value="org.oewntk.model.KeyF.FuncKeyLC.Mono.Companion" method="of" />
+    <pattern value="org.oewntk.model.KeyF.FuncKeyLC.Companion" method="of" />
+    <pattern value="org.oewntk.model.Formatter" />
+    <pattern value="org.oewntk.model.KeyF.FuncKeyLCD.Mono.Companion" method="from" />
+    <pattern value="org.oewntk.model.KeyF.FuncKeyLCP.Companion" method="of" />
+    <pattern value="org.oewntk.model.KeyF.FuncKeyLCD.Companion" method="of" />
+    <pattern value="org.oewntk.model.LexGroupings" method="cSLemmasForLCLemma" />
+    <pattern value="org.oewntk.model.LibDumpSenses" method="dumpSensesByDecreasingTagCount" />
+    <pattern value="org.oewntk.model.Serialize" method="serializeModel" />
+    <pattern value="org.oewntk.model.LibTestModelLexGroups" method="testCILexes" />
+    <pattern value="org.oewntk.model.LibTestModelLexGroups" method="testCISensesGroupingByLCLemma" />
+    <pattern value="org.oewntk.model.LibTestModelLexGroups" method="testCISensesGroupingByLCLemmaAndPos" />
+    <pattern value="org.oewntk.model.LibTestModelKeys" method="testWordMono" />
+    <pattern value="org.oewntk.model.Sense" method="getSource" />
+    <pattern value="org.oewntk.model.SenseGroupings" method="sensesByLCLemma" />
+    <pattern value="org.oewntk.model.Pronunciation.Companion" />
+    <pattern value="org.oewntk.model.ModelInfo" method="reportRelations" />
+    <pattern value="org.oewntk.model.ModelInfo" method="xCounts" />
+    <pattern value="org.oewntk.model.Model" method="getVerbFramesById" />
+    <pattern value="org.oewntk.model.Model" method="Model" />
+    <pattern value="org.oewntk.model.MapFactory" method="mapAlt" />
+    <pattern value="org.oewntk.model.MapFactory" method="replaceMerging" />
+    <pattern value="org.oewntk.model.LibTestModelQueries" method="testWordByPos" />
+    <pattern value="org.oewntk.model.LibTestModelQueries" method="testWordByPosAndPronunciation" />
+    <pattern value="org.oewntk.grind.yaml2json.Tracing.Memory.Unit" method="Unit" />
+    <pattern value="org.oewntk.yaml.in.CoreFactory.Companion" method="main" />
+    <pattern value="org.oewntk.yaml.in.Factory.Companion" method="main" />
+    <pattern value="org.oewntk.yaml.in.LexParser" method="processEntry" />
+    <pattern value="org.oewntk.yaml.in.SenseToTagCountsProcessor" method="processEntry" />
+    <pattern value="org.oewntk.yaml.in.SynsetParser" method="processEntry" />
+    <pattern value="org.oewntk.json.out.CoreModelConsumer" method="CoreModelConsumer" />
+    <pattern value="org.oewntk.model.LibTestModelSenseGroups" />
+    <pattern value="org.oewntk.parse.Counter" method="Counter" />
+    <pattern value="org.oewntk.parse.RelationParser" method="RelationParser" />
+    <pattern value="org.oewntk.pojos.AdjPosition" method="AdjPosition" />
+    <pattern value="org.oewntk.pojos.AdjPosition.Companion" method="find" />
+    <pattern value="org.oewntk.pojos.AdjLemma" />
+    <pattern value="org.oewntk.pojos.AdjPosition" />
+    <pattern value="org.oewntk.grind.yaml2sql.TestsYamlNIDMap.Companion" />
+    <pattern value="org.oewntk.json.out.TestJsonObjects.Companion" />
+    <pattern value="org.oewntk.model.TestAddInverse.Companion" />
+    <pattern value="org.oewntk.model.TestFindSenses.Companion" />
+    <pattern value="org.oewntk.model.TestFormat.Companion" />
+    <pattern value="org.oewntk.model.TestKeys.Companion" />
+    <pattern value="org.oewntk.model.TestLexicographicOrder.Companion" />
+    <pattern value="org.oewntk.parse.Counter.Companion" />
+    <pattern value="org.oewntk.parse.RelationParser.Companion" />
+    <pattern value="org.oewntk.parse.TestDomains.Companion" />
+    <pattern value="org.oewntk.parse.TestLine.Companion" />
+    <pattern value="org.oewntk.parse.TestParse31.Companion" />
+    <pattern value="org.oewntk.parse.TestParseXX.Companion" />
+    <pattern value="org.oewntk.parse.TestSensekey.Companion" />
+    <pattern value="org.oewntk.pojos.AdjLemma.Companion" />
+    <pattern value="org.oewntk.pojos.AdjPosition.Companion" />
+    <pattern value="org.oewntk.pojos.CoreIndex.Companion" />
+    <pattern value="org.oewntk.pojos.CoreSynset.Companion" />
+    <pattern value="org.oewntk.pojos.Index.Companion" />
+    <pattern value="org.oewntk.pojos.Lemma.Companion" />
+    <pattern value="org.oewntk.pojos.LexId.Companion" />
+    <pattern value="org.oewntk.pojos.MorphMapping.Companion" />
+    <pattern value="org.oewntk.pojos.NormalizedString.Companion" />
+    <pattern value="org.oewntk.pojos.RelationType.Companion" />
+    <pattern value="org.oewntk.pojos.Sense.Companion" />
+    <pattern value="org.oewntk.pojos.TrimmedNormalizedString.Companion" />
+    <pattern value="org.oewntk.pojos.Type.Companion" />
+    <pattern value="org.oewntk.pojos.VerbFrame.Companion" />
+    <pattern value="org.oewntk.pojos.VerbTemplate.Companion" />
+    <pattern value="org.oewntk.pojos.VerbTemplateRef.Companion" />
+    <pattern value="org.oewntk.ser.in.TestsSerModel.Companion" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelDuplicates.Companion" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelKeys.Companion" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelLexGroups.Companion" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelQueries.Companion" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelWords.Companion" />
+    <pattern value="org.oewntk.sql.out.CoreModelConsumer.Companion" />
+    <pattern value="org.oewntk.sql.out.SchemaGenerator.Companion" />
+    <pattern value="org.oewntk.sql.out.SourcesGenerator.Companion" />
+    <pattern value="org.oewntk.sql.out.Variables.Companion" />
+    <pattern value="org.oewntk.sql.TestSqlBundle.Companion" />
+    <pattern value="org.oewntk.sql.TestSqlVariables.Companion" />
+    <pattern value="org.oewntk.utils.SynsetUId.Companion" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModel.Companion" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelDuplicates.Companion" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelKeys.Companion" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelLexGroups.Companion" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelQueries.Companion" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelWords.Companion" />
+    <pattern value="org.oewntk.wndb.out.Data.Member.Companion" />
+    <pattern value="org.oewntk.wndb.out.Data.VerbFrame.Companion" />
+    <pattern value="org.oewntk.wndb.out.GrindOffsets.Companion" />
+    <pattern value="org.oewntk.wndb.out.LineProducer.Companion" />
+    <pattern value="org.oewntk.wndb.out.ModelConsumer.Companion" />
+    <pattern value="org.oewntk.wndb.out.OffsetMapper.Companion" />
+    <pattern value="org.oewntk.wndb.out.OffsetSerializer.Companion" />
+    <pattern value="org.oewntk.wndb.out.SynsetProcessor.Companion" />
+    <pattern value="org.oewntk.wndb.out.TestFormat.Companion" />
+    <pattern value="org.oewntk.wndb.out.TestSenseOrder.Companion" />
+    <pattern value="org.oewntk.wndb.out.WordIndexer.Companion" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModel.Companion" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelDuplicates.Companion" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelKeys.Companion" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelLexGroups.Companion" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelQueries.Companion" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelWords.Companion" />
+    <pattern value="org.oewntk.yaml.in.LexParser.Companion" />
+    <pattern value="org.oewntk.yaml.in.SenseToTagCountsProcessor.Companion" />
+    <pattern value="org.oewntk.yaml.in.SenseToVerbTemplatesProcessor.Companion" />
+    <pattern value="org.oewntk.yaml.in.SynsetParser.Companion" />
+    <pattern value="org.oewntk.yaml.in.TestsExamples.Companion" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModel.Companion" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelDuplicates.Companion" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelKeys.Companion" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelLexGroups.Companion" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelQueries.Companion" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelSenseGroups.Companion" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelWords.Companion" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlQuotes.Companion" />
+    <pattern value="org.oewntk.yaml.in.VerbFrameProcessor.Companion" />
+    <pattern value="org.oewntk.yaml.in.VerbTemplateProcessor.Companion" />
+    <pattern value="org.oewntk.grind.yaml2sql.CoreGrind" />
+    <pattern value="org.oewntk.pojos.CoreIndex" />
+    <pattern value="org.oewntk.ser.out.CoreModelConsumer" />
+    <pattern value="org.oewntk.sql.out.CoreModelConsumer" />
+    <pattern value="org.oewntk.ser.out.CoreModelConsumer" method="CoreModelConsumer" />
+    <pattern value="org.oewntk.pojos.CoreSynset" />
+    <pattern value="org.oewntk.parse.Counter" />
+    <pattern value="org.oewntk.wndb.out.Data" />
+    <pattern value="org.oewntk.parse.TestParse31" method="dataParse" />
+    <pattern value="org.oewntk.parse.TestParseXX" method="dataParse" />
+    <pattern value="org.oewntk.parse.DataParser" />
+    <pattern value="org.oewntk.parse.DataParser1" />
+    <pattern value="org.oewntk.wndb.out.OffsetSerializer.Companion" method="deSerializedOffsets" />
+    <pattern value="org.oewntk.sql.out.DeSerializeNIDs" />
+    <pattern value="org.oewntk.pojos.Domain" />
+    <pattern value="org.oewntk.pojos.Domain" method="Domain" />
+    <pattern value="org.oewntk.sql.out.Names.DOMAINS" />
+    <pattern value="org.oewntk.grind.yaml2sql.TestsYamlNIDMap" method="failingTestLookupByKey" />
+    <pattern value="org.oewntk.grind.yaml2sql.TestsYamlNIDMap" method="failingTestLookupByKeyF" />
+    <pattern value="org.oewntk.wndb.out.Formatter" />
+    <pattern value="org.oewntk.pojos.Type.Companion" method="fromName" />
+    <pattern value="org.oewntk.grind.wndb2json.Grind" />
+    <pattern value="org.oewntk.grind.wndb2sql.Grind" />
+    <pattern value="org.oewntk.grind.wndb2wndb.Grind" />
+    <pattern value="org.oewntk.grind.xml2wndb.Grind" />
+    <pattern value="org.oewntk.grind.yaml2json.Grind" />
+    <pattern value="org.oewntk.grind.yaml2ser.Grind" />
+    <pattern value="org.oewntk.grind.yaml2sql.Grind" />
+    <pattern value="org.oewntk.grind.yaml2wndb.Grind" />
+    <pattern value="org.oewntk.sql.out.GrindBuiltIn" />
+    <pattern value="org.oewntk.grind.yaml2wndb.GrindOffsets" />
+    <pattern value="org.oewntk.wndb.out.GrindOffsets" />
+    <pattern value="org.oewntk.sql.TestSqlVariables" method="illFormedVarSubstitution" />
+    <pattern value="org.oewntk.pojos.Index" />
+    <pattern value="org.oewntk.parse.TestParse31" method="indexParse" />
+    <pattern value="org.oewntk.parse.TestParseXX" method="indexParse" />
+    <pattern value="org.oewntk.parse.IndexParser" />
+    <pattern value="org.oewntk.parse.IndexParser1" />
+    <pattern value="org.oewntk.model.TestAddInverse.Companion" method="init" />
+    <pattern value="org.oewntk.model.TestFindSenses.Companion" method="init" />
+    <pattern value="org.oewntk.model.TestFormat.Companion" method="init" />
+    <pattern value="org.oewntk.wndb.out.TestFormat.Companion" method="init" />
+    <pattern value="org.oewntk.json.out.TestJsonObjects.Companion" method="init" />
+    <pattern value="org.oewntk.parse.TestParse31.Companion" method="init" />
+    <pattern value="org.oewntk.parse.TestParseXX.Companion" method="init" />
+    <pattern value="org.oewntk.wndb.out.TestSenseOrder.Companion" method="init" />
+    <pattern value="org.oewntk.yaml.in.TestsExamples.Companion" method="init" />
+    <pattern value="org.oewntk.sql.TestSqlBundle.Companion" method="init" />
+    <pattern value="org.oewntk.sql.TestSqlVariables.Companion" method="init" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelQueries.Companion" method="init" />
+    <pattern value="org.oewntk.ser.in.TestsSerModel.Companion" method="init" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelDuplicates.Companion" method="init" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelKeys.Companion" method="init" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelLexGroups.Companion" method="init" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelWords.Companion" method="init" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModel.Companion" method="init" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelDuplicates.Companion" method="init" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelKeys.Companion" method="init" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelLexGroups.Companion" method="init" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelQueries.Companion" method="init" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelWords.Companion" method="init" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModel.Companion" method="init" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelDuplicates.Companion" method="init" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelKeys.Companion" method="init" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelLexGroups.Companion" method="init" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelQueries.Companion" method="init" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelWords.Companion" method="init" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModel.Companion" method="init" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelDuplicates.Companion" method="init" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelKeys.Companion" method="init" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelLexGroups.Companion" method="init" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelQueries.Companion" method="init" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelSenseGroups.Companion" method="init" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelWords.Companion" method="init" />
+    <pattern value="org.oewntk.grind.yaml2sql.TestsYamlNIDMap.Companion" method="init" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlQuotes.Companion" method="init" />
+    <pattern value="org.oewntk.wndb.out.Formatter" method="intFormatHex2X" />
+    <pattern value="org.oewntk.pojos.Type" method="isAdj" />
+    <pattern value="org.oewntk.sql.out.SerializeNIDs" method="kserializeSensekeysWordsSynsetsNIDs" />
+    <pattern value="org.oewntk.pojos.Lemma" />
+    <pattern value="org.oewntk.sql.out.Lexes" />
+    <pattern value="org.oewntk.pojos.LexId" />
+    <pattern value="org.oewntk.pojos.LexId" method="LexId" />
+    <pattern value="org.oewntk.yaml.in.LexParser" />
+    <pattern value="org.oewntk.pojos.LexRelation" />
+    <pattern value="org.oewntk.model.LibNanoModel" />
+    <pattern value="org.oewntk.model.LibTestModel" />
+    <pattern value="org.oewntk.model.LibTestModelDuplicates" />
+    <pattern value="org.oewntk.parse.TestLine" method="line" />
+    <pattern value="org.oewntk.wndb.out.LineProducer" />
+    <pattern value="org.oewntk.wndb.out.LineProducer" method="LineProducer" />
+    <pattern value="org.oewntk.grind.yaml2sql.CoreGrind" method="main" />
+    <pattern value="org.oewntk.parse.Counter.Companion" method="main" />
+    <pattern value="org.oewntk.parse.DataParser" method="main" />
+    <pattern value="org.oewntk.parse.DataParser1" method="main" />
+    <pattern value="org.oewntk.sql.out.DeSerializeNIDs" method="main" />
+    <pattern value="org.oewntk.grind.wndb2json.Grind" method="main" />
+    <pattern value="org.oewntk.grind.yaml2json.Grind" method="main" />
+    <pattern value="org.oewntk.grind.wndb2sql.Grind" method="main" />
+    <pattern value="org.oewntk.grind.xml2wndb.Grind" method="main" />
+    <pattern value="org.oewntk.grind.yaml2ser.Grind" method="main" />
+    <pattern value="org.oewntk.grind.yaml2sql.Grind" method="main" />
+    <pattern value="org.oewntk.grind.wndb2wndb.Grind" method="main" />
+    <pattern value="org.oewntk.grind.yaml2wndb.Grind" method="main" />
+    <pattern value="org.oewntk.sql.out.GrindBuiltIn" method="main" />
+    <pattern value="org.oewntk.grind.yaml2wndb.GrindOffsets" method="main" />
+    <pattern value="org.oewntk.parse.IndexParser" method="main" />
+    <pattern value="org.oewntk.parse.IndexParser1" method="main" />
+    <pattern value="org.oewntk.grind.wndb2sql.Mapper" method="main" />
+    <pattern value="org.oewntk.grind.yaml2sql.Mapper" method="main" />
+    <pattern value="org.oewntk.parse.MorphParser" method="main" />
+    <pattern value="org.oewntk.parse.Parser" method="main" />
+    <pattern value="org.oewntk.parse.RelationParser.Companion" method="main" />
+    <pattern value="org.oewntk.sql.out.SchemaGenerator.Companion" method="main" />
+    <pattern value="org.oewntk.parse.SenseParser" method="main" />
+    <pattern value="org.oewntk.parse.SenseParser1" method="main" />
+    <pattern value="org.oewntk.grind.wndb2sql.Serializer" method="main" />
+    <pattern value="org.oewntk.grind.yaml2sql.Serializer" method="main" />
+    <pattern value="org.oewntk.sql.out.SourcesGenerator.Companion" method="main" />
+    <pattern value="org.oewntk.utils.SynsetUId.Companion" method="make" />
+    <pattern value="org.oewntk.pojos.LexId.Companion" method="make" />
+    <pattern value="org.oewntk.pojos.Lemma.Companion" method="make" />
+    <pattern value="org.oewntk.model.MapFactory" />
+    <pattern value="org.oewntk.grind.wndb2sql.Mapper" />
+    <pattern value="org.oewntk.grind.yaml2sql.Mapper" />
+    <pattern value="org.oewntk.wndb.out.Data.Member" />
+    <pattern value="org.oewntk.grind.wndb2json.Tracing.Memory" />
+    <pattern value="org.oewntk.grind.wndb2sql.Tracing.Memory" />
+    <pattern value="org.oewntk.grind.wndb2wndb.Tracing.Memory" />
+    <pattern value="org.oewntk.grind.xml2wndb.Tracing.Memory" />
+    <pattern value="org.oewntk.model.Model" />
+    <pattern value="org.oewntk.wndb.out.ModelConsumer" />
+    <pattern value="org.oewntk.model.ModelInfo" />
+    <pattern value="org.oewntk.pojos.MorphMapping" />
+    <pattern value="org.oewntk.parse.MorphParser" />
+    <pattern value="org.oewntk.sql.out.Names" />
+    <pattern value="org.oewntk.pojos.NormalizedString" />
+    <pattern value="org.oewntk.wndb.out.OffsetMapper" />
+    <pattern value="org.oewntk.wndb.out.OffsetSerializer" />
+    <pattern value="org.oewntk.parse.TestParse31" method="parse" />
+    <pattern value="org.oewntk.parse.TestParseXX" method="parse" />
+    <pattern value="org.oewntk.parse.IndexParser" method="parseAllCoreIndexes" />
+    <pattern value="org.oewntk.pojos.CoreSynset.Companion" method="parseMembers" />
+    <pattern value="org.oewntk.parse.Parser" />
+    <pattern value="org.oewntk.pojos.VerbFrame.Companion" method="parseVerbFrame" />
+    <pattern value="org.oewntk.pojos.VerbTemplate.Companion" method="parseVerbTemplate" />
+    <pattern value="org.oewntk.pojos.VerbTemplateRef.Companion" method="parseVerbTemplateRef" />
+    <pattern value="org.oewntk.pojos.Pos" />
+    <pattern value="org.oewntk.pojos.Pos" method="Pos" />
+    <pattern value="org.oewntk.yaml.in.VerbTemplateProcessor" method="processEntry" />
+    <pattern value="org.oewntk.yaml.in.SenseToVerbTemplatesProcessor" method="processEntry" />
+    <pattern value="org.oewntk.yaml.in.VerbFrameProcessor" method="processEntry" />
+    <pattern value="org.oewntk.model.Pronunciation" />
+    <pattern value="org.oewntk.sql.out.Variables" method="put" />
+    <pattern value="org.oewntk.wndb.out.OffsetMapper.Companion" method="readOffsets" />
+    <pattern value="org.oewntk.parse.RelationParser" />
+    <pattern value="org.oewntk.pojos.RelationType" />
+    <pattern value="org.oewntk.pojos.RelationType" method="RelationType" />
+    <pattern value="org.oewntk.pojos.LexRelation" method="resolveToWord" />
+    <pattern value="org.oewntk.sql.out.SchemaGenerator" />
+    <pattern value="org.oewntk.pojos.Sense" />
+    <pattern value="org.oewntk.wndb.out.SenseComparator" />
+    <pattern value="org.oewntk.pojos.Sensekey" />
+    <pattern value="org.oewntk.pojos.Sensekey" method="Sensekey" />
+    <pattern value="org.oewntk.parse.TestParse31" method="senseParse" />
+    <pattern value="org.oewntk.parse.TestParseXX" method="senseParse" />
+    <pattern value="org.oewntk.parse.SenseParser" />
+    <pattern value="org.oewntk.parse.SenseParser1" />
+    <pattern value="org.oewntk.sql.out.Senses" />
+    <pattern value="org.oewntk.yaml.in.SenseToTagCountsProcessor" />
+    <pattern value="org.oewntk.yaml.in.SenseToVerbTemplatesProcessor" />
+    <pattern value="org.oewntk.sql.out.SerializeNIDs" />
+    <pattern value="org.oewntk.grind.wndb2sql.Serializer" />
+    <pattern value="org.oewntk.grind.yaml2sql.Serializer" />
+    <pattern value="org.oewntk.sql.out.Names" method="set" />
+    <pattern value="org.oewntk.parse.TestSensekey" method="sk_escape" />
+    <pattern value="org.oewntk.parse.TestSensekey" method="sk_parse" />
+    <pattern value="org.oewntk.parse.TestSensekey" method="sk_parse2" />
+    <pattern value="org.oewntk.sql.out.SourcesGenerator" />
+    <pattern value="org.oewntk.yaml.in.SynsetParser" />
+    <pattern value="org.oewntk.wndb.out.SynsetProcessor" />
+    <pattern value="org.oewntk.sql.out.Synsets" />
+    <pattern value="org.oewntk.utils.SynsetUId" />
+    <pattern value="org.oewntk.utils.SynsetUId" method="SynsetUId" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelWords" method="testAbsent" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelWords" method="testAbsent" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelWords" method="testAbsent" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelWords" method="testAbsent" />
+    <pattern value="org.oewntk.model.TestAddInverse" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelWords" method="testAllied" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelWords" method="testAllied" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelWords" method="testAllied" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelWords" method="testAllied" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelWords" method="testAlliedUpper" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelWords" method="testAlliedUpper" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelWords" method="testAlliedUpper" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelWords" method="testAlliedUpper" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelWords" method="testApocryphal" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelWords" method="testApocryphal" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelWords" method="testApocryphal" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelWords" method="testApocryphal" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelWords" method="testBaroque" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelWords" method="testBaroque" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelWords" method="testBaroque" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelWords" method="testBaroque" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelQueries" method="testBaroqueByPos" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelQueries" method="testBaroqueByPos" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelQueries" method="testBaroqueByPos" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelQueries" method="testBaroqueByPos" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelQueries" method="testBaroqueCSByPos" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelQueries" method="testBaroqueCSByPos" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelQueries" method="testBaroqueCSByPos" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelQueries" method="testBaroqueCSByPos" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelKeys" method="testBaroqueMono" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelKeys" method="testBaroqueMono" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelKeys" method="testBaroqueMono" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelKeys" method="testBaroqueMono" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelKeys" method="testBaroqueMulti" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelKeys" method="testBaroqueMulti" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelKeys" method="testBaroqueMulti" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelKeys" method="testBaroqueMulti" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelWords" method="testBass" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelWords" method="testBass" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelWords" method="testBass" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelWords" method="testBass" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelQueries" method="testBassByPos" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelQueries" method="testBassByPos" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelQueries" method="testBassByPos" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelQueries" method="testBassByPos" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelKeys" method="testBassDeep" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelKeys" method="testBassDeep" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelKeys" method="testBassDeep" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelKeys" method="testBassDeep" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelKeys" method="testBassShallow" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelKeys" method="testBassShallow" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelKeys" method="testBassShallow" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelKeys" method="testBassShallow" />
+    <pattern value="org.oewntk.sql.TestSqlBundle" method="testBundleValues" />
+    <pattern value="org.oewntk.model.TestKeys" method="testCapitalisation" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelWords" method="testCentre" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelLexGroups" method="testCIAbsolute3" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelLexGroups" method="testCIAbsolute3" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelLexGroups" method="testCIAbsolute3" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelLexGroups" method="testCIAbsolute3" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelLexGroups" method="testCIAi" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelLexGroups" method="testCIAi" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelLexGroups" method="testCIAi" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelLexGroups" method="testCIAi" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelLexGroups" method="testCIAi3" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelLexGroups" method="testCIAi3" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelLexGroups" method="testCIAi3" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelLexGroups" method="testCIAi3" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelLexGroups" method="testCIBaroque" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelLexGroups" method="testCIBaroque" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelLexGroups" method="testCIBaroque" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelLexGroups" method="testCIBaroque" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelLexGroups" method="testCIBaroque3" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelLexGroups" method="testCIBaroque3" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelLexGroups" method="testCIBaroque3" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelLexGroups" method="testCIBaroque3" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelLexGroups" method="testCICounts" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelLexGroups" method="testCICounts" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelLexGroups" method="testCICounts" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelLexGroups" method="testCICounts" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelLexGroups" method="testCICountsFromMap" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelLexGroups" method="testCICountsFromMap" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelLexGroups" method="testCICountsFromMap" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelLexGroups" method="testCICountsFromMap" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelLexGroups" method="testCIHypermapBaroque" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelLexGroups" method="testCIHypermapBaroque" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelLexGroups" method="testCIHypermapBaroque" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelLexGroups" method="testCIHypermapBaroque" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelLexGroups" method="testCIHypermapWest" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelLexGroups" method="testCIHypermapWest" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelLexGroups" method="testCIHypermapWest" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelLexGroups" method="testCIHypermapWest" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelLexGroups" method="testCILemmas" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelLexGroups" method="testCILemmas" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelLexGroups" method="testCILemmas" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelLexGroups" method="testCILemmas" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelLexGroups" method="testCIMultipleAll" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelLexGroups" method="testCIMultipleAll" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelLexGroups" method="testCIMultipleAll" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelLexGroups" method="testCIMultipleAll" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelSenseGroups" method="testCISensesAbsoluteA" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelSenseGroups" method="testCISensesAiN" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelSenseGroups" method="testCISensesBaroque" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelSenseGroups" method="testCISensesBaroqueA" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelSenseGroups" method="testCISensesCriticalA" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelLexGroups" method="testCIWest3" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelLexGroups" method="testCIWest3" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelLexGroups" method="testCIWest3" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelLexGroups" method="testCIWest3" />
+    <pattern value="org.oewntk.sql.TestSqlBundle" method="testClasses" />
+    <pattern value="org.oewntk.wndb.out.TestCoder" />
+    <pattern value="org.oewntk.wndb.out.TestCoder" method="testCoderCompat" />
+    <pattern value="org.oewntk.wndb.out.TestCoder" method="testCoderNoCompat" />
+    <pattern value="org.oewntk.wndb.out.TestSenseOrder" method="testCompareByTagCount" />
+    <pattern value="org.oewntk.wndb.out.TestSenseOrder" method="testCompareByTail" />
+    <pattern value="org.oewntk.wndb.out.TestSenseOrder" method="testCompareByWN31" />
+    <pattern value="org.oewntk.wndb.out.TestSenseOrder" method="testCompareDragonLanguage" />
+    <pattern value="org.oewntk.wndb.out.TestSenseOrder" method="testCompareDragonSoothsayer" />
+    <pattern value="org.oewntk.wndb.out.TestSenseOrder" method="testCompareSoothsayerDragon" />
+    <pattern value="org.oewntk.wndb.out.TestSenseOrder" method="testCompareSoothsayerLanguage" />
+    <pattern value="org.oewntk.wndb.out.TestSenseOrder" method="testCompareWithAll" />
+    <pattern value="org.oewntk.wndb.out.TestSenseOrder" method="testCompareWithWNDBSenseOrder" />
+    <pattern value="org.oewntk.sql.TestSqlBundle" method="testCompat" />
+    <pattern value="org.oewntk.model.TestKeys" method="testCritical" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelWords" method="testCritical" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelWords" method="testCritical" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelWords" method="testCritical" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelWords" method="testCritical" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelQueries" method="testCriticalByPos" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelQueries" method="testCriticalByPos" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelQueries" method="testCriticalByPos" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelQueries" method="testCriticalByPos" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelQueries" method="testCriticalByType" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelQueries" method="testCriticalByType" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelQueries" method="testCriticalByType" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelQueries" method="testCriticalByType" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelKeys" method="testCriticalMono" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelKeys" method="testCriticalMono" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelKeys" method="testCriticalMono" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelKeys" method="testCriticalMono" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelKeys" method="testCriticalMulti" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelKeys" method="testCriticalMulti" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelKeys" method="testCriticalMulti" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelKeys" method="testCriticalMulti" />
+    <pattern value="org.oewntk.parse.TestDomains" />
+    <pattern value="org.oewntk.parse.TestDomains" method="testDomains" />
+    <pattern value="org.oewntk.parse.TestDomains" method="testDomainsIds" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelWords" method="testEarth" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelWords" method="testEarth" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelWords" method="testEarth" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelWords" method="testEarth" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelKeys" method="testEarthMono" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelKeys" method="testEarthMono" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelKeys" method="testEarthMono" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelKeys" method="testEarthMono" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelKeys" method="testEarthMulti" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelKeys" method="testEarthMulti" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelKeys" method="testEarthMulti" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelKeys" method="testEarthMulti" />
+    <pattern value="org.oewntk.yaml.in.TestsExamples" method="testEnclosingQuotes" />
+    <pattern value="org.oewntk.model.TestKeys" method="testEquals" />
+    <pattern value="org.oewntk.yaml.in.TestsExamples" method="testEvenQuotes" />
+    <pattern value="org.oewntk.model.TestFindSenses" />
+    <pattern value="org.oewntk.model.TestFindSenses" method="testFindSensesOfLemmaInSynset" />
+    <pattern value="org.oewntk.model.TestFindSenses" method="testFindSensesOfSynset" />
+    <pattern value="org.oewntk.model.TestFormat" />
+    <pattern value="org.oewntk.wndb.out.TestFormat" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelQueries" method="testGaloreByPos" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelQueries" method="testGaloreByPos" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelQueries" method="testGaloreByPos" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelQueries" method="testGaloreByPos" />
+    <pattern value="org.oewntk.wndb.out.TestHeaders" />
+    <pattern value="org.oewntk.wndb.out.TestHeaders" method="testHeaders" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelWords" method="testHollywood" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelWords" method="testHollywood" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelWords" method="testHollywood" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelWords" method="testHollywood" />
+    <pattern value="org.oewntk.model.TestFindSenses" method="testInfo" />
+    <pattern value="org.oewntk.wndb.out.TestFormat" method="testJoinSensesWithCountAEmpty" />
+    <pattern value="org.oewntk.wndb.out.TestFormat" method="testJoinWithCount" />
+    <pattern value="org.oewntk.wndb.out.TestFormat" method="testJoinWithCount2" />
+    <pattern value="org.oewntk.wndb.out.TestFormat" method="testJoinWithCountAndCountPrefix" />
+    <pattern value="org.oewntk.wndb.out.TestFormat" method="testJoinWithCountAndTransform" />
+    <pattern value="org.oewntk.wndb.out.TestFormat" method="testJoinWithCountEmpty" />
+    <pattern value="org.oewntk.json.out.TestJsonObjects" />
+    <pattern value="org.oewntk.xml.in.TestSensekeyEscaping" method="testKey" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelDuplicates" method="testKeyIC" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelDuplicates" method="testKeyIC" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelDuplicates" method="testKeyIC" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelDuplicates" method="testKeyIC" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelDuplicates" method="testKeyOEWN" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelDuplicates" method="testKeyOEWN" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelDuplicates" method="testKeyOEWN" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelDuplicates" method="testKeyOEWN" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelDuplicates" method="testKeyPos" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelDuplicates" method="testKeyPos" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelDuplicates" method="testKeyPos" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelDuplicates" method="testKeyPos" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelDuplicates" method="testKeyPWN" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelDuplicates" method="testKeyPWN" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelDuplicates" method="testKeyPWN" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelDuplicates" method="testKeyPWN" />
+    <pattern value="org.oewntk.model.TestKeys" />
+    <pattern value="org.oewntk.json.out.TestJsonObjects" method="testLex" />
+    <pattern value="org.oewntk.json.out.TestJsonObjects" method="testLex2" />
+    <pattern value="org.oewntk.model.TestLexicographicOrder" />
+    <pattern value="org.oewntk.parse.TestLine" />
+    <pattern value="org.oewntk.grind.yaml2sql.TestsYamlNIDSerClasses" method="testLoadedClassesSensekeysWordsSynsets" />
+    <pattern value="org.oewntk.grind.yaml2sql.TestsYamlNIDSerClasses" method="testLoadedClassesSenses" />
+    <pattern value="org.oewntk.grind.yaml2sql.TestsYamlNIDSerClasses" method="testLoadedClassesSynsets" />
+    <pattern value="org.oewntk.grind.yaml2sql.TestsYamlNIDSerClasses" method="testLoadedClassesWords" />
+    <pattern value="org.oewntk.grind.yaml2sql.TestsYamlNIDMap" method="testLookupByKey" />
+    <pattern value="org.oewntk.grind.yaml2sql.TestsYamlNIDMap" method="testLookupByKeyF" />
+    <pattern value="org.oewntk.model.TestFormat" method="testMap" />
+    <pattern value="org.oewntk.model.TestFormat" method="testMapWithNewLine" />
+    <pattern value="org.oewntk.model.TestFormat" method="testMapWithValueSeparator" />
+    <pattern value="org.oewntk.model.TestFormat" method="testMapWithValueSeparatorAndPrefixAndPostFix" />
+    <pattern value="org.oewntk.model.TestKeys" method="testMobile" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelKeys" method="testMobile" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelKeys" method="testMobile" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelKeys" method="testMobile" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelKeys" method="testMobile" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelKeys" method="testMobileNoPronunciation" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelKeys" method="testMobileNoPronunciation" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelKeys" method="testMobileNoPronunciation" />
+    <pattern value="org.oewntk.model.TestAddInverse" method="testModel" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModel" method="testModelInfo" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModel" method="testModelInfo" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModel" method="testModelInfo" />
+    <pattern value="org.oewntk.ser.in.TestsSerModel" method="testOrig" />
+    <pattern value="org.oewntk.parse.TestParse31" />
+    <pattern value="org.oewntk.parse.TestParseXX" />
+    <pattern value="org.oewntk.model.TestKeys" method="testPronunciations" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlQuotes" method="testQuote" />
+    <pattern value="org.oewntk.model.TestKeys" method="testRow" />
+    <pattern value="org.oewntk.model.TestLexicographicOrder" method="testRow" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelWords" method="testRow" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelWords" method="testRow" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelWords" method="testRow" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelWords" method="testRow" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelQueries" method="testRowByPos" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelQueries" method="testRowByPos" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelQueries" method="testRowByPos" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelQueries" method="testRowByPos" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelQueries" method="testRowByPosAndPronunciation" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelQueries" method="testRowByPosAndPronunciation" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelQueries" method="testRowByPosAndPronunciation" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelQueries" method="testRowByPosAndPronunciation" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelQueries" method="testRowByType" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelQueries" method="testRowByType" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelQueries" method="testRowByType" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelQueries" method="testRowByType" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelQueries" method="testRowByTypeAndPronunciation" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelQueries" method="testRowByTypeAndPronunciation" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelQueries" method="testRowByTypeAndPronunciation" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelQueries" method="testRowByTypeAndPronunciation" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelKeys" method="testRowDeep" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelKeys" method="testRowDeep" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelKeys" method="testRowDeep" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelKeys" method="testRowDeep" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelKeys" method="testRowShallow" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelKeys" method="testRowShallow" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelKeys" method="testRowShallow" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelKeys" method="testRowShallow" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelWords" method="testScanLexesForTestWords" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelWords" method="testScanLexesForTestWords" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelWords" method="testScanLexesForTestWords" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelWords" method="testScanLexesForTestWords" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelWords" method="testScanLexesForTestWordsSorted" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelWords" method="testScanLexesForTestWordsSorted" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelWords" method="testScanLexesForTestWordsSorted" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelWords" method="testScanLexesForTestWordsSorted" />
+    <pattern value="org.oewntk.json.out.TestJsonObjects" method="testSense" />
+    <pattern value="org.oewntk.parse.TestSensekey" />
+    <pattern value="org.oewntk.wndb.out.TestSenseOrder" />
+    <pattern value="org.oewntk.model.TestAddInverse" method="testSenseRelations" />
+    <pattern value="org.oewntk.yaml.in.TestsExamples" />
+    <pattern value="org.oewntk.wndb.out.TestSenseOrder" method="testSortBySenseIndex31" />
+    <pattern value="org.oewntk.wndb.out.TestSenseOrder" method="testSortBySenseOrder" />
+    <pattern value="org.oewntk.wndb.out.TestSenseOrder" method="testSortWithSenseOrderExpected" />
+    <pattern value="org.oewntk.wndb.out.TestSenseOrder" method="testSortWithTagCount" />
+    <pattern value="org.oewntk.wndb.out.TestSenseOrder" method="testSortWithTail" />
+    <pattern value="org.oewntk.wndb.out.TestSenseOrder" method="testSortWithWN31" />
+    <pattern value="org.oewntk.yaml.in.TestsExamples" method="testSpaces" />
+    <pattern value="org.oewntk.sql.TestSqlBundle" />
+    <pattern value="org.oewntk.sql.TestSqlVariables" />
+    <pattern value="org.oewntk.ser.in.TestsSerModel" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelDuplicates" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelKeys" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelLexGroups" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelQueries" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelWords" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModel" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelDuplicates" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelKeys" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelLexGroups" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelQueries" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelWords" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModel" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelDuplicates" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelKeys" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelQueries" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelWords" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModel" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelDuplicates" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelKeys" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelLexGroups" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelQueries" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelSenseGroups" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelWords" />
+    <pattern value="org.oewntk.grind.yaml2sql.TestsYamlNIDMap" />
+    <pattern value="org.oewntk.grind.yaml2sql.TestsYamlNIDSerClasses" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlQuotes" />
+    <pattern value="org.oewntk.json.out.TestJsonObjects" method="testSynset" />
+    <pattern value="org.oewntk.model.TestAddInverse" method="testSynsetRelations" />
+    <pattern value="org.oewntk.model.TestFindSenses" method="testToString" />
+    <pattern value="org.oewntk.yaml.in.TestsExamples" method="testUnEvenQuotes" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelWords" method="testUsed" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelWords" method="testUsed" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelWords" method="testUsed" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelWords" method="testUsed" />
+    <pattern value="org.oewntk.model.TestUtils" />
+    <pattern value="org.oewntk.ser.in.TestsSerModelWords" method="testVictorian" />
+    <pattern value="org.oewntk.wndb.in.TestsWndbModelWords" method="testVictorian" />
+    <pattern value="org.oewntk.xml.in.TestsXmlModelWords" method="testVictorian" />
+    <pattern value="org.oewntk.yaml.in.TestsYamlModelWords" method="testVictorian" />
+    <pattern value="org.oewntk.wndb.out.TestSenseOrder" method="testWn31Index" />
+    <pattern value="org.oewntk.pojos.Sensekey" method="toParsedString" />
+    <pattern value="org.oewntk.utils.SynsetUId" method="toUIDString" />
+    <pattern value="org.oewntk.wndb.out.Data.VerbFrame.Companion" method="toWndbString1" />
+    <pattern value="org.oewntk.grind.wndb2json.Tracing" />
+    <pattern value="org.oewntk.grind.wndb2sql.Tracing" />
+    <pattern value="org.oewntk.grind.wndb2wndb.Tracing" />
+    <pattern value="org.oewntk.grind.xml2wndb.Tracing" />
+    <pattern value="org.oewntk.sql.Tracing" />
+    <pattern value="org.oewntk.pojos.TrimmedNormalizedString" />
+    <pattern value="org.oewntk.pojos.Type" />
+    <pattern value="org.oewntk.pojos.Type" method="Type" />
+    <pattern value="org.oewntk.grind.wndb2json.Tracing.Memory.Unit" />
+    <pattern value="org.oewntk.grind.wndb2sql.Tracing.Memory.Unit" />
+    <pattern value="org.oewntk.grind.wndb2wndb.Tracing.Memory.Unit" />
+    <pattern value="org.oewntk.grind.xml2wndb.Tracing.Memory.Unit" />
+    <pattern value="org.oewntk.grind.wndb2json.Tracing.Memory.Unit" method="Unit" />
+    <pattern value="org.oewntk.grind.wndb2sql.Tracing.Memory.Unit" method="Unit" />
+    <pattern value="org.oewntk.grind.xml2wndb.Tracing.Memory.Unit" method="Unit" />
+    <pattern value="org.oewntk.grind.wndb2wndb.Tracing.Memory.Unit" method="Unit" />
+    <pattern value="org.oewntk.sql.out.Variables" />
+    <pattern value="org.oewntk.sql.out.Variables" method="varSubstitutionInFile" />
+    <pattern value="org.oewntk.pojos.VerbFrame" />
+    <pattern value="org.oewntk.wndb.out.Data.VerbFrame" />
+    <pattern value="org.oewntk.pojos.VerbFrame" method="VerbFrame" />
+    <pattern value="org.oewntk.yaml.in.VerbFrameProcessor" />
+    <pattern value="org.oewntk.pojos.VerbTemplate" />
+    <pattern value="org.oewntk.pojos.VerbTemplate" method="VerbTemplate" />
+    <pattern value="org.oewntk.yaml.in.VerbTemplateProcessor" />
+    <pattern value="org.oewntk.pojos.VerbTemplateRef" />
+    <pattern value="org.oewntk.sql.TestSqlVariables" method="wellFormedVarSubstitution" />
+    <pattern value="org.oewntk.wndb.out.WN31Index" />
+    <pattern value="org.oewntk.wndb.out.WordIndexer" />
+    <pattern value="org.oewntk.grind.yaml2wndb.Grind1" method="Grind1" />
+  </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">

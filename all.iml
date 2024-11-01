@@ -3,6 +3,11 @@
   <component name="AdditionalModuleElements">
     <content url="file://$MODULE_DIR$" dumb="true">
       <excludeFolder url="file://$MODULE_DIR$/dist/uber" />
+      <excludeFolder url="file://$MODULE_DIR$/relaxmapper/input" />
+      <excludeFolder url="file://$MODULE_DIR$/relaxmapper/output" />
+      <excludeFolder url="file://$MODULE_DIR$/wndb_offsets" />
+      <excludeFolder url="file://$MODULE_DIR$/add-synsetids/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/dist" />
     </content>
   </component>
 </module>
