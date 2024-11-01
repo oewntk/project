@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d165567d-bb88-44e9-a29f-c6b56f0f606a" name="Changes" comment="dummy function">
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+    <list default="true" id="d165567d-bb88-44e9-a29f-c6b56f0f606a" name="Changes" comment="type of examples to allow for source">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Grind__JSON_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Grind__SQL_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-model/src/main/java/org/oewntk/model/Sense.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-model/src/main/java/org/oewntk/model/Sense.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-fromyaml/src/main/java/org/oewntk/yaml/in/LexParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-fromyaml/src/main/java/org/oewntk/yaml/in/LexParser.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-fromyaml/src/main/java/org/oewntk/yaml/in/SynsetParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-fromyaml/src/main/java/org/oewntk/yaml/in/SynsetParser.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-fromyaml/src/main/java/org/oewntk/yaml/in/YamlUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-fromyaml/src/main/java/org/oewntk/yaml/in/YamlUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-tosql/src/main/java/org/oewntk/sql/out/Senses.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/src/main/java/org/oewntk/sql/out/Senses.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-tosql/src/main/java/org/oewntk/sql/out/Synsets.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/src/main/java/org/oewntk/sql/out/Synsets.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +26,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/oewn-model" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/oewn-tosql" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GithubDefaultAccount">
@@ -42,28 +48,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Kotlin.Grind.executor": "Run",
-    "Maven.all [clean].executor": "Run",
-    "Maven.all [compile].executor": "Run",
-    "Maven.all [deploy].executor": "Run",
-    "Maven.all [install].executor": "Run",
-    "Maven.tojson [install].executor": "Run",
-    "Maven.tojson [package].executor": "Run",
-    "Maven.tosql [install].executor": "Run",
-    "Maven.wndb2json [install].executor": "Run",
-    "Maven.yaml2json [install].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/opt/devel/oewn/dist/uber",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Kotlin.Grind (SQL).executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.Grind.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.all [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.all [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.all [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.all [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.tojson [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.tojson [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.tosql [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.wndb2json [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.yaml2json [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/opt/devel/oewn/dist/uber&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/dist/repos/github/wndb/images" />
@@ -75,18 +83,11 @@
       <recent name="$PROJECT_DIR$/dist/repos/github" />
       <recent name="$PROJECT_DIR$/dist/repos" />
     </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="org.oewntk.model" />
+    </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Grind">
-    <configuration name="Grind" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.oewntk.grind.yaml2json.Grind" />
-      <module name="yaml2json" />
-      <option name="PROGRAM_PARAMETERS" value="-pretty yaml yaml2 json/oewn.json" />
-      <shortenClasspath name="NONE" />
-      <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.Grind (SQL)">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="oewn" />
       <method v="2">
@@ -123,12 +124,13 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Kotlin.Grind" />
+      <item itemvalue="Kotlin.Grind (SQL)" />
+      <item itemvalue="Kotlin.Grind (JSON)" />
       <item itemvalue="Python.add_synsetids" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Grind" />
+        <item itemvalue="Kotlin.Grind (JSON)" />
       </list>
     </recent_temporary>
   </component>
@@ -453,7 +455,31 @@
       <option name="project" value="LOCAL" />
       <updated>1730444464439</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="reorder">
+      <option name="closed" value="true" />
+      <created>1730444492013</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1730444492013</updated>
+    </task>
+    <task id="LOCAL-00041" summary="house keeping">
+      <option name="closed" value="true" />
+      <created>1730444515308</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1730444515308</updated>
+    </task>
+    <task id="LOCAL-00042" summary="type of examples to allow for source">
+      <option name="closed" value="true" />
+      <created>1730445006066</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1730445006066</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -468,8 +494,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update ossrh id" />
-    <MESSAGE value="fixes swapping" />
     <MESSAGE value="optimize svg" />
     <MESSAGE value="new version 2.1.3" />
     <MESSAGE value="kotlin 2.0.20" />
@@ -483,7 +507,6 @@
     <MESSAGE value="fix version" />
     <MESSAGE value="unnecessary stdout output" />
     <MESSAGE value="script revision" />
-    <MESSAGE value="house keeping" />
     <MESSAGE value="extra ref to ubers" />
     <MESSAGE value="revised scripts" />
     <MESSAGE value="version update to 2.2.0" />
@@ -493,21 +516,9 @@
     <MESSAGE value="add names" />
     <MESSAGE value="generate samples to file (append for senses)" />
     <MESSAGE value="dummy function" />
-    <option name="LAST_COMMIT_MESSAGE" value="dummy function" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-function">
-          <url>file://$PROJECT_DIR$/oewn-fromyaml/src/main/java/org/oewntk/yaml/in/LexParser.kt</url>
-          <line>24</line>
-          <properties class="org.oewntk.yaml.in.LexParser" method="getFiles">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="reorder" />
+    <MESSAGE value="house keeping" />
+    <MESSAGE value="type of examples to allow for source" />
+    <option name="LAST_COMMIT_MESSAGE" value="type of examples to allow for source" />
   </component>
 </project>

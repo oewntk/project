@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Grind (JSON)" type="JetRunConfigurationType">
+    <option name="MAIN_CLASS_NAME" value="org.oewntk.grind.yaml2json.Grind" />
+    <module name="yaml2json" />
+    <option name="PROGRAM_PARAMETERS" value="-pretty yaml yaml2 json/oewn.json" />
+    <shortenClasspath name="NONE" />
+    <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

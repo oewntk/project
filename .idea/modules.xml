@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/all.iml" filepath="$PROJECT_DIR$/all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oewn-grind_yaml2sql/yaml2sql.iml" filepath="$PROJECT_DIR$/oewn-grind_yaml2sql/yaml2sql.iml" />
     </modules>
   </component>
 </project>

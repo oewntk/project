@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Grind (SQL)" type="JetRunConfigurationType">
+    <option name="MAIN_CLASS_NAME" value="org.oewntk.grind.yaml2sql.Grind" />
+    <module name="yaml2sql" />
+    <option name="PROGRAM_PARAMETERS" value="yaml yaml2 sql/data" />
+    <shortenClasspath name="NONE" />
+    <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
