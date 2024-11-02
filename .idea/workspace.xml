@@ -8,30 +8,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d165567d-bb88-44e9-a29f-c6b56f0f606a" name="Changes" comment="usage support">
-      <change afterPath="$PROJECT_DIR$/oewn-tosql/src/main/resources/wn/sqltemplates/mysql/create/ilis-create.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oewn-tosql/src/main/resources/wn/sqltemplates/mysql/create/wikidatas-create.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oewn-tosql/src/main/resources/wn/sqltemplates/mysql/index/ilis-index.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oewn-tosql/src/main/resources/wn/sqltemplates/mysql/index/wikidatas-index.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oewn-tosql/src/main/resources/wn/sqltemplates/mysql/reference/ils-reference.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oewn-tosql/src/main/resources/wn/sqltemplates/mysql/reference/wikidatas-reference.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oewn-tosql/src/main/resources/wn/sqltemplates/sqlite/create/ilis-create.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oewn-tosql/src/main/resources/wn/sqltemplates/sqlite/create/wikidatas-create.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oewn-tosql/src/main/resources/wn/sqltemplates/sqlite/index/ilis-index.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oewn-tosql/src/main/resources/wn/sqltemplates/sqlite/index/wikidatas-index.sql" afterDir="false" />
+    <list default="true" id="d165567d-bb88-44e9-a29f-c6b56f0f606a" name="Changes" comment="wikidata, ili support">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-fromwndb/src/main/java/org/oewntk/wndb/in/Parser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-fromwndb/src/main/java/org/oewntk/wndb/in/Parser.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-fromxml/src/main/java/org/oewntk/xml/in/Parser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-fromxml/src/main/java/org/oewntk/xml/in/Parser.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-fromxml/src/main/java/org/oewntk/xml/in/XmlNames.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-fromxml/src/main/java/org/oewntk/xml/in/XmlNames.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-fromyaml/src/main/java/org/oewntk/yaml/in/SynsetParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-fromyaml/src/main/java/org/oewntk/yaml/in/SynsetParser.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-model/src/main/java/org/oewntk/model/Synset.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-model/src/main/java/org/oewntk/model/Synset.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-model/src/test/java/org/oewntk/model/LibNanoModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-model/src/test/java/org/oewntk/model/LibNanoModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-tosql/src/main/java/org/oewntk/sql/out/CoreModelConsumer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/src/main/java/org/oewntk/sql/out/CoreModelConsumer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-tosql/src/main/java/org/oewntk/sql/out/Names.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/src/main/java/org/oewntk/sql/out/Names.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-tosql/src/main/java/org/oewntk/sql/out/Printers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/src/main/java/org/oewntk/sql/out/Printers.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-tosql/src/main/java/org/oewntk/sql/out/Synsets.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/src/main/java/org/oewntk/sql/out/Synsets.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-tosql/src/main/resources/wn/Names.properties" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/src/main/resources/wn/Names.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-tosql/src/main/resources/wn/NamesCompat.properties" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/src/main/resources/wn/NamesCompat.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +62,7 @@
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/opt/devel/oewn/oewn-tosql/src/main/resources/wn/sqltemplates/sqlite/index",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
@@ -534,7 +512,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730483497490</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="wikidata, ili support">
+      <option name="closed" value="true" />
+      <created>1730493261979</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1730493261979</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -549,7 +535,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="kotlin 2.0.20" />
     <MESSAGE value="space" />
     <MESSAGE value="fi" />
     <MESSAGE value="newly generated" />
@@ -574,7 +559,8 @@
     <MESSAGE value="process samples for senses and synsets" />
     <MESSAGE value="house keeping" />
     <MESSAGE value="usage support" />
-    <option name="LAST_COMMIT_MESSAGE" value="usage support" />
+    <MESSAGE value="wikidata, ili support" />
+    <option name="LAST_COMMIT_MESSAGE" value="wikidata, ili support" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -583,11 +569,6 @@
           <url>file://$PROJECT_DIR$/oewn-fromyaml/src/main/java/org/oewntk/yaml/in/SynsetParser.kt</url>
           <line>48</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/oewn-tosql/src/main/java/org/oewntk/sql/out/Printers.kt</url>
-          <line>33</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-function">
           <url>file://$PROJECT_DIR$/oewn-tosql/src/main/java/org/oewntk/sql/out/CoreModelConsumer.kt</url>
