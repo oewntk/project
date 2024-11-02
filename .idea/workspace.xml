@@ -8,9 +8,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d165567d-bb88-44e9-a29f-c6b56f0f606a" name="Changes" comment="house keeping">
+    <list default="true" id="d165567d-bb88-44e9-a29f-c6b56f0f606a" name="Changes" comment="version 2.2.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/add-synsetids/.run/add_synsetids.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/add-synsetids/.run/add_synsetids.run.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/add-synsetids/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/add-synsetids/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/define_build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/define_build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/uber/grind-wndb2json.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/uber/grind-wndb2json.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/uber/grind-wndb2sql.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/uber/grind-wndb2sql.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/uber/grind-wndb2wndb.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/uber/grind-wndb2wndb.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/uber/grind-xml2wndb.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/uber/grind-xml2wndb.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/uber/grind-yaml2json.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/uber/grind-yaml2json.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/uber/grind-yaml2ser.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/uber/grind-yaml2ser.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/uber/grind-yaml2sql.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/uber/grind-yaml2sql.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/uber/grind-yaml2wndb.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/uber/grind-yaml2wndb.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oewn-fromser/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-fromser/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oewn-fromser/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-fromser/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oewn-fromwndb/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-fromwndb/README.md" afterDir="false" />
@@ -81,6 +91,7 @@
       <change beforePath="$PROJECT_DIR$/oewn-tosql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oewn-towndb/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-towndb/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oewn-towndb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-towndb/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,14 +217,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722072410220</updated>
-    </task>
-    <task id="LOCAL-00011" summary="fi">
-      <option name="closed" value="true" />
-      <created>1728497943064</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1728497943064</updated>
     </task>
     <task id="LOCAL-00012" summary="newly generated">
       <option name="closed" value="true" />
@@ -599,7 +602,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730539363394</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="version 2.2.1">
+      <option name="closed" value="true" />
+      <created>1730540402044</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1730540402045</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -614,7 +625,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="unnecessary stdout output" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="script revision" />
     <MESSAGE value="extra ref to ubers" />
     <MESSAGE value="revised scripts" />
@@ -639,7 +651,8 @@
     <MESSAGE value="fix bug in table name" />
     <MESSAGE value="direct to generate wn31 data" />
     <MESSAGE value="house keeping" />
-    <option name="LAST_COMMIT_MESSAGE" value="house keeping" />
+    <MESSAGE value="version 2.2.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 2.2.1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
