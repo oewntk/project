@@ -30,10 +30,15 @@ echo -e "${M}schema (wndb2sql)${Z}"
 popd >/dev/null
 
 echo -e "${Y}grind${Z}"
+date > ${logdir}/errors_wndb.log
+date > ${logdir}/errors_sql.log
+date > ${logdir}/errors_json.log
+date > ${logdir}/errors_ser.log
+
 
 pushd oewn-grind_yaml2wndb >/dev/null
 echo -e "${M}yaml2wndb${Z}"
-./grind.sh yaml yaml2 wndb 2> ${logdir}/errors_wndb.log
+./grind.sh yaml yaml2 wndb 2>> ${logdir}/errors_wndb.log
 echo -e "${M}yaml2wndb (offsets)${Z}"
 ./grind_offsets.sh yaml wndb_offsets/wndb 2>> ${logdir}/errors_wndb.log
 echo -e "${M}yaml2wndb (compat)${Z}"
@@ -44,49 +49,49 @@ popd >/dev/null
 
 pushd oewn-grind_yaml2sql >/dev/null
 echo -e "${M}yaml2sql${Z}"
-./grind.sh yaml yaml2 sql/data 2> ${logdir}/errors_sql.log
-./generate-nidmaps.sh yaml yaml2 nidmaps
-./generate-sers.sh yaml yaml2 sers
+./grind.sh yaml yaml2 sql/data 2>> ${logdir}/errors_sql.log
+./generate-nidmaps.sh yaml yaml2 nidmaps 2>> ${logdir}/errors_sql.log
+./generate-sers.sh yaml yaml2 sers 2>> ${logdir}/errors_ser.log
 popd >/dev/null
 
 pushd oewn-grind_yaml2ser >/dev/null
 echo -e "${M}yaml2ser${Z}"
-./grind.sh yaml yaml2 ser oewn.ser oewn.ser.info
+./grind.sh yaml yaml2 ser oewn.ser oewn.ser.info 2>> ${logdir}/errors_ser.log
 popd >/dev/null
 
 pushd oewn-grind_yaml2json >/dev/null
 echo -e "${M}yaml2json${Z}"
-./grind.sh yaml yaml2 json/oewn.json
+./grind.sh yaml yaml2 json/oewn.json 2>> ${logdir}/errors_json.log
 popd >/dev/null
 
 if [ ! -z "$fromxml" ]; then
 	pushd oewn-grind_xml2wndb >/dev/null
 	echo -e "${M}xml2wndb${Z}"
-	./grind.sh xml/oewn.xml xml2 wndb
+	./grind.sh xml/oewn.xml xml2 wndb 2>> ${logdir}/errors_wndb.log
 	popd >/dev/null
 fi
 
 if [ ! -z "$reapply" ]; then
 	pushd oewn-grind_wndb2wndb >/dev/null
 	echo -e "${M}wndb2wndb (re)${Z}"
-	./grind.sh wndb wndb2 wndb_out
+	./grind.sh wndb wndb2 wndb_out 2>> ${logdir}/errors_wndb.log
 	echo -e "${M}wndb2wndb (re_re)${Z}"
-	./grind.sh wndb_out wndb2 wndb_out_out
+	./grind.sh wndb_out wndb2 wndb_out_out 2>> ${logdir}/errors_wndb.log
 	popd >/dev/null
 fi
 
 if [ ! -z "$fromwndb" ]; then
 	pushd oewn-grind_wndb2sql >/dev/null
 	echo -e "${M}wndb2sql${Z}"
-	./grind.sh wndb wndb2 sql/data
-	./grind.sh wndb31 wndb2 sql31/data
-	./generate-nidmaps.sh wndb31 wndb2 nidmaps31
-	./generate-sers.sh wndb31 wndb2 sers31
+	./grind.sh wndb wndb2 sql/data 2>> ${logdir}/errors_sql.log
+	./grind.sh wndb31 wndb2 sql31/data 2>> ${logdir}/errors_sql.log
+	./generate-nidmaps.sh wndb31 wndb2 nidmaps31 2>> ${logdir}/errors_sql.log
+	./generate-sers.sh wndb31 wndb2 sers31 2>> ${logdir}/errors_ser.log
 	popd >/dev/null
 	
 	pushd oewn-grind_wndb2json >/dev/null
 	echo -e "${M}wndb2json${Z}"
-	./grind.sh wndb wndb2 json/wn31.json
+	./grind.sh wndb wndb2 json/wn31.json 2>> ${logdir}/errors_json.log
 	popd >/dev/null
 fi
 
