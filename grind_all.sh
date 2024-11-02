@@ -12,8 +12,15 @@ export M='\u001b[35m'
 export C='\u001b[36m'
 export Z='\u001b[0m'
 
+# directives
+wn31=true
+fromxml=
+reapply=
+
+# log
 logdir=..
 
+# main
 echo -e "${Y}schema${Z}"
 pushd oewn-tosql >/dev/null
 echo -e "${M}schema (tosql)${Z}"
@@ -80,7 +87,7 @@ if [ ! -z "$reapply" ]; then
 	popd >/dev/null
 fi
 
-if [ ! -z "$fromwndb" ]; then
+if [ ! -z "$wn31" ]; then
 	pushd oewn-grind_wndb2sql >/dev/null
 	echo -e "${M}wndb2sql${Z}"
 	./grind.sh wndb wndb2 sql/data 2>> ${logdir}/errors_sql.log
@@ -88,10 +95,9 @@ if [ ! -z "$fromwndb" ]; then
 	./generate-nidmaps.sh wndb31 wndb2 nidmaps31 2>> ${logdir}/errors_sql.log
 	./generate-sers.sh wndb31 wndb2 sers31 2>> ${logdir}/errors_ser.log
 	popd >/dev/null
-	
+
 	pushd oewn-grind_wndb2json >/dev/null
 	echo -e "${M}wndb2json${Z}"
 	./grind.sh wndb wndb2 json/wn31.json 2>> ${logdir}/errors_json.log
 	popd >/dev/null
 fi
-
