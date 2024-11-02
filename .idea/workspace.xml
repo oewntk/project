@@ -8,9 +8,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d165567d-bb88-44e9-a29f-c6b56f0f606a" name="Changes" comment="fix 'usage' reserved in MySql">
+    <list default="true" id="d165567d-bb88-44e9-a29f-c6b56f0f606a" name="Changes" comment="define print streams">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-fromwndb/src/main/java/org/oewntk/wndb/in/Parser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-fromwndb/src/main/java/org/oewntk/wndb/in/Parser.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/Counter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/Counter.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/DataParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/DataParser.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/IndexParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/IndexParser.kt" afterDir="false" />
@@ -18,14 +17,6 @@
       <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/Parser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/Parser.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/RelationParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/RelationParser.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/SenseParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/SenseParser.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/utils/Tracing.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/utils/Tracing.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/src/test/java/org/oewntk/parse/TestDomains.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/src/test/java/org/oewntk/parse/TestDomains.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/src/test/java/org/oewntk/parse/TestLine.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/src/test/java/org/oewntk/parse/TestLine.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/src/test/java/org/oewntk/parse/TestParse31.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/src/test/java/org/oewntk/parse/TestParse31.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/src/test/java/org/oewntk/parse/TestParseXX.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/src/test/java/org/oewntk/parse/TestParseXX.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/src/test/java/org/oewntk/parse/TestSensekey.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/src/test/java/org/oewntk/parse/TestSensekey.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-tosql/src/main/java/org/oewntk/sql/out/Names.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/src/main/java/org/oewntk/sql/out/Names.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-tosql/src/main/java/org/oewntk/sql/out/Synsets.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/src/main/java/org/oewntk/sql/out/Synsets.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,38 +143,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722072410220</updated>
-    </task>
-    <task id="LOCAL-00016" summary="image">
-      <option name="closed" value="true" />
-      <created>1728536296801</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1728536296801</updated>
-    </task>
-    <task id="LOCAL-00017" summary="revised data links">
-      <option name="closed" value="true" />
-      <created>1728536353226</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1728536353226</updated>
-    </task>
-    <task id="LOCAL-00018" summary="house keeping">
-      <option name="closed" value="true" />
-      <created>1728536376202</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1728536376202</updated>
-    </task>
-    <task id="LOCAL-00019" summary="house keeping">
-      <option name="closed" value="true" />
-      <created>1728540261758</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1728540261758</updated>
     </task>
     <task id="LOCAL-00020" summary="fix image path">
       <option name="closed" value="true" />
@@ -545,7 +504,39 @@
       <option name="project" value="LOCAL" />
       <updated>1730556050953</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="fix 'usage' reserved in MySql">
+      <option name="closed" value="true" />
+      <created>1730556060293</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1730556060293</updated>
+    </task>
+    <task id="LOCAL-00066" summary="house keeping">
+      <option name="closed" value="true" />
+      <created>1730556173761</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1730556173761</updated>
+    </task>
+    <task id="LOCAL-00067" summary="define print streams">
+      <option name="closed" value="true" />
+      <created>1730556203531</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1730556203531</updated>
+    </task>
+    <task id="LOCAL-00068" summary="define print streams">
+      <option name="closed" value="true" />
+      <created>1730556599094</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1730556599094</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -562,7 +553,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="version update to 2.2.0" />
     <MESSAGE value="add default to null" />
     <MESSAGE value="add sample reference to word and source" />
     <MESSAGE value="add sample reference to word and source" />
@@ -582,12 +572,13 @@
     <MESSAGE value="date in logs" />
     <MESSAGE value="fix bug in table name" />
     <MESSAGE value="direct to generate wn31 data" />
-    <MESSAGE value="house keeping" />
     <MESSAGE value="version 2.2.1" />
     <MESSAGE value="regen" />
     <MESSAGE value="fix logging" />
     <MESSAGE value="fix 'usage' reserved in MySql" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix 'usage' reserved in MySql" />
+    <MESSAGE value="house keeping" />
+    <MESSAGE value="define print streams" />
+    <option name="LAST_COMMIT_MESSAGE" value="define print streams" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
