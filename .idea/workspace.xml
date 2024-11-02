@@ -8,8 +8,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d165567d-bb88-44e9-a29f-c6b56f0f606a" name="Changes" comment="wikidata, ili support">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d165567d-bb88-44e9-a29f-c6b56f0f606a" name="Changes" comment="date in logs">
+      <change beforePath="$PROJECT_DIR$/grind_all.sh" beforeDir="false" afterPath="$PROJECT_DIR$/grind_all.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-tosql/src/main/java/org/oewntk/sql/out/Synsets.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/src/main/java/org/oewntk/sql/out/Synsets.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +23,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/oewn-tosql" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GithubDefaultAccount">
@@ -135,54 +136,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722072410220</updated>
-    </task>
-    <task id="LOCAL-00001" summary="fixes package">
-      <option name="closed" value="true" />
-      <created>1722072606866</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1722072606866</updated>
-    </task>
-    <task id="LOCAL-00002" summary="clean up">
-      <option name="closed" value="true" />
-      <created>1722072638396</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1722072638396</updated>
-    </task>
-    <task id="LOCAL-00003" summary="fixes package">
-      <option name="closed" value="true" />
-      <created>1722072764271</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1722072764271</updated>
-    </task>
-    <task id="LOCAL-00004" summary="upgrade">
-      <option name="closed" value="true" />
-      <created>1722074921041</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1722074921041</updated>
-    </task>
-    <task id="LOCAL-00005" summary="update ossrh id">
-      <option name="closed" value="true" />
-      <created>1728477848008</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1728477848008</updated>
-    </task>
-    <task id="LOCAL-00006" summary="fixes swapping">
-      <option name="closed" value="true" />
-      <created>1728492247014</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1728492247014</updated>
     </task>
     <task id="LOCAL-00007" summary="optimize svg">
       <option name="closed" value="true" />
@@ -520,7 +473,63 @@
       <option name="project" value="LOCAL" />
       <updated>1730493261979</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="fixes tests">
+      <option name="closed" value="true" />
+      <created>1730526496593</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1730526496593</updated>
+    </task>
+    <task id="LOCAL-00050" summary="house keeping">
+      <option name="closed" value="true" />
+      <created>1730526512758</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1730526512759</updated>
+    </task>
+    <task id="LOCAL-00051" summary="clean up">
+      <option name="closed" value="true" />
+      <created>1730526578187</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1730526578187</updated>
+    </task>
+    <task id="LOCAL-00052" summary="doc">
+      <option name="closed" value="true" />
+      <created>1730527760148</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1730527760148</updated>
+    </task>
+    <task id="LOCAL-00053" summary="rename for consistency">
+      <option name="closed" value="true" />
+      <created>1730527798113</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1730527798113</updated>
+    </task>
+    <task id="LOCAL-00054" summary="propagate version number">
+      <option name="closed" value="true" />
+      <created>1730530388619</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1730530388619</updated>
+    </task>
+    <task id="LOCAL-00055" summary="date in logs">
+      <option name="closed" value="true" />
+      <created>1730533061916</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1730533061916</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -535,12 +544,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="space" />
-    <MESSAGE value="fi" />
-    <MESSAGE value="newly generated" />
-    <MESSAGE value="new entry point" />
-    <MESSAGE value="image" />
-    <MESSAGE value="revised data links" />
     <MESSAGE value="fix image path" />
     <MESSAGE value="fix version" />
     <MESSAGE value="unnecessary stdout output" />
@@ -557,10 +560,16 @@
     <MESSAGE value="reorder" />
     <MESSAGE value="type of examples to allow for source" />
     <MESSAGE value="process samples for senses and synsets" />
-    <MESSAGE value="house keeping" />
     <MESSAGE value="usage support" />
     <MESSAGE value="wikidata, ili support" />
-    <option name="LAST_COMMIT_MESSAGE" value="wikidata, ili support" />
+    <MESSAGE value="fixes tests" />
+    <MESSAGE value="house keeping" />
+    <MESSAGE value="clean up" />
+    <MESSAGE value="doc" />
+    <MESSAGE value="rename for consistency" />
+    <MESSAGE value="propagate version number" />
+    <MESSAGE value="date in logs" />
+    <option name="LAST_COMMIT_MESSAGE" value="date in logs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
