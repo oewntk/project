@@ -18,7 +18,8 @@ fromxml=
 reapply=
 
 # log
-logdir=..
+logdir=.
+logdir=$(readlink -m ${logdir})
 
 # main
 echo -e "${Y}schema${Z}"
@@ -41,7 +42,6 @@ date > ${logdir}/errors_wndb.log
 date > ${logdir}/errors_sql.log
 date > ${logdir}/errors_json.log
 date > ${logdir}/errors_ser.log
-
 
 pushd oewn-grind_yaml2wndb >/dev/null
 echo -e "${M}yaml2wndb${Z}"
