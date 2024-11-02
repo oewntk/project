@@ -8,16 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d165567d-bb88-44e9-a29f-c6b56f0f606a" name="Changes" comment="define print streams">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/Counter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/Counter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/DataParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/DataParser.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/IndexParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/IndexParser.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/MorphParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/MorphParser.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/Parser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/Parser.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/RelationParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/RelationParser.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/SenseParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/SenseParser.kt" afterDir="false" />
-    </list>
+    <list default="true" id="d165567d-bb88-44e9-a29f-c6b56f0f606a" name="Changes" comment="house keeping" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -143,22 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722072410220</updated>
-    </task>
-    <task id="LOCAL-00020" summary="fix image path">
-      <option name="closed" value="true" />
-      <created>1728541057203</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1728541057203</updated>
-    </task>
-    <task id="LOCAL-00021" summary="fix version">
-      <option name="closed" value="true" />
-      <created>1728672005979</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1728672005979</updated>
     </task>
     <task id="LOCAL-00022" summary="fix version">
       <option name="closed" value="true" />
@@ -536,7 +511,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730556599094</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="define print streams">
+      <option name="closed" value="true" />
+      <created>1730556924686</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1730556924686</updated>
+    </task>
+    <task id="LOCAL-00070" summary="house keeping">
+      <option name="closed" value="true" />
+      <created>1730556937134</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1730556937134</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -576,9 +567,9 @@
     <MESSAGE value="regen" />
     <MESSAGE value="fix logging" />
     <MESSAGE value="fix 'usage' reserved in MySql" />
-    <MESSAGE value="house keeping" />
     <MESSAGE value="define print streams" />
-    <option name="LAST_COMMIT_MESSAGE" value="define print streams" />
+    <MESSAGE value="house keeping" />
+    <option name="LAST_COMMIT_MESSAGE" value="house keeping" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
