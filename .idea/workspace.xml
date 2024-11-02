@@ -8,90 +8,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d165567d-bb88-44e9-a29f-c6b56f0f606a" name="Changes" comment="version 2.2.1">
+    <list default="true" id="d165567d-bb88-44e9-a29f-c6b56f0f606a" name="Changes" comment="fix 'usage' reserved in MySql">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add-synsetids/.run/add_synsetids.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/add-synsetids/.run/add_synsetids.run.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add-synsetids/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/add-synsetids/run.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/define_build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/define_build.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/uber/grind-wndb2json.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/uber/grind-wndb2json.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/uber/grind-wndb2sql.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/uber/grind-wndb2sql.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/uber/grind-wndb2wndb.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/uber/grind-wndb2wndb.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/uber/grind-xml2wndb.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/uber/grind-xml2wndb.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/uber/grind-yaml2json.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/uber/grind-yaml2json.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/uber/grind-yaml2ser.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/uber/grind-yaml2ser.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/uber/grind-yaml2sql.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/uber/grind-yaml2sql.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/uber/grind-yaml2wndb.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/uber/grind-yaml2wndb.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-fromser/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-fromser/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-fromser/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-fromser/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-fromwndb/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-fromwndb/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-fromwndb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-fromwndb/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-fromxml/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-fromxml/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-fromxml/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-fromxml/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-fromyaml/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-fromyaml/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-fromyaml/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-fromyaml/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2json/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2json/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2json/grind.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2json/grind.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2json/images/grind-wndb2json.dot" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2json/images/grind-wndb2json.dot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2json/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2json/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2sql/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2sql/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2sql/generate-nidmaps.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2sql/generate-nidmaps.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2sql/generate-schema.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2sql/generate-schema.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2sql/generate-sers.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2sql/generate-sers.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2sql/grind.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2sql/grind.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2sql/images/grind-wndb2sql.dot" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2sql/images/grind-wndb2sql.dot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2sql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2sql/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2wndb/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2wndb/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2wndb/grind.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2wndb/grind.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2wndb/images/grind-yaml2wndb.dot" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2wndb/images/grind-yaml2wndb.dot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_wndb2wndb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_wndb2wndb/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_xml2wndb/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_xml2wndb/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_xml2wndb/grind.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_xml2wndb/grind.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_xml2wndb/images/grind-xml2wndb.dot" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_xml2wndb/images/grind-xml2wndb.dot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_xml2wndb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_xml2wndb/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2json/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2json/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2json/grind.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2json/grind.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2json/images/grind-yaml2json.dot" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2json/images/grind-yaml2json.dot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2json/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2json/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2ser/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2ser/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2ser/grind.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2ser/grind.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2ser/images/grind-yaml2ser.dot" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2ser/images/grind-yaml2ser.dot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2ser/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2ser/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2sql/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2sql/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2sql/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2sql/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2sql/generate-nidmaps.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2sql/generate-nidmaps.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2sql/generate-schema.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2sql/generate-schema.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2sql/generate-sers.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2sql/generate-sers.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2sql/grind.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2sql/grind.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2sql/images/grind-yaml2sql.dot" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2sql/images/grind-yaml2sql.dot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2sql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2sql/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2wndb/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2wndb/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2wndb/grind.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2wndb/grind.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2wndb/grind1.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2wndb/grind1.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2wndb/grind_compat.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2wndb/grind_compat.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2wndb/grind_offsets.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2wndb/grind_offsets.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2wndb/grind_offsets_compat.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2wndb/grind_offsets_compat.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2wndb/images/grind-yaml2wndb.dot" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2wndb/images/grind-yaml2wndb.dot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-grind_yaml2wndb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-grind_yaml2wndb/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-model/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-model/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-model/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/check.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/check.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/parse.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/parse.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/parse1.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/parse1.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/parseData.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/parseData.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/parseIndex.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/parseIndex.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/parseIndex1.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/parseIndex1.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/parseSense1.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/parseSense1.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/parseSenses.sh" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/parseSenses.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-tojson/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tojson/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-tojson/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tojson/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-toser/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-toser/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-toser/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-toser/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-tosql/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-tosql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-towndb/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-towndb/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-towndb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-towndb/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-fromwndb/src/main/java/org/oewntk/wndb/in/Parser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-fromwndb/src/main/java/org/oewntk/wndb/in/Parser.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/Counter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/Counter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/DataParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/DataParser.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/IndexParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/IndexParser.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/MorphParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/MorphParser.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/Parser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/Parser.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/RelationParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/RelationParser.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/SenseParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/parse/SenseParser.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/utils/Tracing.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/src/main/java/org/oewntk/utils/Tracing.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/src/test/java/org/oewntk/parse/TestDomains.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/src/test/java/org/oewntk/parse/TestDomains.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/src/test/java/org/oewntk/parse/TestLine.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/src/test/java/org/oewntk/parse/TestLine.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/src/test/java/org/oewntk/parse/TestParse31.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/src/test/java/org/oewntk/parse/TestParse31.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/src/test/java/org/oewntk/parse/TestParseXX.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/src/test/java/org/oewntk/parse/TestParseXX.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-parse_wndb/src/test/java/org/oewntk/parse/TestSensekey.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-parse_wndb/src/test/java/org/oewntk/parse/TestSensekey.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-tosql/src/main/java/org/oewntk/sql/out/Names.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/src/main/java/org/oewntk/sql/out/Names.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oewn-tosql/src/main/java/org/oewntk/sql/out/Synsets.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/src/main/java/org/oewntk/sql/out/Synsets.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,10 +35,11 @@
   <component name="ChangesViewManager">
     <option name="groupingKeys">
       <option value="directory" />
+      <option value="module" />
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/oewn-parse_wndb" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GithubDefaultAccount">
@@ -126,31 +61,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Kotlin.Grind (SQL).executor": "Run",
-    "Kotlin.Grind.executor": "Run",
-    "Maven.all [clean].executor": "Run",
-    "Maven.all [compile].executor": "Run",
-    "Maven.all [deploy].executor": "Run",
-    "Maven.all [install].executor": "Run",
-    "Maven.tojson [install].executor": "Run",
-    "Maven.tojson [package].executor": "Run",
-    "Maven.tosql [install].executor": "Run",
-    "Maven.wndb2json [install].executor": "Run",
-    "Maven.yaml2json [install].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/opt/devel/oewn/oewn-tosql/src/main/resources/wn/sqltemplates/sqlite/index",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Kotlin.Grind (SQL).executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.Grind.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.all [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.all [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.all [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.all [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.tojson [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.tojson [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.tosql [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.wndb2json [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.yaml2json [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/opt/devel/oewn/oewn-tosql/src/main/resources/wn/sqltemplates/sqlite/index&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/oewn-tosql/src/main/resources/wn/sqltemplates/sqlite/index" />
@@ -217,38 +152,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722072410220</updated>
-    </task>
-    <task id="LOCAL-00012" summary="newly generated">
-      <option name="closed" value="true" />
-      <created>1728497963540</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1728497963540</updated>
-    </task>
-    <task id="LOCAL-00013" summary="newly generated">
-      <option name="closed" value="true" />
-      <created>1728497977936</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1728497977936</updated>
-    </task>
-    <task id="LOCAL-00014" summary="new entry point">
-      <option name="closed" value="true" />
-      <created>1728536275332</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1728536275332</updated>
-    </task>
-    <task id="LOCAL-00015" summary="image">
-      <option name="closed" value="true" />
-      <created>1728536288184</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1728536288184</updated>
     </task>
     <task id="LOCAL-00016" summary="image">
       <option name="closed" value="true" />
@@ -610,7 +513,39 @@
       <option name="project" value="LOCAL" />
       <updated>1730540402045</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="version 2.2.1">
+      <option name="closed" value="true" />
+      <created>1730540453029</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1730540453029</updated>
+    </task>
+    <task id="LOCAL-00062" summary="regen">
+      <option name="closed" value="true" />
+      <created>1730541396441</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1730541396441</updated>
+    </task>
+    <task id="LOCAL-00063" summary="fix logging">
+      <option name="closed" value="true" />
+      <created>1730556021960</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1730556021960</updated>
+    </task>
+    <task id="LOCAL-00064" summary="fix 'usage' reserved in MySql">
+      <option name="closed" value="true" />
+      <created>1730556050953</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1730556050953</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -627,9 +562,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="script revision" />
-    <MESSAGE value="extra ref to ubers" />
-    <MESSAGE value="revised scripts" />
     <MESSAGE value="version update to 2.2.0" />
     <MESSAGE value="add default to null" />
     <MESSAGE value="add sample reference to word and source" />
@@ -652,7 +584,10 @@
     <MESSAGE value="direct to generate wn31 data" />
     <MESSAGE value="house keeping" />
     <MESSAGE value="version 2.2.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 2.2.1" />
+    <MESSAGE value="regen" />
+    <MESSAGE value="fix logging" />
+    <MESSAGE value="fix 'usage' reserved in MySql" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix 'usage' reserved in MySql" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
