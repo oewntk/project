@@ -8,9 +8,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d165567d-bb88-44e9-a29f-c6b56f0f606a" name="Changes" comment="date in logs">
-      <change beforePath="$PROJECT_DIR$/grind_all.sh" beforeDir="false" afterPath="$PROJECT_DIR$/grind_all.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oewn-tosql/src/main/java/org/oewntk/sql/out/Synsets.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oewn-tosql/src/main/java/org/oewntk/sql/out/Synsets.kt" afterDir="false" />
+    <list default="true" id="d165567d-bb88-44e9-a29f-c6b56f0f606a" name="Changes" comment="house keeping">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,30 +135,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722072410220</updated>
-    </task>
-    <task id="LOCAL-00007" summary="optimize svg">
-      <option name="closed" value="true" />
-      <created>1728492600205</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1728492600205</updated>
-    </task>
-    <task id="LOCAL-00008" summary="new version 2.1.3">
-      <option name="closed" value="true" />
-      <created>1728496400774</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1728496400774</updated>
-    </task>
-    <task id="LOCAL-00009" summary="kotlin 2.0.20">
-      <option name="closed" value="true" />
-      <created>1728496706850</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1728496706850</updated>
     </task>
     <task id="LOCAL-00010" summary="space">
       <option name="closed" value="true" />
@@ -529,7 +504,31 @@
       <option name="project" value="LOCAL" />
       <updated>1730533061916</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="fix bug in table name">
+      <option name="closed" value="true" />
+      <created>1730539252744</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1730539252744</updated>
+    </task>
+    <task id="LOCAL-00057" summary="direct to generate wn31 data">
+      <option name="closed" value="true" />
+      <created>1730539271231</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1730539271231</updated>
+    </task>
+    <task id="LOCAL-00058" summary="house keeping">
+      <option name="closed" value="true" />
+      <created>1730539283241</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1730539283241</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -544,8 +543,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix image path" />
-    <MESSAGE value="fix version" />
     <MESSAGE value="unnecessary stdout output" />
     <MESSAGE value="script revision" />
     <MESSAGE value="extra ref to ubers" />
@@ -563,13 +560,15 @@
     <MESSAGE value="usage support" />
     <MESSAGE value="wikidata, ili support" />
     <MESSAGE value="fixes tests" />
-    <MESSAGE value="house keeping" />
     <MESSAGE value="clean up" />
     <MESSAGE value="doc" />
     <MESSAGE value="rename for consistency" />
     <MESSAGE value="propagate version number" />
     <MESSAGE value="date in logs" />
-    <option name="LAST_COMMIT_MESSAGE" value="date in logs" />
+    <MESSAGE value="fix bug in table name" />
+    <MESSAGE value="direct to generate wn31 data" />
+    <MESSAGE value="house keeping" />
+    <option name="LAST_COMMIT_MESSAGE" value="house keeping" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
