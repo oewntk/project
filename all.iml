@@ -3,9 +3,6 @@
   <component name="AdditionalModuleElements">
     <content url="file://$MODULE_DIR$/add-synsetids">
       <sourceFolder url="file://$MODULE_DIR$/add-synsetids" isTestSource="false" />
-      <excludeFolder url="file://$MODULE_DIR$/add-synsetids/.idea" />
-      <excludeFolder url="file://$MODULE_DIR$/add-synsetids/.run" />
-      <excludeFolder url="file://$MODULE_DIR$/add-synsetids/.venv" />
     </content>
   </component>
 </module>
