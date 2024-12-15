@@ -7,6 +7,7 @@
 /spellcheckers/
 
 build
+.idea/workspace.xml
 **/_*/
 **/_*
 **/dependency-reduced-pom.xml

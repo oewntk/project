@@ -5,6 +5,7 @@
     <mapping directory="$PROJECT_DIR$/dist/repos/github/json" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/dist/repos/github/mysql" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/dist/repos/github/oewnk-entry" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dist/repos/github/releases" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/dist/repos/github/sqlite" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/dist/repos/github/wndb" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/dist/uber" vcs="Git" />

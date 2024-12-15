@@ -4,5 +4,12 @@
     <content url="file://$MODULE_DIR$/add-synsetids">
       <sourceFolder url="file://$MODULE_DIR$/add-synsetids" isTestSource="false" />
     </content>
+    <content url="file://$MODULE_DIR$" dumb="true">
+      <excludeFolder url="file://$MODULE_DIR$/add-synsetids/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/add-synsetids/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/doc/cases" />
+      <excludeFolder url="file://$MODULE_DIR$/relaxmapper" />
+    </content>
   </component>
 </module>
