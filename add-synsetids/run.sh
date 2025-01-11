@@ -15,11 +15,11 @@ DB="oewn-2024-sqlite-2.3.1.sqlite"
 DBX="oewn-2024-sqlite-2.3.1-synsetids.sqlite"
 ZIP_DBX="${DBX}.zip"
 
-#cp ${DIRSRC}/${DB} ${DIRSRC}/${DBX}
-#python3 add_synsetids.py ${DIRSRC}/${DBX} synsets.map
+cp ${DIRSRC}/${DB} ${DIRSRC}/${DBX}
+python3 add_synsetids.py ${DIRSRC}/${DBX} synsets.map
 
 pushd "${DIRSRC}" >/dev/null
-rm "${ZIP_DBX}"
+[ ! -e "${ZIP_DBX}" ] || rm "${ZIP_DBX}"
 zip "${ZIP_DBX}" "${DBX}"
 popd > /dev/null
 

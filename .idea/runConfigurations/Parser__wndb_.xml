@@ -1,0 +1,18 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Parser (wndb)" type="Application" factoryName="Application" folderName="Parse">
+    <option name="MAIN_CLASS_NAME" value="org.oewntk.parse.Parser" />
+    <module name="parse_wndb" />
+    <option name="PROGRAM_PARAMETERS" value="wndb" />
+    <option name="VM_PARAMETERS" value="-ea" />
+    <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="io.github.xenglishwordnet.parse.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
