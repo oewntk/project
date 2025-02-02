@@ -26,7 +26,7 @@ pushd oewn-grind_yaml2sql/sql >/dev/null
 echo -e "${M}yaml2sql/sql${Z}"
 
 rm -fR temp-mysql/*
-unzip oewn-${TAG}-mysql-${BUILD}.zip -d temp-mysql
+unzip -q oewn-${TAG}-mysql-${BUILD}.zip -d temp-mysql
 
 pushd temp-mysql >/dev/null
   chmod +x restore-mysql.sh

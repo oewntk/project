@@ -26,7 +26,7 @@ pushd oewn-grind_wndb2sql/sql31 >/dev/null
 echo -e "${M}wndb2sql/sql31${Z}"
 
 rm -fR temp-mysql/*
-unzip wn-${TAG31}-mysql-${BUILD}.zip -d temp-mysql
+unzip -q wn-${TAG31}-mysql-${BUILD}.zip -d temp-mysql
 
 pushd temp-mysql >/dev/null
   chmod +x restore-mysql.sh

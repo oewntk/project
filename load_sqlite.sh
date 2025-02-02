@@ -31,7 +31,7 @@ pushd oewn-grind_yaml2sql/sql >/dev/null
 echo -e "${M}yaml2sql/sql${Z}"
 
 rm -fR temp-sqlite/*
-unzip oewn-${TAG}-sqlite-${BUILD}.zip -d temp-sqlite
+unzip -q oewn-${TAG}-sqlite-${BUILD}.zip -d temp-sqlite
 
 pushd temp-sqlite >/dev/null
   sed -i -r 's/sqlite3 (.*)$/sqlite3 -bail \1 2>>LOG || echo -e "${R}FAILED ${sqlfile}${Z}"/g' restore-sqlite.sh 

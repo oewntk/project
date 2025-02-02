@@ -31,7 +31,7 @@ pushd oewn-grind_wndb2sql/sql31 >/dev/null
 echo -e "${M}wndb2sql/sql31${Z}"
 
 rm -fR temp-sqlite/*
-unzip wn-${TAG31}-sqlite-${BUILD}.zip -d temp-sqlite
+unzip -q wn-${TAG31}-sqlite-${BUILD}.zip -d temp-sqlite
 
   pushd temp-sqlite >/dev/null
   sed -i -r 's/sqlite3 (.*)$/sqlite3 -bail \1 2>>LOG || echo -e "${R}FAILED ${sqlfile}${Z}"/g' restore-sqlite.sh 
