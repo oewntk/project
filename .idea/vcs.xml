@@ -2,6 +2,25 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="/mnt/data2/devel/oewn" vcs="Git" />
+    <mapping directory="/mnt/data2/devel/oewn/oewn-fromser" vcs="Git" />
+    <mapping directory="/mnt/data2/devel/oewn/oewn-fromwndb" vcs="Git" />
+    <mapping directory="/mnt/data2/devel/oewn/oewn-fromxml" vcs="Git" />
+    <mapping directory="/mnt/data2/devel/oewn/oewn-fromyaml" vcs="Git" />
+    <mapping directory="/mnt/data2/devel/oewn/oewn-grind_wndb2json" vcs="Git" />
+    <mapping directory="/mnt/data2/devel/oewn/oewn-grind_wndb2sql" vcs="Git" />
+    <mapping directory="/mnt/data2/devel/oewn/oewn-grind_wndb2wndb" vcs="Git" />
+    <mapping directory="/mnt/data2/devel/oewn/oewn-grind_xml2wndb" vcs="Git" />
+    <mapping directory="/mnt/data2/devel/oewn/oewn-grind_yaml2json" vcs="Git" />
+    <mapping directory="/mnt/data2/devel/oewn/oewn-grind_yaml2ser" vcs="Git" />
+    <mapping directory="/mnt/data2/devel/oewn/oewn-grind_yaml2sql" vcs="Git" />
+    <mapping directory="/mnt/data2/devel/oewn/oewn-grind_yaml2wndb" vcs="Git" />
+    <mapping directory="/mnt/data2/devel/oewn/oewn-model" vcs="Git" />
+    <mapping directory="/mnt/data2/devel/oewn/oewn-parse_wndb" vcs="Git" />
+    <mapping directory="/mnt/data2/devel/oewn/oewn-tojson" vcs="Git" />
+    <mapping directory="/mnt/data2/devel/oewn/oewn-toser" vcs="Git" />
+    <mapping directory="/mnt/data2/devel/oewn/oewn-tosql" vcs="Git" />
+    <mapping directory="/mnt/data2/devel/oewn/oewn-towndb" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/dist/repos/github/json" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/dist/repos/github/mysql" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/dist/repos/github/oewnk-entry" vcs="Git" />
