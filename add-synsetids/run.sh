@@ -10,9 +10,11 @@ M='\u001b[35m'
 C='\u001b[36m'
 Z='\u001b[0m'
 
+source "../define_build.sh"
+
 DIRSRC="../oewn-grind_yaml2sql/sql"
-DB="oewn-2024-sqlite-2.3.2.sqlite"
-DBX="oewn-2024-sqlite-2.3.2-synsetids.sqlite"
+DB="oewn-${TAG}-sqlite-${BUILD}.sqlite"
+DBX="oewn-${TAG}-sqlite-${BUILD}-synsetids.sqlite"
 ZIP_DBX="${DBX}.zip"
 
 cp ${DIRSRC}/${DB} ${DIRSRC}/${DBX}

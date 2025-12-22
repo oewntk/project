@@ -1,7 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Grind (XML to WNDB)" type="Application" factoryName="Application" folderName="Grind">
     <option name="ALTERNATIVE_JRE_PATH" value="11" />
-    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
     <option name="MAIN_CLASS_NAME" value="org.oewntk.grind.xml2wndb.Grind" />
     <module name="xml2wndb" />
     <option name="PROGRAM_PARAMETERS" value="xml/oewn.xml xml2 wndb" />

@@ -1,7 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Grind (WNDB31 to SQL)" type="Application" factoryName="Application" folderName="Grind">
     <option name="ALTERNATIVE_JRE_PATH" value="11" />
-    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
     <option name="MAIN_CLASS_NAME" value="org.oewntk.grind.wndb2sql.Grind" />
     <module name="wndb2sql" />
     <option name="PROGRAM_PARAMETERS" value="wndb31 wndb2 sql31/data" />
