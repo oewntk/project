@@ -4,7 +4,7 @@
 # Copyright (c) 2024. Bernard Bou.
 #
 
-export TAG=2025rel
+export TAG=2026
 export TAG31=31
 export BUILDMAJOR=2
 export BUILDMINOR=3
