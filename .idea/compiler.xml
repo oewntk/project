@@ -10,6 +10,7 @@
         <module name="yaml2ser" />
         <module name="wndb2wndb" />
         <module name="tojson" />
+        <module name="toyaml" />
         <module name="fromser" />
         <module name="tosql" />
         <module name="xml2wndb" />
@@ -21,6 +22,7 @@
         <module name="yaml2wndb" />
         <module name="yaml2sql" />
         <module name="towndb" />
+        <module name="yaml2plus" />
         <module name="model" />
         <module name="yaml2json" />
         <module name="fromxml" />
