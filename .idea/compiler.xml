@@ -19,6 +19,7 @@
         <module name="parse_wndb" />
         <module name="fromyaml" />
         <module name="toser" />
+        <module name="grind" />
         <module name="yaml2wndb" />
         <module name="yaml2sql" />
         <module name="towndb" />
