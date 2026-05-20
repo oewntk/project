@@ -10,8 +10,8 @@
       <excludeFolder url="file://$MODULE_DIR$/dist" />
       <excludeFolder url="file://$MODULE_DIR$/doc/cases" />
       <excludeFolder url="file://$MODULE_DIR$/doc/logs" />
-      <excludeFolder url="file://$MODULE_DIR$/relaxmapper" />
       <excludeFolder url="file://$MODULE_DIR$/doc/oenn" />
+      <excludeFolder url="file://$MODULE_DIR$/relaxmapper" />
     </content>
   </component>
 </module>
