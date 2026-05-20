@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Grind (ser to yaml)" type="Application" factoryName="Application" folderName="Multitool to YAML">
+    <option name="ALTERNATIVE_JRE_PATH" value="11" />
+    <option name="MAIN_CLASS_NAME" value="org.oewntk.grind.Grind" />
+    <module name="grind" />
+    <option name="PROGRAM_PARAMETERS" value="-if ser -of yaml -v out/ser/oewn.ser out/yaml" />
+    <option name="VM_PARAMETERS" value="-ea" />
+    <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
