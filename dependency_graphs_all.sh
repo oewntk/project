@@ -14,7 +14,7 @@ export M='\u001b[35m'
 export C='\u001b[36m'
 export Z='\u001b[0m'
 
-for m in grind_yaml2wndb grind_wndb2sql grind_wndb2wndb grind_xml2wndb grind_yaml2ser grind_yaml2sql; do
+for m in grind_yaml2wndb grind_wndb2sql grind_wndb2wndb grind_xml2wndb grind_yaml2ser grind_yaml2sql grind_yaml2plus grind; do
   echo -e "${M}${m}${Z}"
   pushd oewn-${m} > /dev/null
   ./dependency_graph.sh
