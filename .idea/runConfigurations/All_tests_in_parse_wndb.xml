@@ -1,0 +1,18 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="All tests in parse_wndb" type="JUnit" factoryName="JUnit" folderName="Parse">
+    <module name="parse_wndb" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="org.oewntk.wndb.out.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="PACKAGE_NAME" value="org.oewntk.parse" />
+    <option name="MAIN_CLASS_NAME" value="" />
+    <option name="METHOD_NAME" value="" />
+    <option name="TEST_OBJECT" value="package" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
