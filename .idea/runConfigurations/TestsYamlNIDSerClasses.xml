@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="TestsYamlNIDSerClasses" type="JUnit" factoryName="JUnit" folderName="YAML" nameIsGenerated="true">
+  <configuration default="false" name="TestsYamlNIDSerClasses" type="JUnit" factoryName="JUnit" folderName="YAML to SQL" nameIsGenerated="true">
     <module name="yaml2sql" />
     <extension name="coverage">
       <pattern>

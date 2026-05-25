@@ -1,17 +1,17 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="TestsYamlPlusModel" type="JUnit" factoryName="JUnit" folderName="from YAML" nameIsGenerated="true">
+  <configuration default="false" name="All tests in from yaml" type="JUnit" factoryName="JUnit" folderName="from YAML">
     <module name="fromyaml" />
     <extension name="coverage">
       <pattern>
-        <option name="PATTERN" value="org.oewntk.yaml.in.*" />
+        <option name="PATTERN" value="org.oewntk.ser.in.*" />
         <option name="ENABLED" value="true" />
       </pattern>
     </extension>
     <option name="PACKAGE_NAME" value="org.oewntk.yaml.in" />
-    <option name="MAIN_CLASS_NAME" value="org.oewntk.yaml.in.TestsYamlPlusModel" />
+    <option name="MAIN_CLASS_NAME" value="" />
     <option name="METHOD_NAME" value="" />
-    <option name="TEST_OBJECT" value="class" />
-    <option name="VM_PARAMETERS" value="-ea -DSOURCEPLUS=yamlplus -DSILENT" />
+    <option name="TEST_OBJECT" value="package" />
+    <option name="VM_PARAMETERS" value="-ea -DSOURCE=yaml -DSOURCE2=yaml2 -DSOURCEPLUS=yamlplus" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>

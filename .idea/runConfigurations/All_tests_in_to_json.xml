@@ -1,16 +1,17 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="All tests in towndb" type="JUnit" factoryName="JUnit" folderName="to WNDB">
-    <module name="towndb" />
+  <configuration default="false" name="All tests in to json" type="JUnit" factoryName="JUnit" folderName="to JSON">
+    <module name="tojson" />
     <extension name="coverage">
       <pattern>
         <option name="PATTERN" value="org.oewntk.wndb.out.*" />
         <option name="ENABLED" value="true" />
       </pattern>
     </extension>
-    <option name="PACKAGE_NAME" value="org.oewntk.wndb.out" />
+    <option name="PACKAGE_NAME" value="org.oewntk.json.out" />
     <option name="MAIN_CLASS_NAME" value="" />
     <option name="METHOD_NAME" value="" />
     <option name="TEST_OBJECT" value="package" />
+    <option name="VM_PARAMETERS" value="-ea -DSOURCE=oewn.ser -DINFO=oewn.info" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>
