@@ -10,7 +10,7 @@ build
 .idea/workspace.xml
 **/_*/
 **/_*
-**/dependency-reduced-pom.xml
 **/*.jar
 **/*.zip
 **/*.log
+**/dependency-reduced-pom.xml
