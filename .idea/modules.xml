@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/all.iml" filepath="$PROJECT_DIR$/all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oewn-fromwndb/fromwndb.iml" filepath="$PROJECT_DIR$/oewn-fromwndb/fromwndb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oewn-fromxml/fromxml.iml" filepath="$PROJECT_DIR$/oewn-fromxml/fromxml.iml" />
       <module fileurl="file://$PROJECT_DIR$/oewn-fromyaml/fromyaml.iml" filepath="$PROJECT_DIR$/oewn-fromyaml/fromyaml.iml" />
       <module fileurl="file://$PROJECT_DIR$/oewn-grind/grind.iml" filepath="$PROJECT_DIR$/oewn-grind/grind.iml" />
       <module fileurl="file://$PROJECT_DIR$/oewn-parse_wndb/parse_wndb.iml" filepath="$PROJECT_DIR$/oewn-parse_wndb/parse_wndb.iml" />
