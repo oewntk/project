@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Grind (ser to yaml)" type="Application" factoryName="Application" folderName="Multitool to YAML">
+  <configuration default="false" name="Grind (ser to yaml)" type="Application" factoryName="Application" folderName="Multitool grind">
     <option name="ALTERNATIVE_JRE_PATH" value="11" />
     <option name="MAIN_CLASS_NAME" value="org.oewntk.grind.Grind" />
     <module name="grind" />
