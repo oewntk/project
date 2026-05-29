@@ -11,6 +11,7 @@
     <option name="MAIN_CLASS_NAME" value="" />
     <option name="METHOD_NAME" value="" />
     <option name="TEST_OBJECT" value="package" />
+    <option name="VM_PARAMETERS" value="-ea -DSOURCE=oewn.ser -DINFO=oewn.info" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>
