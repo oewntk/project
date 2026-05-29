@@ -3,7 +3,7 @@
     <option name="MAIN_CLASS_NAME" value="org.oewntk.grind.yaml2ser.Grind" />
     <module name="yaml2ser" />
     <option name="PROGRAM_PARAMETERS" value="yaml yaml2 ser/oewn.ser ser/oewn.info" />
-    <option name="VM_PARAMETERS" value="-ea" />
+    <option name="VM_PARAMETERS" value="-ea -Dsun.io.serialization.extendedDebugInfo=true" />
     <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     <extension name="coverage">
       <pattern>
