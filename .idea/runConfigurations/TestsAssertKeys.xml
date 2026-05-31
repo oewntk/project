@@ -1,0 +1,18 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="TestsAssertKeys" type="JUnit" factoryName="JUnit" folderName="from YAML" nameIsGenerated="true">
+    <module name="fromyaml" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="org.oewntk.yaml.in.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="PACKAGE_NAME" value="org.oewntk.yaml.in" />
+    <option name="MAIN_CLASS_NAME" value="org.oewntk.yaml.in.TestsAssertKeys" />
+    <option name="METHOD_NAME" value="" />
+    <option name="TEST_OBJECT" value="class" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
