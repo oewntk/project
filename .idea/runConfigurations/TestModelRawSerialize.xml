@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="TestFlatModelSerializables" type="JUnit" factoryName="JUnit" folderName="Model">
+  <configuration default="false" name="TestModelRawSerialize" type="JUnit" factoryName="JUnit" folderName="Model">
     <module name="model" />
     <extension name="coverage">
       <pattern>
@@ -8,7 +8,7 @@
       </pattern>
     </extension>
     <option name="PACKAGE_NAME" value="org.oewntk.model" />
-    <option name="MAIN_CLASS_NAME" value="org.oewntk.model.TestFlatModelSerializables" />
+    <option name="MAIN_CLASS_NAME" value="org.oewntk.model.TestModelRawSerialize" />
     <option name="METHOD_NAME" value="" />
     <option name="TEST_OBJECT" value="class" />
     <option name="VM_PARAMETERS" value="-ea -DSOURCE=oewn.ser -DINFO=oewn.info -DVERBOSE" />

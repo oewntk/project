@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="TestModelSerializables" type="JUnit" factoryName="JUnit" folderName="Model">
+  <configuration default="false" name="TestModelSerialize" type="JUnit" factoryName="JUnit" folderName="Model">
     <module name="model" />
     <extension name="coverage">
       <pattern>
