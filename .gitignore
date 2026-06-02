@@ -1,16 +1,21 @@
 /target/
+/build/
 
-/oewn-*/
+/oewn*/
+/out*:
+/out*
+/in*:
+/in*
 /dist*
-/output*
-/relaxmapper/
-/spellcheckers/
 
-build
 .idea/workspace.xml
+
 **/_*/
 **/_*
 **/*.jar
 **/*.zip
 **/*.log
 **/dependency-reduced-pom.xml
+
+/relaxmapper/
+
