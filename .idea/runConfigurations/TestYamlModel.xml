@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="TestYamlObjects" type="JUnit" factoryName="JUnit" folderName="to YAML" nameIsGenerated="true">
+  <configuration default="false" name="TestYamlModel" type="JUnit" factoryName="JUnit" folderName="to YAML">
     <module name="toyaml" />
     <extension name="coverage">
       <pattern>
@@ -8,10 +8,10 @@
       </pattern>
     </extension>
     <option name="PACKAGE_NAME" value="org.oewntk.yaml.out" />
-    <option name="MAIN_CLASS_NAME" value="org.oewntk.yaml.out.TestYamlObjects" />
+    <option name="MAIN_CLASS_NAME" value="org.oewntk.yaml.out.TestYamlModelSerialize" />
     <option name="METHOD_NAME" value="" />
     <option name="TEST_OBJECT" value="class" />
-    <option name="VM_PARAMETERS" value="-ea -DSOURCE=oewn.ser -DINFO=oewn.info" />
+    <option name="VM_PARAMETERS" value="-ea -DSOURCE=oewn.ser -DINFO=oewn.info -DVERBOSE" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>

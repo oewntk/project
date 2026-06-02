@@ -8,7 +8,7 @@
       </pattern>
     </extension>
     <option name="PACKAGE_NAME" value="org.oewntk.model" />
-    <option name="MAIN_CLASS_NAME" value="org.oewntk.model.TestSerializables" />
+    <option name="MAIN_CLASS_NAME" value="org.oewntk.model.TestOEWNSerializables" />
     <option name="METHOD_NAME" value="" />
     <option name="TEST_OBJECT" value="class" />
     <option name="VM_PARAMETERS" value="-ea -DSOURCE=oewn.ser -DINFO=oewn.info -DVERBOSE" />

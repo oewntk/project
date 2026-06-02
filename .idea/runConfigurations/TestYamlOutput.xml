@@ -11,6 +11,7 @@
     <option name="MAIN_CLASS_NAME" value="org.oewntk.yaml.out.TestYamlOutput" />
     <option name="METHOD_NAME" value="" />
     <option name="TEST_OBJECT" value="class" />
+    <option name="VM_PARAMETERS" value="-ea -DVERBOSE" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>
