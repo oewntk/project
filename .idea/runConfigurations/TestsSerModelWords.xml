@@ -11,7 +11,7 @@
     <option name="MAIN_CLASS_NAME" value="org.oewntk.ser.in.TestsSerModelWords" />
     <option name="METHOD_NAME" value="" />
     <option name="TEST_OBJECT" value="class" />
-    <option name="VM_PARAMETERS" value="-ea -DSOURCE=oewn.ser" />
+    <option name="VM_PARAMETERS" value="-ea -DSOURCE=oewn.ser -DVERBOSE" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>

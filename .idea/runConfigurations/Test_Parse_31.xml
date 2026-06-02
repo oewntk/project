@@ -12,7 +12,7 @@
     <option name="MAIN_CLASS_NAME" value="org.oewntk.parse.TestParse31" />
     <option name="METHOD_NAME" value="" />
     <option name="TEST_OBJECT" value="class" />
-    <option name="VM_PARAMETERS" value="-ea -DSOURCE31=$PROJECT_DIR$/../../data/nlp/wordnet/WordNet-3.1/dict" />
+    <option name="VM_PARAMETERS" value="-ea -DSOURCE31=wndb31 -DVERBOSE" />
     <option name="PARAMETERS" value="" />
     <method v="2">
       <option name="Make" enabled="true" />
