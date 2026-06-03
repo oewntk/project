@@ -9,6 +9,7 @@
         <module name="fromwndb" />
         <module name="yaml2ser" />
         <module name="wndb2wndb" />
+        <module name="model-test" />
         <module name="tojson" />
         <module name="toyaml" />
         <module name="fromser" />
@@ -29,5 +30,8 @@
         <module name="fromxml" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="model (1)" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
