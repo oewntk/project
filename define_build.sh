@@ -10,4 +10,4 @@ export BUILDMAJOR=2
 export BUILDMINOR=3
 export BUILDREV=2
 export BUILD="${BUILDMAJOR}.${BUILDMINOR}.${BUILDREV}"
-# 2.4.0
+# 3.0.1
