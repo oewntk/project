@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="TestSerializables" type="JUnit" factoryName="JUnit" folderName="Model">
-    <module name="model" />
+    <module name="model-test" />
     <extension name="coverage">
       <pattern>
         <option name="PATTERN" value="org.oewntk.wndb.out.*" />
