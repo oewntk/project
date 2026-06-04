@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="TestVisitOEWNSerializableModelTypes" type="JUnit" factoryName="JUnit" folderName="Model-OEWN">
+  <configuration default="false" name="TestVisitOEWNSerializableModel" type="JUnit" factoryName="JUnit" folderName="Model-OEWN">
     <module name="model-test" />
     <extension name="coverage">
       <pattern>
