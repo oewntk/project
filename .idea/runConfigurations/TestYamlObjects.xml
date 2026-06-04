@@ -7,8 +7,8 @@
         <option name="ENABLED" value="true" />
       </pattern>
     </extension>
-    <option name="PACKAGE_NAME" value="org.oewntk.yaml.out" />
-    <option name="MAIN_CLASS_NAME" value="org.oewntk.yaml.out.TestYamlOEWNObjects" />
+    <option name="PACKAGE_NAME" value="org.oewntk.yaml.out.oewn" />
+    <option name="MAIN_CLASS_NAME" value="org.oewntk.yaml.out.oewn.TestYamlOEWNObjects" />
     <option name="METHOD_NAME" value="" />
     <option name="TEST_OBJECT" value="class" />
     <option name="VM_PARAMETERS" value="-ea -DSOURCE=oewn.ser -DINFO=oewn.info -DVERBOSE" />
