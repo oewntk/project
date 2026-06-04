@@ -1,7 +1,6 @@
 /target/
 /build/
 
-/oewn*/
 /out*:
 /out*
 /in*:
@@ -16,6 +15,8 @@
 **/*.zip
 **/*.log
 **/build
+**/oewn.ser
+**/oewn.info
 
 **/dependency-reduced-pom.xml
 
