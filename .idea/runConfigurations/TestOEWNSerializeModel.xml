@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="TestDataSerializeModel" type="JUnit" factoryName="JUnit" folderName="Model-data">
+  <configuration default="false" name="TestOEWNSerializeModel" type="JUnit" factoryName="JUnit" folderName="Model-OEWN">
     <module name="model-test" />
     <extension name="coverage">
       <pattern>
@@ -7,8 +7,8 @@
         <option name="ENABLED" value="true" />
       </pattern>
     </extension>
-    <option name="PACKAGE_NAME" value="org.oewntk.model.data" />
-    <option name="MAIN_CLASS_NAME" value="org.oewntk.model.data.TestModelDataSerialize" />
+    <option name="PACKAGE_NAME" value="org.oewntk.model.oewn" />
+    <option name="MAIN_CLASS_NAME" value="org.oewntk.model.oewn.TestModelOEWNSerialize" />
     <option name="METHOD_NAME" value="" />
     <option name="TEST_OBJECT" value="class" />
     <option name="VM_PARAMETERS" value="-ea -DSOURCE=oewn.ser -DINFO=oewn.info -DVERBOSE" />
