@@ -23,12 +23,15 @@
     <module>oewn-fromser</module>
     <module>oewn-fromwndb</module>
     <module>oewn-fromxml</module>
+    <module>oewn-fromjson</module>
 
     <module>oewn-tosql</module>
     <module>oewn-toser</module>
     <module>oewn-tojson</module>
     <module>oewn-towndb</module>
     <module>oewn-toyaml</module>
+
+    <module>oewn-json</module>
 
     <module>oewn-grind</module>
     <module>oewn-grind_yaml2sql</module>
