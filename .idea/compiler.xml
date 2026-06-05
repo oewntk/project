@@ -16,6 +16,7 @@
         <module name="tosql" />
         <module name="xml2wndb" />
         <module name="wndb2json" />
+        <module name="fromjson" />
         <module name="wndb2sql" />
         <module name="parse_wndb" />
         <module name="fromyaml" />
@@ -25,6 +26,7 @@
         <module name="yaml2sql" />
         <module name="towndb" />
         <module name="yaml2plus" />
+        <module name="json" />
         <module name="model" />
         <module name="yaml2json" />
         <module name="fromxml" />

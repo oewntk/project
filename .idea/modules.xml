@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/all.iml" filepath="$PROJECT_DIR$/all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oewn-fromjson/fromjson.iml" filepath="$PROJECT_DIR$/oewn-fromjson/fromjson.iml" />
       <module fileurl="file://$PROJECT_DIR$/oewn-fromwndb/fromwndb.iml" filepath="$PROJECT_DIR$/oewn-fromwndb/fromwndb.iml" />
       <module fileurl="file://$PROJECT_DIR$/oewn-fromxml/fromxml.iml" filepath="$PROJECT_DIR$/oewn-fromxml/fromxml.iml" />
       <module fileurl="file://$PROJECT_DIR$/oewn-fromyaml/fromyaml.iml" filepath="$PROJECT_DIR$/oewn-fromyaml/fromyaml.iml" />
