@@ -1,9 +1,9 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Grind (yam to json)" type="Application" factoryName="Application" folderName="Multitool grind">
+  <configuration default="false" name="Multitool (YAML to JSON data)" type="Application" factoryName="Application" folderName="Multitool grind">
     <option name="ALTERNATIVE_JRE_PATH" value="11" />
     <option name="MAIN_CLASS_NAME" value="org.oewntk.grind.Grind" />
     <module name="grind" />
-    <option name="PROGRAM_PARAMETERS" value="-if yaml -of json -v -o2 out/json/oewn.info yaml out/json" />
+    <option name="PROGRAM_PARAMETERS" value="-if yaml -of json -os d -oj a -v -o2 out/jsondata/oewn.info yaml out/jsondata" />
     <option name="VM_PARAMETERS" value="-ea" />
     <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     <method v="2">
