@@ -4,6 +4,9 @@
     <content url="file://$MODULE_DIR$" dumb="true">
       <excludeFolder url="file://$MODULE_DIR$/add-synsetids/.idea" />
       <excludeFolder url="file://$MODULE_DIR$/add-synsetids/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/archive" />
+      <excludeFolder url="file://$MODULE_DIR$/archive/oewn-grind_wndb2wndb" />
+      <excludeFolder url="file://$MODULE_DIR$/archive/oewn-grind_xml2wndb" />
       <excludeFolder url="file://$MODULE_DIR$/dist" />
       <excludeFolder url="file://$MODULE_DIR$/doc/cases" />
       <excludeFolder url="file://$MODULE_DIR$/doc/logs" />

@@ -1,9 +1,11 @@
 /target/
 /build/
 
-/out*:
+/archive/
+/archive
+/out*/
 /out*
-/in*:
+/in*/
 /in*
 /dist*
 

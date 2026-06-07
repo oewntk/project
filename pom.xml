@@ -41,9 +41,10 @@
     <module>oewn-grind_yaml2plus</module>
     <module>oewn-grind_wndb2sql</module>
     <module>oewn-grind_wndb2json</module>
+    <!--
     <module>oewn-grind_wndb2wndb</module>
     <module>oewn-grind_xml2wndb</module>
-
+    -->
   </modules>
 
   <distributionManagement>

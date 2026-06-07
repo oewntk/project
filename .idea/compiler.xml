@@ -8,13 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="fromwndb" />
         <module name="yaml2ser" />
-        <module name="wndb2wndb" />
         <module name="model-test" />
         <module name="tojson" />
         <module name="toyaml" />
         <module name="fromser" />
         <module name="tosql" />
-        <module name="xml2wndb" />
         <module name="wndb2json" />
         <module name="fromjson" />
         <module name="wndb2sql" />
@@ -35,6 +33,8 @@
     <bytecodeTargetLevel>
       <module name="grind" target="11" />
       <module name="model (1)" target="11" />
+      <module name="wndb2wndb" target="11" />
+      <module name="xml2wndb" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
