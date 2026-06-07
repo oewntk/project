@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Parse Relations (WNDB)" type="JetRunConfigurationType" folderName="Parse">
+    <option name="MAIN_CLASS_NAME" value="org.oewntk.parse.RelationParser" />
+    <module name="parse_wndb" />
+    <option name="PROGRAM_PARAMETERS" value="wndb" />
+    <shortenClasspath name="NONE" />
+    <option name="VM_PARAMETERS" value="-ea" />
+    <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

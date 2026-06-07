@@ -1,0 +1,19 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="TestVisit" type="JUnit" factoryName="JUnit" folderName="Model">
+    <module name="model-test" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="org.oewntk.wndb.out.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="PACKAGE_NAME" value="org.oewntk.model" />
+    <option name="MAIN_CLASS_NAME" value="org.oewntk.model.TestVisit" />
+    <option name="METHOD_NAME" value="" />
+    <option name="TEST_OBJECT" value="class" />
+    <option name="VM_PARAMETERS" value="-ea -DVERBOSE" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

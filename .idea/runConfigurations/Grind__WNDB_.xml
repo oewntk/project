@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Grind (WNDB)" type="JetRunConfigurationType" folderName="Grind">
+    <option name="MAIN_CLASS_NAME" value="org.oewntk.grind.yaml2wndb.Grind" />
+    <module name="yaml2wndb" />
+    <option name="PROGRAM_PARAMETERS" value="yaml yaml2 wndb" />
+    <shortenClasspath name="NONE" />
+    <option name="VM_PARAMETERS" value="-ea" />
+    <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
