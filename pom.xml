@@ -33,7 +33,7 @@
 
     <module>oewn-json</module>
 
-    <module>oewn-grind</module>
+    <module>oewn-tool</module>
     <module>oewn-grind_yaml2sql</module>
     <module>oewn-grind_yaml2wndb</module>
     <module>oewn-grind_yaml2ser</module>

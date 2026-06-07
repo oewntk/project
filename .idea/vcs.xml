@@ -14,7 +14,6 @@
     <mapping directory="$PROJECT_DIR$/oewn-fromwndb" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-fromxml" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-fromyaml" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/oewn-grind" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-grind_wndb2json" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-grind_wndb2sql" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-grind_wndb2wndb" vcs="Git" />
@@ -30,6 +29,7 @@
     <mapping directory="$PROJECT_DIR$/oewn-model-test" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-parse_wndb" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-tojson" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/oewn-tool" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-toser" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-tosql" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-towndb" vcs="Git" />

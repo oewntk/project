@@ -18,10 +18,10 @@
         <module name="wndb2json" />
         <module name="fromjson" />
         <module name="wndb2sql" />
+        <module name="tool" />
         <module name="parse_wndb" />
         <module name="fromyaml" />
         <module name="toser" />
-        <module name="grind" />
         <module name="yaml2wndb" />
         <module name="yaml2sql" />
         <module name="towndb" />
@@ -33,6 +33,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="grind" target="11" />
       <module name="model (1)" target="11" />
     </bytecodeTargetLevel>
   </component>
