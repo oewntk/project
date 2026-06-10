@@ -1,9 +1,9 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Multitool (SER to YAML)" type="Application" factoryName="Application" folderName="Tool">
+  <configuration default="false" name="Factory (jsondata)" type="Application" factoryName="Application" folderName="Factories">
     <option name="ALTERNATIVE_JRE_PATH" value="11" />
-    <option name="MAIN_CLASS_NAME" value="org.oewntk.grind.Grind" />
-    <module name="tool" />
-    <option name="PROGRAM_PARAMETERS" value="-if ser -of yaml -v out/ser/oewn.ser out/yaml" />
+    <option name="MAIN_CLASS_NAME" value="org.oewntk.json.in.data.CoreFactory" />
+    <module name="fromjson" />
+    <option name="PROGRAM_PARAMETERS" value="jsondata" />
     <option name="VM_PARAMETERS" value="-ea" />
     <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     <method v="2">

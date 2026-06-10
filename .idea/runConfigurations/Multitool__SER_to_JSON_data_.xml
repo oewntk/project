@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Multitool (SER to JSON data)" type="Application" factoryName="Application" folderName="Multitool grind">
+  <configuration default="false" name="Multitool (SER to JSON data)" type="Application" factoryName="Application" folderName="Tool">
     <option name="MAIN_CLASS_NAME" value="org.oewntk.grind.Grind" />
     <module name="tool" />
     <option name="PROGRAM_PARAMETERS" value="-if ser -of json -os d -oj a -v ser/oewn.ser -i2 ser/oewn.info out/jsondata" />
