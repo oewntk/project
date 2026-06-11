@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Compare (YAML / generated YAML)" type="JetRunConfigurationType">
+    <option name="MAIN_CLASS_NAME" value="org.oewntk.grind.Compare" />
+    <module name="tool" />
+    <option name="PROGRAM_PARAMETERS" value="-v -Aif yaml yaml -Ai2 yaml2 -Bif yaml out/yaml -Bi2 out/yaml" />
+    <shortenClasspath name="NONE" />
+    <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

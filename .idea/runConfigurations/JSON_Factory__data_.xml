@@ -1,7 +1,7 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="JSON Factory (data)" type="Application" factoryName="Application" folderName="Factories">
     <option name="ALTERNATIVE_JRE_PATH" value="11" />
-    <option name="MAIN_CLASS_NAME" value="org.oewntk.json.in.data.CoreFactory" />
+    <option name="MAIN_CLASS_NAME" value="org.oewntk.json.in.data.Factory" />
     <module name="fromjson" />
     <option name="PROGRAM_PARAMETERS" value="jsondata" />
     <option name="VM_PARAMETERS" value="-ea" />
