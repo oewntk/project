@@ -1,9 +1,9 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Factory (generated YAML)" type="Application" factoryName="Application" folderName="Factories">
+  <configuration default="false" name="YAML Factory (generated yaml)" type="Application" factoryName="Application" folderName="Factories from generated">
     <option name="ALTERNATIVE_JRE_PATH" value="11" />
     <option name="MAIN_CLASS_NAME" value="org.oewntk.yaml.in.Factory" />
     <module name="fromyaml" />
-    <option name="PROGRAM_PARAMETERS" value="out/yaml yaml2" />
+    <option name="PROGRAM_PARAMETERS" value="--verbose out/yaml" />
     <option name="VM_PARAMETERS" value="-ea" />
     <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/oewn-tool" />
     <method v="2">
