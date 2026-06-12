@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Compare (same)" type="JetRunConfigurationType">
-    <option name="MAIN_CLASS_NAME" value="org.oewntk.grind.Compare" />
+  <configuration default="false" name="Compare (same)" type="JetRunConfigurationType" folderName="Compare">
+    <option name="MAIN_CLASS_NAME" value="org.oewntk.tool.Compare" />
     <module name="tool" />
     <option name="PROGRAM_PARAMETERS" value="-v -Aif yaml yaml -Ai2 yaml2 -Bif yaml yaml -Bi2 yaml2" />
     <shortenClasspath name="NONE" />

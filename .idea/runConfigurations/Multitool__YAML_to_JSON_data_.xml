@@ -1,7 +1,7 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Multitool (YAML to JSON data)" type="Application" factoryName="Application" folderName="Tool">
     <option name="ALTERNATIVE_JRE_PATH" value="11" />
-    <option name="MAIN_CLASS_NAME" value="org.oewntk.grind.Grind" />
+    <option name="MAIN_CLASS_NAME" value="org.oewntk.tool.Grind" />
     <module name="tool" />
     <option name="PROGRAM_PARAMETERS" value="-v -if yaml -of json -os d yaml -i2 yaml2 out/jsondata -oi out/jsonmodel/oewn.info" />
     <option name="VM_PARAMETERS" value="-ea" />
