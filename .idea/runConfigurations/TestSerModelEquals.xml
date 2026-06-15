@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="TestSerModelEquals" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+  <configuration default="false" name="TestSerModelEquals" type="JUnit" factoryName="JUnit" folderName="Model" nameIsGenerated="true">
     <module name="model-test" />
     <extension name="coverage">
       <pattern>

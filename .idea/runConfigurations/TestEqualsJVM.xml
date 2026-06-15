@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="TestYamlModelEquals (same gen)" type="JUnit" factoryName="JUnit" folderName="Model">
-    <module name="model-test" />
+  <configuration default="false" name="TestEqualsJVM" type="JUnit" factoryName="JUnit" folderName="Model" nameIsGenerated="true">
+    <module name="model" />
     <extension name="coverage">
       <pattern>
         <option name="PATTERN" value="org.oewntk.model.*" />
@@ -8,11 +8,9 @@
       </pattern>
     </extension>
     <option name="PACKAGE_NAME" value="org.oewntk.model" />
-    <option name="MAIN_CLASS_NAME" value="org.oewntk.model.TestYamlModelEquals" />
+    <option name="MAIN_CLASS_NAME" value="org.oewntk.model.TestEqualsJVM" />
     <option name="METHOD_NAME" value="" />
     <option name="TEST_OBJECT" value="class" />
-    <option name="VM_PARAMETERS" value="-ea -DSOURCE=out/yaml -DSOURCEB=out/yaml -DINFO=oewn.info -DVERBOSE" />
-    <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/oewn-tool" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>
