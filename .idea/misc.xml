@@ -870,6 +870,9 @@
     <pattern value="org.oewntk.wndb.in.SenseToVerbTemplatesParser" />
     <pattern value="org.oewntk.model.Serialize" />
     <pattern value="org.oewntk.wndb.in.VerbTemplateParser" />
+    <pattern value="org.oewntk.yaml.in.VerbTemplateParser" method="processEntry" />
+    <pattern value="org.oewntk.yaml.in.SenseToVerbTemplatesParser" method="processEntry" />
+    <pattern value="org.oewntk.yaml.in.VerbFrameParser" method="processEntry" />
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
