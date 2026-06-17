@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Multitool (YAML to YAML)" type="Application" factoryName="Application" folderName="Tool">
+    <option name="ALTERNATIVE_JRE_PATH" value="11" />
+    <option name="MAIN_CLASS_NAME" value="org.oewntk.tool.Grind" />
+    <module name="tool" />
+    <option name="PROGRAM_PARAMETERS" value="-v -if yaml -of yaml yaml -i2 yaml2 out/yaml -o2 out/yaml -oi out/yaml/oewn.info" />
+    <option name="VM_PARAMETERS" value="-ea" />
+    <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

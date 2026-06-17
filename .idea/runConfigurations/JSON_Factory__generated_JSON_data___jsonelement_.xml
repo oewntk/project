@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="JSON Factory (generated JSON data) (jsonelement)" type="Application" factoryName="Application" folderName="Factories from generated">
+    <option name="ALTERNATIVE_JRE_PATH" value="11" />
+    <option name="MAIN_CLASS_NAME" value="org.oewntk.json.in.data.CoreFactory" />
+    <module name="fromjson" />
+    <option name="PROGRAM_PARAMETERS" value="--verbose -ij j out/jsondata_je" />
+    <option name="VM_PARAMETERS" value="-ea" />
+    <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/oewn-tool" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
