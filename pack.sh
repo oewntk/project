@@ -25,7 +25,6 @@ distdir=$(readlink -m "${distdir}")
 
 # L I B
 
-
 function check_file() {
     local t=$(readlink -m "$1")
     if [ -e "${t}" ]; then
