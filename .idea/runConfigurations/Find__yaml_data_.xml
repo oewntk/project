@@ -1,8 +1,8 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Find (json oewn) )" type="JetRunConfigurationType" folderName="Find">
+  <configuration default="false" name="Find (yaml data)" type="JetRunConfigurationType" folderName="Find">
     <option name="MAIN_CLASS_NAME" value="org.oewntk.tool.Find" />
     <module name="tool" />
-    <option name="PROGRAM_PARAMETERS" value="-if json -is model out/json_model/oewn-model.json -of json -os oewn -oj j -s jest%1:10:00:: force%1:07:00:: force%1:07:01:: force%1:19:00:: 05042508-n 05201846-n 11479041-n force force,n row,n-1" />
+    <option name="PROGRAM_PARAMETERS" value="-v -if json -is model out/json_model/oewn-model.json -of yaml -os data -s jest%1:10:00:: force%1:07:00:: force%1:07:01:: force%1:19:00:: 05042508-n 05201846-n 11479041-n force force,n row,n-1" />
     <shortenClasspath name="NONE" />
     <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
     <method v="2">
