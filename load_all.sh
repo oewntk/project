@@ -10,7 +10,10 @@ source define_build.sh
 
 # S Q L I T E
 
+pushd oewn-tool >/dev/null
 ./load_sqlite.sh
+popd >/dev/null
+
 ./load31_sqlite.sh
 
 # M Y S Q L
@@ -20,7 +23,9 @@ echo    # (optional) move to a new line
 echo -e "${Z}"
 if [[ $REPLY =~ ^[Yy]$ ]]; then
 echo -e "${Y}mysql${Z}"
+pushd oewn-tool >/dev/null
 ./load_mysql.sh
+popd >/dev/null
 fi
 
 
