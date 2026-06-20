@@ -2,7 +2,7 @@
   <configuration default="false" name="Compare (YAML / generated JSON data1)" type="JetRunConfigurationType" folderName="Compare">
     <option name="MAIN_CLASS_NAME" value="org.oewntk.tool.Compare" />
     <module name="tool" />
-    <option name="PROGRAM_PARAMETERS" value="-v -Aif yaml yaml -Ai2 yaml2 -Bif json -Bis d -Bi1 out/jsondata1" />
+    <option name="PROGRAM_PARAMETERS" value="-v -Aif yaml yaml -Ai2 yaml2 -Bif json -Bis d -Bi1 out/json_data1" />
     <shortenClasspath name="NONE" />
     <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
     <method v="2">
