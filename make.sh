@@ -6,6 +6,6 @@
 
 set -e
 
-./grind_all.sh $*
+./grind_all.sh "$@"
 ./pack_all.sh
 ./load_all.sh

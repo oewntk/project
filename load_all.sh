@@ -28,7 +28,6 @@ pushd oewn-tool >/dev/null
 popd >/dev/null
 fi
 
-
 read -p "Are you sure you want to load ${TAG31} to MySql? " -n 1 -r
 echo    # (optional) move to a new line
 echo -e "${Z}"

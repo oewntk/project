@@ -7,6 +7,7 @@
 set -e
 
 pushd oewn-tool >/dev/null
-./grind_all.sh
+./grind_all.sh "$@"
+./grind_plus_all.sh "$@"
 popd >/dev/null
 
