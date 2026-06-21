@@ -2,7 +2,7 @@
   <configuration default="false" name="Compare (YAML / generated YAML)" type="JetRunConfigurationType" folderName="Compare">
     <option name="MAIN_CLASS_NAME" value="org.oewntk.tool.Compare" />
     <module name="tool" />
-    <option name="PROGRAM_PARAMETERS" value="-v -Aif yaml yaml -Ai2 yaml2 -Bif yaml out/yaml" />
+    <option name="PROGRAM_PARAMETERS" value="-v -nt -Aif yaml yaml -Ai2 yaml2 -Bif yaml out/yaml" />
     <shortenClasspath name="NONE" />
     <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
     <method v="2">
