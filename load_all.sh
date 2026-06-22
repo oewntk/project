@@ -8,31 +8,26 @@ set -e
 
 source define_build.sh
 
-# S Q L I T E
+# O E W N
 
 pushd oewn-tool >/dev/null
-./load_sqlite.sh
+./load_all.sh
 popd >/dev/null
 
-./load31_sqlite.sh
+# W N 3 1
 
-# M Y S Q L
-
-read -p "Are you sure you want to load ${TAG} to MySql? " -n 1 -r
+read -p "Are you sure you want to load ${TAG31} to Sqlite? " -n 1 -r
 echo    # (optional) move to a new line
 echo -e "${Z}"
 if [[ $REPLY =~ ^[Yy]$ ]]; then
-echo -e "${Y}mysql${Z}"
-pushd oewn-tool >/dev/null
-./load_mysql.sh
-popd >/dev/null
+echo -e "${Y}sqlite31${Z}"
+./load31_sqlite.sh
 fi
 
 read -p "Are you sure you want to load ${TAG31} to MySql? " -n 1 -r
 echo    # (optional) move to a new line
 echo -e "${Z}"
 if [[ $REPLY =~ ^[Yy]$ ]]; then
-echo -e "${Y}mysql${Z}"
+echo -e "${Y}mysql31${Z}"
 ./load31_mysql.sh
 fi
-
