@@ -24,6 +24,7 @@ Design is modular: modules do not depend on each other except model and chains. 
 -   [fromxml](http://github.com/oewntk/fromxml) : Supply model from XML
 -   [fromwndb](http://github.com/oewntk/fromwndb) : Supply model from WNDB
 -   [fromser](http://github.com/oewntk/fromser) : Supply model from serialized model
+-   [fromjson](http://github.com/oewntk/fromjson) : Supply model from JSON model
 
 **Consumers**: WNDB,SQL,serialized
 
