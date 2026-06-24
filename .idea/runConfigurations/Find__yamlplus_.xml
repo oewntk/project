@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Find (yamlplus)" type="JetRunConfigurationType" folderName="Find">
+    <option name="MAIN_CLASS_NAME" value="org.oewntk.tool.Find" />
+    <module name="tool" />
+    <option name="PROGRAM_PARAMETERS" value="-v -p -if yaml -os data -oj j yamlplus -i2 yaml2 Abkhas Aegean" />
+    <shortenClasspath name="NONE" />
+    <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
