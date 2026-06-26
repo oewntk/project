@@ -12,7 +12,7 @@ M='\u001b[35m'
 C='\u001b[36m'
 Z='\u001b[0m'
 
-for m in $(.define_modules.sh); do
+for m in $(./define_modules.sh); do
   echo -e "${Y}${m}${Z}"
   pushd $m > /dev/null
   if ! eval "$1"; then
