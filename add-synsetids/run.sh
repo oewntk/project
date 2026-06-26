@@ -12,18 +12,30 @@ Z='\u001b[0m'
 
 source "../define_build.sh"
 
-DIRSRC="../oewn-grind_yaml2sql/sql"
-DB="oewn-${TAG}-sqlite-${BUILD}.sqlite"
-DBX="oewn-${TAG}-sqlite-${BUILD}-synsetids.sqlite"
-ZIP_DBX="${DBX}.zip"
-
-cp ${DIRSRC}/${DB} ${DIRSRC}/${DBX}
-python3 add_synsetids.py ${DIRSRC}/${DBX} synsets.map
-
-pushd "${DIRSRC}" >/dev/null
-[ ! -e "${ZIP_DBX}" ] || rm "${ZIP_DBX}"
-zip "${ZIP_DBX}" "${DBX}"
+# generate nids
+pushd ../oewn-tool > /dev/null
+#./nids_all.sh YAM
+#./nids_all.sh PLUSYAM
 popd > /dev/null
 
-echo -e "${G}${DBX}${Z}"
-echo -e "${G}${ZIP_DBX}${Z}"
+DIST=../dist/data
+for x in "" "-plus"; do
+
+        DIRSQL="${DIST}"
+        DB="oewn${x}-${TAG}-sqlite-${BUILD}.sqlite"
+        DBX="oewn${x}-${TAG}-sqlite-${BUILD}-synsetids.sqlite"
+        ZIP_DBX="${DBX}.zip"
+        cp -L --remove-destination ${DIRSQL}/${DB} ${DIRSQL}/${DBX}
+         
+        NIDS="${DIST}/out${x}/nids/synsets.json"
+        python3 add_synsetids.py ${DIRSQL}/${DBX} ${NIDS}
+        
+        pushd "${DIRSQL}" >/dev/null
+        [ ! -e "${ZIP_DBX}" ] || rm "${ZIP_DBX}"
+        zip "${ZIP_DBX}" "${DBX}"
+        popd > /dev/null
+
+        echo -e "${G}${DBX}${Z}"
+        echo -e "${G}${ZIP_DBX}${Z}"
+        
+done

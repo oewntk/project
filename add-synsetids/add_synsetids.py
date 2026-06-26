@@ -2,6 +2,8 @@
 
 import argparse
 import sqlite3
+import json
+from pathlib import Path
 
 sql_definitions = "SELECT synsetid, definition FROM synsets"
 sql_count_definitions = "SELECT COUNT(*) FROM synsets"
@@ -30,22 +32,26 @@ def update(synsetid, nid, conn):
     cursor.close()
 
 
-def read_line(line, conn):
-    fields = line.split(' ')
-    update(fields[0], fields[1], conn)
-
-
-def read_file(file, conn):
+def read_csv_file(file, conn):
     with open(file) as fp:
         for line in fp:
-            read_line(line.strip(), conn)
+            fields = line.strip().split(' ')
+            update(fields[0], fields[1], conn)
+
+
+def read_json_file(file, conn):
+    file_path = Path(file)
+    data = json.loads(file_path.read_text())
+    for k in data:
+        v = data[k]
+        update(k, v, conn)
 
 
 def run(database, file):
     conn = sqlite3.connect(database)
     if not column_exists(conn):
         alter(conn)
-    read_file(file, conn)
+    read_json_file(file, conn)
     conn.commit()
     conn.close()
 
