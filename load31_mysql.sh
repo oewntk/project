@@ -31,7 +31,7 @@ unzip -q wn-${TAG31}-mysql-${BUILD}.zip -d temp-mysql
 pushd temp-mysql >/dev/null
   chmod +x restore-mysql.sh
   echo -e "${Y}mysql ${TAG31}${Z}"
-  ./restore-mysql.sh -d wn31
+  ./restore-mysql.sh -y -d wn31
 popd >/dev/null
 
 popd >/dev/null

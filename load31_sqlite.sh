@@ -37,8 +37,7 @@ unzip -q wn-${TAG31}-sqlite-${BUILD}.zip -d temp-sqlite
   sed -i -r 's/sqlite3 (.*)$/sqlite3 -bail \1 2>>LOG || echo -e "${R}FAILED ${sqlfile}${Z}"/g' restore-sqlite.sh 
   chmod +x restore-sqlite.sh
   sed -i -r 's/CREATE UNIQUE INDEX `uk_senses_sensekey`/CREATE INDEX `uk_senses_sensekey`/g' sql/sqlite/index/senses-index.sql
-
-  ./restore-sqlite.sh -d ${sqlite}
+  ./restore-sqlite.sh -y -d ${sqlite}
 
   zip ${sqlitezip} ${sqlite}
 
