@@ -4,8 +4,34 @@
 # Copyright (c) 2024. Bernard Bou.
 #
 
-set -e
+set -Eeo pipefail
+on_err() {
+  local exit_code=$?
+  local line_no=${BASH_LINENO[0]}
+  echo "Error on line $line_no (exit code: $exit_code)."
+}
+trap on_err ERR
 
-./grind_all.sh "$@"
-./pack_all.sh
-./load_all.sh
+from=$1
+[ "$#" -eq 0 ] || shift
+if [ -z "${from}" ]; then
+  from=initial
+fi
+
+case "$from" in
+        initial)
+                ;&
+                
+        grind) ./grind_all.sh "$@"
+                ;&
+
+        pack) ./pack_all.sh "$@"
+                ;&
+
+        load) ./load_all.sh "$@"
+                ;&
+
+        end) 
+                ;;
+esac
+
