@@ -28,7 +28,10 @@ case "$from" in
         pack) ./pack_all.sh "$@"
                 ;&
 
-        load) ./load_all.sh "$@"
+        load_sqlite) ./load_sqlite.sh "$@"
+                ;&
+
+        load_mysql) ./load_mysql.sh "$@"
                 ;&
 
         end) 
