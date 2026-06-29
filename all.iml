@@ -12,6 +12,11 @@
       <excludeFolder url="file://$MODULE_DIR$/doc/logs" />
       <excludeFolder url="file://$MODULE_DIR$/doc/oenn" />
       <excludeFolder url="file://$MODULE_DIR$/relaxmapper" />
+      <excludeFolder url="file://$MODULE_DIR$/doc" />
+      <excludeFolder url="file://$MODULE_DIR$/doc/duplicates" />
+      <excludeFolder url="file://$MODULE_DIR$/doc/morphosemantics" />
+      <excludeFolder url="file://$MODULE_DIR$/doc/stats" />
+      <excludeFolder url="file://$MODULE_DIR$/images" />
     </content>
   </component>
 </module>
