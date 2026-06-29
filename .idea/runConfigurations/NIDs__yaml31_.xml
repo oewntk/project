@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="NIDs (yaml31)" type="JetRunConfigurationType" folderName="Make">
+    <option name="MAIN_CLASS_NAME" value="org.oewntk.tool.Mapper" />
+    <module name="tool" />
+    <option name="PROGRAM_PARAMETERS" value="-v -nt -if yaml out-plus/yaml31 out-plus_nids/yaml31" />
+    <shortenClasspath name="NONE" />
+    <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
