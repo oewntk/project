@@ -27,7 +27,7 @@ for x in "" "-plus"; do
         ZIP_DBX="${DBX}.zip"
         cp -L --remove-destination ${DIRSQL}/${DB} ${DIRSQL}/${DBX}
          
-        NIDS="${DIST}/out${x}/nids/synsets.json"
+        NIDS="${DIST}/out${x}_nids/yaml/synsets.json"
         python3 add_synsetids.py ${DIRSQL}/${DBX} ${NIDS}
         
         pushd "${DIRSQL}" >/dev/null
