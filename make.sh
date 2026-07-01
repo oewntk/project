@@ -24,6 +24,9 @@ case "$from" in
                 
         grind) ./grind_all.sh "$@"
                 ;&
+                
+        nids)  ./run_nids.sh
+                ;&
 
         pack) ./pack_all.sh "$@"
                 ;&
