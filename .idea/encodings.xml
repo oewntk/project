@@ -39,6 +39,8 @@
     <file url="file://$PROJECT_DIR$/oewn-model/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/oewn-parse_wndb/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/oewn-parse_wndb/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oewn-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oewn-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/oewn-tojson/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/oewn-tojson/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/oewn-tool/src/main/java" charset="UTF-8" />
@@ -51,5 +53,7 @@
     <file url="file://$PROJECT_DIR$/oewn-towndb/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/oewn-toyaml/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/oewn-toyaml/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server/src/main/resources" charset="UTF-8" />
   </component>
 </project>

@@ -16,6 +16,7 @@
         <module name="wndb2json" />
         <module name="fromjson" />
         <module name="wndb2sql" />
+        <module name="oewn-server" />
         <module name="tool" />
         <module name="parse_wndb" />
         <module name="fromyaml" />
@@ -32,6 +33,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="model (1)" target="11" />
+      <module name="server" target="11" />
       <module name="wndb2wndb" target="11" />
       <module name="xml2wndb" target="11" />
     </bytecodeTargetLevel>
