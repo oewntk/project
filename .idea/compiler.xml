@@ -21,6 +21,7 @@
         <module name="parse_wndb" />
         <module name="fromyaml" />
         <module name="toser" />
+        <module name="oewn-client" />
         <module name="yaml2wndb" />
         <module name="yaml2sql" />
         <module name="towndb" />
