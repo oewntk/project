@@ -64,7 +64,7 @@
   </distributionManagement>
 
   <properties>
-    <kotlin.version>2.1.0</kotlin.version>
+    <kotlin.version>2.4.0</kotlin.version>
   </properties>
 
   <dependencies>
