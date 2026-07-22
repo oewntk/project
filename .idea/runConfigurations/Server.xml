@@ -3,12 +3,6 @@
     <option name="MAIN_CLASS_NAME" value="org.oewntk.json.server.MainKt" />
     <module name="oewn-server" />
     <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-    <extension name="coverage">
-      <pattern>
-        <option name="PATTERN" value="io.github.oewntk.*" />
-        <option name="ENABLED" value="true" />
-      </pattern>
-    </extension>
     <option name="alternativeJrePath" />
     <option name="alternativeJrePathEnabled" value="false" />
     <option name="includeProvidedScope" value="false" />
