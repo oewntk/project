@@ -8,7 +8,8 @@
     <mapping directory="$PROJECT_DIR$/dist/repos/github/releases" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/dist/repos/github/sqlite" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/dist/repos/github/wndb" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dist/uber" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dist/repos/github/yaml" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/oewn-client" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-fromjson" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-fromser" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-fromwndb" vcs="Git" />
@@ -21,19 +22,16 @@
     <mapping directory="$PROJECT_DIR$/oewn-grind_yaml2ser" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-grind_yaml2sql" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-grind_yaml2wndb" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/oewn-grind_yaml2wndb/dist_repo" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-json" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-model" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-model-test" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-parse_wndb" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/oewn-server" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-tojson" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-tool" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-toser" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-tosql" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-towndb" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-toyaml" vcs="Git" />
-  </component>
-  <component name="VcsProjectSettings">
-    <option name="detectVcsMappingsAutomatically" value="false" />
   </component>
 </project>
