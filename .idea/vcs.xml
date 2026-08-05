@@ -23,6 +23,7 @@
     <mapping directory="$PROJECT_DIR$/oewn-grind_yaml2sql" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-grind_yaml2wndb" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-json" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/oewn-json-validate" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-model" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-model-test" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-parse_wndb" vcs="Git" />
