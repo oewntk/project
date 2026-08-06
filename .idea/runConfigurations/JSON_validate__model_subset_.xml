@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="JSON validate (submodel)" type="JetRunConfigurationType" folderName="Validate JSON">
+  <configuration default="false" name="JSON validate (model subset)" type="JetRunConfigurationType" folderName="Validate JSON">
     <option name="MAIN_CLASS_NAME" value="org.oewntk.json.MainKt" />
     <module name="json-validate" />
     <option name="PROGRAM_PARAMETERS" value="model _in/model/model-subset.json" />
