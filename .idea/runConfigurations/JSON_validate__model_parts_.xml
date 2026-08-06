@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="JSON validate (model parts)" type="JetRunConfigurationType">
+    <option name="MAIN_CLASS_NAME" value="org.oewntk.json.MainKt" />
+    <module name="json-validate" />
+    <option name="PROGRAM_PARAMETERS" value="model _in/model/00001740-a.json _in/model/00001740-n.json _in/model/00001740-v.json _in/model/00001740-r.json _in/model/row%1:04:00::.json _in/model/row%1:06:00::.json _in/model/row%1:07:00::.json _in/model/row%1:10:00::.json _in/model/row%1:14:00::.json _in/model/row%1:14:01::.json _in/model/row%1:17:00::.json _in/model/row%2:38:00::.json _in/model/row.json" />
+    <shortenClasspath name="NONE" />
+    <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
