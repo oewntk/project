@@ -2,6 +2,7 @@
   <configuration default="false" name="Client" type="KtorApplicationConfigurationType" factoryName="Ktor">
     <option name="MAIN_CLASS_NAME" value="org.oewntk.json.client.MainKt" />
     <module name="oewn-client" />
+    <option name="PROGRAM_PARAMETERS" value="$ProjectFileDir$/oewn-json-validate/in_parts" />
     <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
     <extension name="coverage">
       <pattern>
@@ -14,7 +15,7 @@
     <option name="includeProvidedScope" value="false" />
     <option name="mainClass" value="org.oewntk.json.client.MainKt" />
     <option name="passParentEnvs" value="true" />
-    <option name="programParameters" value="" />
+    <option name="programParameters" value="$ProjectFileDir$/oewn-json-validate/in_parts" />
     <option name="shortenCommandLine" />
     <option name="vmParameters" />
     <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
