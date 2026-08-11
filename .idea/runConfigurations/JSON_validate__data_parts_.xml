@@ -2,7 +2,7 @@
   <configuration default="false" name="JSON validate (data parts)" type="JetRunConfigurationType" folderName="Validate JSON">
     <option name="MAIN_CLASS_NAME" value="org.oewntk.json.MainKt" />
     <module name="json-validate" />
-    <option name="PROGRAM_PARAMETERS" value="data _in/data/00001740-a.json _in/data/00001740-n.json _in/data/00001740-v.json _in/data/00001740-r.json _in/data/row%1:04:00::.json _in/data/row%1:06:00::.json _in/data/row%1:07:00::.json _in/data/row%1:10:00::.json _in/data/row%1:14:00::.json _in/data/row%1:14:01::.json _in/data/row%1:17:00::.json _in/data/row%2:38:00::.json _in/data/row.json" />
+    <option name="PROGRAM_PARAMETERS" value="data in_parts/data/00001740-a.json in_parts/data/00001740-n.json in_parts/data/00001740-v.json in_parts/data/00001740-r.json in_parts/data/row%1:04:00::.json in_parts/data/row%1:06:00::.json in_parts/data/row%1:07:00::.json in_parts/data/row%1:10:00::.json in_parts/data/row%1:14:00::.json in_parts/data/row%1:14:01::.json in_parts/data/row%1:17:00::.json in_parts/data/row%2:38:00::.json in_parts/data/row.json in_parts/data/grow.json" />
     <shortenClasspath name="NONE" />
     <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
     <method v="2">
