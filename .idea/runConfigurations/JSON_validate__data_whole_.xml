@@ -2,7 +2,7 @@
   <configuration default="false" name="JSON validate (data whole)" type="JetRunConfigurationType" folderName="Validate JSON">
     <option name="MAIN_CLASS_NAME" value="org.oewntk.json.MainKt" />
     <module name="json-validate" />
-    <option name="PROGRAM_PARAMETERS" value="data in/json_data_je/oewn-lexes.json in/json_data_je/oewn-synsets.json in/json_data_je/oewn-senses.json in/json_data_je/oewn-frames.json in/json_data_je/oewn-templates.json" />
+    <option name="PROGRAM_PARAMETERS" value="data in/json_data/oewn-lexes.json in/json_data/oewn-synsets.json in/json_data/oewn-senses.json in/json_data/oewn-frames.json in/json_data/oewn-templates.json" />
     <shortenClasspath name="NONE" />
     <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
     <method v="2">
