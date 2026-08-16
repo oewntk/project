@@ -881,6 +881,19 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="ossrh" />
+        <option value="release-sign-artifacts" />
+        <option value="ossrh_oewntk" />
+      </list>
+    </option>
+    <option name="disabledProfiles">
+      <list>
+        <option value="ossrh_treebolic" />
+        <option value="ossrh_kwi" />
+      </list>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK" />
 </project>
