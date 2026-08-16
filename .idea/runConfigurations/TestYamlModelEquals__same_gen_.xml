@@ -7,8 +7,8 @@
         <option name="ENABLED" value="true" />
       </pattern>
     </extension>
-    <option name="PACKAGE_NAME" value="org.oewntk.model" />
-    <option name="MAIN_CLASS_NAME" value="org.oewntk.model.TestYamlModelEquals" />
+    <option name="PACKAGE_NAME" value="org.oewntk.model.equal" />
+    <option name="MAIN_CLASS_NAME" value="org.oewntk.model.equal.TestYamlModelEquals" />
     <option name="METHOD_NAME" value="" />
     <option name="TEST_OBJECT" value="class" />
     <option name="VM_PARAMETERS" value="-ea -DSOURCE=out/yaml -DSOURCEB=out/yaml -DINFO=oewn.info -DVERBOSE" />

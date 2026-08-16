@@ -12,6 +12,7 @@
     <option name="METHOD_NAME" value="" />
     <option name="TEST_OBJECT" value="package" />
     <option name="VM_PARAMETERS" value="-ea -DSOURCE=oewn.ser -DINFO=oewn.info -DVERBOSE" />
+    <dir value="$PROJECT_DIR$/oewn-model-test/src/test/java/org/oewntk/model" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>
