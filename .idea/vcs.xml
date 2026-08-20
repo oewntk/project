@@ -9,6 +9,7 @@
     <mapping directory="$PROJECT_DIR$/dist/repos/github/sqlite" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/dist/repos/github/wndb" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/dist/repos/github/yaml" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dist/schema" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-client" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-fromjson" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/oewn-fromser" vcs="Git" />
