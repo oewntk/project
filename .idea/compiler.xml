@@ -34,10 +34,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="model (1)" target="11" />
       <module name="server" target="11" />
-      <module name="wndb2wndb" target="11" />
-      <module name="xml2wndb" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
