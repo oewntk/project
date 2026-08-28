@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Client (json) (yaml)" type="KtorApplicationConfigurationType" factoryName="Ktor">
+  <configuration default="false" name="Client (json) (yaml)" type="KtorApplicationConfigurationType" factoryName="Ktor" folderName="Client">
     <option name="MAIN_CLASS_NAME" value="org.oewntk.json.client.Main" />
     <module name="oewn-client" />
     <option name="PROGRAM_PARAMETERS" value="-r j $Prompt$" />
