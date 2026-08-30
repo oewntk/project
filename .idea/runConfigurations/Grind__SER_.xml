@@ -2,7 +2,7 @@
   <configuration default="false" name="Grind (SER)" type="JetRunConfigurationType" folderName="Grind">
     <option name="MAIN_CLASS_NAME" value="org.oewntk.grind.yaml2ser.Grind" />
     <module name="yaml2ser" />
-    <option name="PROGRAM_PARAMETERS" value="yaml yaml2 ser/oewn.ser ser/oewn.info" />
+    <option name="PROGRAM_PARAMETERS" value="-o2 ser/oewn.info yaml yaml2 ser/oewn.ser " />
     <shortenClasspath name="NONE" />
     <option name="VM_PARAMETERS" value="-ea" />
     <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
