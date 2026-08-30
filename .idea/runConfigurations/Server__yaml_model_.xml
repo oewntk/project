@@ -1,0 +1,20 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Server (yaml model)" type="KtorApplicationConfigurationType" factoryName="Ktor" folderName="Server">
+    <option name="MAIN_CLASS_NAME" value="org.oewntk.json.server.MainKt" />
+    <module name="oewn-server" />
+    <option name="PROGRAM_PARAMETERS" value="-P:model.path=yaml_model -P:model.type=yaml" />
+    <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+    <option name="alternativeJrePath" />
+    <option name="alternativeJrePathEnabled" value="false" />
+    <option name="includeProvidedScope" value="false" />
+    <option name="mainClass" value="org.oewntk.json.server.MainKt" />
+    <option name="passParentEnvs" value="true" />
+    <option name="programParameters" value="-P:model.path=yaml_model -P:model.type=yaml" />
+    <option name="shortenCommandLine" />
+    <option name="vmParameters" />
+    <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

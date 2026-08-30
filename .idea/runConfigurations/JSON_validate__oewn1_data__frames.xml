@@ -2,7 +2,7 @@
   <configuration default="false" name="JSON validate (oewn1+data) frames" type="JetRunConfigurationType" folderName="Validate JSON">
     <option name="MAIN_CLASS_NAME" value="org.oewntk.json.MainKt" />
     <module name="json-validate" />
-    <option name="PROGRAM_PARAMETERS" value="-v frames in/json/frames.json in/json1/frames.json in/json_data/oewn-frames.json in/json_data1/oewn-frames.json" />
+    <option name="PROGRAM_PARAMETERS" value="-v frames in/json/frames.json in/json1/frames.json in/json_data_je/oewn-frames.json in/json_data1/oewn-frames.json" />
     <shortenClasspath name="NONE" />
     <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
     <method v="2">
