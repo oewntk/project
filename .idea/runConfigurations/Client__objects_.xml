@@ -2,7 +2,7 @@
   <configuration default="false" name="Client (objects)" type="KtorApplicationConfigurationType" factoryName="Ktor" folderName="Client">
     <option name="MAIN_CLASS_NAME" value="org.oewntk.json.client.Main" />
     <module name="oewn-client" />
-    <option name="PROGRAM_PARAMETERS" value="-r o &quot;00001740-n&quot; &quot;00001740-r&quot; &quot;00001740-v&quot; &quot;row%1:14:00::&quot; &quot;row%1:17:00::&quot; &quot;row%1:06:00::&quot; &quot;row%1:14:01::&quot; &quot;row%1:07:00::&quot; &quot;row%1:04:00::&quot; &quot;row%1:10:00::&quot; &quot;row%2:38:00::&quot; &quot;row,n-1&quot; &quot;row,n-2&quot; &quot;row,v&quot; &quot;row&quot; &quot;grow&quot;" />
+    <option name="PROGRAM_PARAMETERS" value="-r o &quot;00001740-a&quot; &quot;00001740-n&quot; &quot;00001740-r&quot; &quot;00001740-v&quot; &quot;row%1:14:00::&quot; &quot;row%1:17:00::&quot; &quot;row%1:06:00::&quot; &quot;row%1:14:01::&quot; &quot;row%1:07:00::&quot; &quot;row%1:04:00::&quot; &quot;row%1:10:00::&quot; &quot;row%2:38:00::&quot; &quot;row,n-1&quot; &quot;row,n-2&quot; &quot;row,v&quot; &quot;row&quot; &quot;grow&quot;" />
     <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
     <extension name="coverage">
       <pattern>
@@ -15,7 +15,7 @@
     <option name="includeProvidedScope" value="false" />
     <option name="mainClass" value="org.oewntk.json.client.Main" />
     <option name="passParentEnvs" value="true" />
-    <option name="programParameters" value="-r o &quot;00001740-n&quot; &quot;00001740-r&quot; &quot;00001740-v&quot; &quot;row%1:14:00::&quot; &quot;row%1:17:00::&quot; &quot;row%1:06:00::&quot; &quot;row%1:14:01::&quot; &quot;row%1:07:00::&quot; &quot;row%1:04:00::&quot; &quot;row%1:10:00::&quot; &quot;row%2:38:00::&quot; &quot;row,n-1&quot; &quot;row,n-2&quot; &quot;row,v&quot; &quot;row&quot; &quot;grow&quot;" />
+    <option name="programParameters" value="-r o &quot;00001740-a&quot; &quot;00001740-n&quot; &quot;00001740-r&quot; &quot;00001740-v&quot; &quot;row%1:14:00::&quot; &quot;row%1:17:00::&quot; &quot;row%1:06:00::&quot; &quot;row%1:14:01::&quot; &quot;row%1:07:00::&quot; &quot;row%1:04:00::&quot; &quot;row%1:10:00::&quot; &quot;row%2:38:00::&quot; &quot;row,n-1&quot; &quot;row,n-2&quot; &quot;row,v&quot; &quot;row&quot; &quot;grow&quot;" />
     <option name="shortenCommandLine" />
     <option name="vmParameters" />
     <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
