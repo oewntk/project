@@ -2,7 +2,7 @@
   <configuration default="false" name="Client (json) (prompt) (starts)" type="KtorApplicationConfigurationType" factoryName="Ktor" folderName="Client">
     <option name="MAIN_CLASS_NAME" value="org.oewntk.json.client.Main" />
     <module name="oewn-client" />
-    <option name="PROGRAM_PARAMETERS" value="-t ms -r j -ms $Prompt$" />
+    <option name="PROGRAM_PARAMETERS" value="-t ms -r j $Prompt$" />
     <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
     <extension name="coverage">
       <pattern>
@@ -15,7 +15,7 @@
     <option name="includeProvidedScope" value="false" />
     <option name="mainClass" value="org.oewntk.json.client.Main" />
     <option name="passParentEnvs" value="true" />
-    <option name="programParameters" value="-t ms -r j -ms $Prompt$" />
+    <option name="programParameters" value="-t ms -r j $Prompt$" />
     <option name="shortenCommandLine" />
     <option name="vmParameters" />
     <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
