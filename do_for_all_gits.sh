@@ -4,7 +4,7 @@
 # Copyright (c) 2024. Bernard Bou.
 #
 
-set -e
+#set -e
 
 export R='\u001b[31m'
 export G='\u001b[32m'
