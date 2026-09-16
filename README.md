@@ -36,11 +36,9 @@ Design is modular: modules do not depend on each other except model and chains. 
 
 **Supplier-consumer chains**: YAML2SQL, YAML2WNDB, YAML2SER, XML2WNDB, WNDB2SER, etc.
 
--   [grind](http://github.com/oewntk/grind) : Multitool chaining supplier to consumer
+-   [tool](http://github.com/oewntk/tool) : Multitool chaining supplier to consumer
 -   [grind_wndb2sql](http://github.com/oewntk/grind_wndb2sql) : Chain from WNDB supplier to SQL consumer
 -   [grind_wndb2json](http://github.com/oewntk/grind_wndb2json) : Chain from WNDB supplier to JSON consumer
--   [grind_wndb2wndb](http://github.com/oewntk/grind_wndb2wndb) : Chain from WNDB supplier to WNDB consumer
--   [grind_xml2wndb](http://github.com/oewntk/grind_xml2wndb) : Chain from XML supplier to WNDB consumer
 -   [grind_yaml2ser](http://github.com/oewntk/grind_yaml2ser) : Chain from YAML supplier to SER consumer
 -   [grind_yaml2sql](http://github.com/oewntk/grind_yaml2sql) : Chain from YAML supplier to SQL consumer
 -   [grind_yaml2wndb](http://github.com/oewntk/grind_yaml2wndb) : Chain from YAML supplier to WNDB consumer
