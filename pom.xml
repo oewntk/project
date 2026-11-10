@@ -7,7 +7,7 @@
 
     <groupId>io.github.oewntk</groupId>
     <artifactId>all</artifactId>
-    <version>3.0.2</version>
+    <version>3.1.0</version>
     <packaging>pom</packaging>
 
     <name>OEWNTK-all</name>
